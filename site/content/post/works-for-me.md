@@ -23,10 +23,12 @@ However, that initial retention still conceals quite a few false-starts. People 
 
 ### Looking back to move forward
 
-The process here is one of archiving things that worked and didnt, so we can draw on it to help us set our direction for 2020 and beyond. 
+So I want to introduce you to the **Cell 5: It Works For Me** series for now in blog post format.
+
+*The idea is to consolidate lessons learnt and recommendations across each each dimension of our business. It is selfish, because we think it can help inspire some aspects of our strategy, but it would be great if it also helps someone else navigating similar waters to ourselves.*
+
 
 ![image](/img/worksforme.png)
- 
  
  + WFM: Recruitment, Rewards, Retention (remote hiring, training and test process, )
  + WFM: Remote First Collaboration Tools,
@@ -35,4 +37,4 @@ The process here is one of archiving things that worked and didnt, so we can dra
  + WFM: Project Managemnt (trello, jira, gitlab issues, others we tried)
  + WFM: Start-up stack
 
-*If you like any of our content and want to share stories offline please get in touch hello@cell5.co.uk*
+>> Just remember, It Works For Me, It might not work for you!
