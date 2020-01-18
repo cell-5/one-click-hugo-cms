@@ -23,9 +23,7 @@ However, that initial retention still conceals quite a few false-starts. People 
 
 ### Looking back to move forward
 
-So I want to introduce you to the **Cell 5: It Works For Me** series. We admit this is a selfish exercise. We think it can help inspire some aspects of our strategy into 2020, and we are also hoping it starts to get us some brand awarness. 
-
-If it is also contributes anything to anyone else - sweet.
+So I want to introduce you to the **Cell 5: It Works For Me** series. This series written by our team will highlight things that work for us across our business dimensions. We admit this is a selfish exercise. We think it can help inspire some aspects of our strategy into 2020, and we are also hoping it starts to get us some brand awarness, while helping us remember which mistakes not to repeat! If it also helps you avoid a mistake - bonus.
 
 
 ![image](/img/worksforme.png)
@@ -37,4 +35,4 @@ If it is also contributes anything to anyone else - sweet.
  + WFM: Project Managemnt (trello, jira, gitlab issues, others we tried)
  + WFM: Start-up stack
 
->> Just remember, It Works For Me, It might not work for you!
+>> **Disclaimer:** It Works For Me, but, It Might Not Work For You! ;)
