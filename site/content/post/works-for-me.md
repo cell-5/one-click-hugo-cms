@@ -23,9 +23,9 @@ However, that initial retention still conceals quite a few false-starts. People 
 
 ### Looking back to move forward
 
-So I want to introduce you to the **Cell 5: It Works For Me** series for now in blog post format.
+So I want to introduce you to the **Cell 5: It Works For Me** series. We admit this is a selfish exercise. We think it can help inspire some aspects of our strategy into 2020, and we are also hoping it starts to get us some brand awarness. 
 
-*The idea is to consolidate lessons learnt and recommendations across each each dimension of our business. It is selfish, because we think it can help inspire some aspects of our strategy, but it would be great if it also helps someone else navigating similar waters to ourselves.*
+If it is also contributes anything to anyone else - sweet.
 
 
 ![image](/img/worksforme.png)
