@@ -35,4 +35,4 @@ So I want to introduce you to the **Cell 5: It Works For Me** series. This serie
  + WFM: Project Managemnt (trello, jira, gitlab issues, others we tried)
  + WFM: Start-up stack
 
->> **Disclaimer:** It Works For Me, but, It Might Not Work For You! ;)
+>> **Disclaimer:** It Works For Me but It Might Not Work For You
