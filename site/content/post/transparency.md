@@ -1,12 +1,12 @@
 ---
-title: Strategy - It Works For Me
+title: Value
 date: 2020-01-18T15:04:10.000Z
 description: >-
 image: /img/strategy.jpg
 ---
 
 
->> I have been trying to approach strategy by giving things a go. If they worked we did more of them, and if they didn't, we did less. 
+>> We want to grow our consultancy business with a limited marketing budget. We heard giving value back and not selling was a good strategy so we are trying it. 
 
 ### Easy right?
 

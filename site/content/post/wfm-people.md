@@ -1,11 +1,13 @@
 ---
-title: It Works For Me - People
+title: What worked for us - Remote-first Developer Recruitment
 date: 2020-01-17T15:04:10.000Z
 description: >-
 image: /img/strategy.jpg
 ---
 
->> People are our main asset and Teams are our only product.
+>> OnlineJobs.ph is the only platform that we know of that offers direct access to great remote developer candidates, takes no fees from either party, with unlimited job postings for a fixed monthly fee.
+
+ But it is not suitable for recruiters or direct business hires. It requires you to be able to conduct full in depth technical interviews.
 
 ### Our Challenge
 

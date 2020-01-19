@@ -1,6 +1,6 @@
 ---
 title: cell 5
-subtitle: incremental value delivery for disruptive start-ups
+subtitle: value delivery for disruptive start-ups
 image: img/GettyImages-1017380290.jpgAPI-DISRUPTION-696x435.jpg
 blurb:
   heading: 'Disruption Alert:  APHEX'
