@@ -4,32 +4,32 @@ image: /img/values.jpg
 values:
   - heading: "Aphex"
     text: >
-      Aphex deliver construction success through innovative planning software. We got involved with them after helping them setup BuildKite on Google Kubernetes Engine to streamline deployments. Most recently they wanted some help with deveopment, so Pat from Cell 5 joined Aphex's CTO and is delivering features on their xyz stack.
+      Aphex deliver construction success through innovative planning software. We got involved with them after helping them setup BuildKite on Google Kubernetes Engine to streamline deployments. Most recently they wanted development help so Pat from Cell 5 joined Aphex's CTO and is delivering features to hit important new milestones.
     imageUrl: "/img/skate.jpg"
 
   - heading: "Tendrr"
     text: >
-      Tendrr are passionate about sailing and saw an opportunity to connect boat-owners and sailors to get more people out on the water. They were unsatisfied with some aspects of their prototype delivery and had big plans for the product. We realised their vision lacked some detail, and introduced them to a more iterative approach to development, driven by user journies mapped out in Figma through collaborative wire-framing. We helped them harden some aspects of their site to protect it from bots and are building features with them.   
+      Tendrr are passionate about sailing and saw an opportunity to connect boat owners and sailors, to get more people out on the water. They were unsatisfied with some aspects of their prototype delivery and had big plans for the product. We realised their vision lacked some detail, and introduced them to a more iterative approach to development. We introduced them to Figma, for collaborative, rapid prototyping. We helped them harden some aspects of their site to protect it from bots, and are building features with them daily.   
     imageUrl: "/img/long-term-value-2.jpg"
 
   - heading: "good2rent"
     text: >
-      good2rent are automating tenant referencing and pioneered rental passporting. They had an unlaunched prototype when we joined which we launched, supported and helped them grow. We then embarked on a larger pivot, to include more automation and integrated Open Banking. While parterning with them we consolidated their infrastructure to be terraform defined, and containerized all their services on AWS Fargate.  
+      good2rent are automating tenant referencing and pioneered rental passporting. They had an unlaunched prototype when we joined which we launched, supported and helped them grow. We then embarked on a larger pivot, to include more automation and integrated Open Banking. While partnering with them we consolidated their infrastructure to be terraform defined, and containerized all their services on AWS Fargate.  
     imageUrl: "/img/business.jpg"
 
   - heading: "White Spider Media"
     text: >  
-      White Spider Media are a digital media planning and buying agency. They wanted a new website that would stand out. We designed, developed, host and support their new web presence. 
+      White Spider Media are a digital media planning and buying agency. They wanted a new website with a difference. We designed, developed and host it, and provide ongoing support as needed. 
     imageUrl: "/img/remote.jpg"
 
   - heading: "myVal"
     text: >
-      myVal is a tool for estate agents that supports valuations of properties in the UK. We worked with the team at Proptek to improve it, adding new features and consoldating its deployments. 
+      myVal is a tool for estate agents that supports valuations of properties in the UK. Jedi from Cell 5 worked with the team at Proptek to improve it, adding new features and consoldating its deployments. 
     imageUrl: "/img/fail-differently.jpg"
 
   - heading: "Mark Ellwood"
     text: >
-      Mark is a frequent television host, contributor, editor and travel expert. He wanted a simple personal website to stand out from a crowd.
+      Mark is a frequent television host, contributor, editor and travel expert. He wanted a clean, bold personal website focused on his content.
     imageUrl: "/img/shoes.jpg"
 
   - heading: "Melissa Twigg"
@@ -41,4 +41,9 @@ values:
     text: >
       Scott is a wood crafstman and general builder in Essex. He wanted a website for his family business focusing on tradition and quality.
     imageUrl: "/img/shoes.jpg" 
+
+  - heading: "Portland Decorating"
+    text: >
+      Portland had some site enhancements to make in keeping with existing designs. So our team at Cell 5 picked up their existing stack and delivered to spec. 
+    imageUrl: "/img/shoes.jpg"   
 ---
