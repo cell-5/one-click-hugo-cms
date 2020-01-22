@@ -4,12 +4,17 @@ image: /img/values.jpg
 values:
   - heading: "Aphex"
     text: >
-      Aphex deliver construction success through innovative planning software. We got involved with them after helping them setup BuildKite on Google Kubernetes Engine to streamline deployments. Most recently they wanted development help so Pat from Cell 5 joined Aphex's CTO and is delivering features to hit important new milestones.
+      Aphex deliver construction success through innovative planning software. We got involved with them after helping them setup BuildKite on Google Kubernetes Engine to streamline deployments. Most recently they wanted development help so Pat from Cell 5 joined Aphex's CTO and is delivering features to hit important new milestones. Here is Pat explaining their architecture and process.
     imageUrl: "/img/skate.jpg"
 
   - heading: "Tendrr"
     text: >
-      Tendrr are passionate about sailing and saw an opportunity to connect boat owners and sailors, to get more people out on the water. They were unsatisfied with some aspects of their prototype delivery and had big plans for the product. We realised their vision lacked some detail, and introduced them to a more iterative approach to development. We introduced them to Figma, for collaborative, rapid prototyping. We helped them harden some aspects of their site to protect it from bots, and are building features with them daily.   
+      Tendrr are passionate about sailing and saw an opportunity to connect boat owners and sailors, to get more people out on the water. They were unsatisfied with some aspects of their prototype delivery and had big plans for the product. We realised their vision lacked some detail, and introduced them to a more iterative approach to development. We introduced them to Figma, for collaborative, rapid prototyping. We helped them harden some aspects of their site to protect it from bots, and are building features with them daily. Here is Harry and Sam talking about their experience with Figma.    
+    imageUrl: "/img/long-term-value-2.jpg"
+
+  - heading: "Carmella Terrana Agency"
+    text: >
+      Carmella Terrana Agency is a UK wide Event Staffing Agency. Carmella wanted us to completely revamp their website, and build a staff management, registration and search application that they can use to manage their staff and prepare for events. Jedi delivered for them and here is how he did it.    
     imageUrl: "/img/long-term-value-2.jpg"
 
   - heading: "good2rent"

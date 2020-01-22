@@ -1,5 +1,5 @@
 ---
-title: What worked for us - Remote-first Developer Recruitment
+title: Our Hiring Process: Remote-first Developer Recruitment
 date: 2020-01-17T15:04:10.000Z
 description: >-
 image: /img/strategy.jpg
