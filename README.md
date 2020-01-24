@@ -6,6 +6,7 @@ This is a small business template built with [Victor Hugo](https://github.com/ne
 
 Use our deploy button to get your own copy of the repository. 
 
+DONT CLICK THIS IF YOU WORK AT CELL 5 - THIS IS ALREADY THE COPIED SITE!
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/one-click-hugo-cms&stack=cms)
 
 This will setup everything needed for running the CMS:
