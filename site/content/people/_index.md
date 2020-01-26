@@ -1,16 +1,18 @@
 ---
 title: "People"
 image: /img/people.jpg
+text: >
+     "Our team spans the UK and Philippines. Everyone works from their own home on a flexible schedule. Our approach to recruitment, retention, incentives, and client partnerships is in keeping with [our values](/values). Basically, we hire carefully, we trust our team, we try to keep them happy, we let them help define [our process](/process) and we expect them to deliver early and often. We partner with, and where necessary educate [our clients](/clients) on how to get the best out of the process and we make sure the team blend is right to succeed." -- Peter Barry
 people:
   - heading: "Peter Barry"
     text: >
-      "I started Cell 5 because I wanted to keep my team together after a project finished. We always found the process of hiring our most challenging, and we were hearing the same from clients. Attractive pricing was driving small business owners and start-up founders to look remote and overseas, but they weren't getting results. They didn't have the time for D.I.Y platforms and were building things twice when hiring through gig platforms. So that is the space we chose to occupy. We keep it simple, we hire quality people into our team and let them deliver. We educate clients on how to get the best out of them, while offering competitive pricing by being remote-first."
+      Peter has over 15 years of experience in delivering technology products. These days he enjoys blending the right teams and unblocking them when needed. Usually he chips in with hands-on work and advise around delivery strategy and cloud architectures. He keeps an eye on projects to ensure client projects are on track for success.
     imageUrl: "/img/skate.jpg"
     linkedin: 'https://uk.linkedin.com/in/peterbarry/'
 
-  - heading: "Harry Wynn Williams"
+  - heading: "Harry Wynn-Williams"
     text: >
-        Harry has experience of building web and mobile apps at an investment bank, in the gaming industry and for multiple start-up clients. He loves building complex UIs, especially when it's with Vue.js or ReactJs.
+        Harry has experience building web and mobile apps at an investment bank, in the gaming industry and for multiple start-up clients. He loves building complex UIs, especially when it's with Vue.js or ReactJs.
     linkedin: 'https://www.linkedin.com/in/harry-wynn-williams-59b89040/'
     imageUrl: "/img/long-term-value-2.jpg"
 
@@ -20,10 +22,10 @@ people:
     imageUrl: "/img/remote.jpg"
     linkedin: 'https://www.linkedin.com/in/pat-bautista/'
 
-  - heading: "Jedi Diah"
+  - heading: "Jediah Diah"
     text: >
       Jedi is a web developer with over 6 years of experience. He is primarily a frontend developer, but also skilled in PHP development. He's a huge fan of combat sports, gaming and comedy movies.
-    imageUrl: "/img/business.jpg"
+    imageUrl: "/img/long-term-value-2.jpg"
 
   - heading: "Ronnel James Bote"
     text: >
