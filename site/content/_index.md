@@ -3,9 +3,10 @@ title: cell 5
 subtitle: value delivery for disruptive start-ups
 image: img/GettyImages-1017380290.jpgAPI-DISRUPTION-696x435.jpg
 blurb:
-  heading: 'Disruption Alert:  APHEX'
+  heading: 'Client Notice'
   text: >-
-    **Pat** from Cell 5 has  been busy delivering value for the disruptive
+    We have two excellent people freeing up at the end of March 2020. 
+    If you would like to discuss your projects with u
     construction planning platform Aphex.  [Read
     more...](https://www.aphex.co/https://www.aphex.co/)
 intro:
