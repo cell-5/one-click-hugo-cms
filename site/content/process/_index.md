@@ -1,7 +1,7 @@
 ---
 title: "Process"
 image: /img/values.jpg
-values:
+process:
   - heading: "1. Establish Fit & Agree Mission"
     text: >
       Within the first conversation with a client we establish if there is a fit. We get three questions answered.

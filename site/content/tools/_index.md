@@ -1,7 +1,7 @@
 ---
 title: "Tools and Techniques"
 image: /img/about-jumbotron.jpg
-values:
+tools:
   - heading: "Collaboration and Communication"
     text: >
       We use Slack, organized into per-client rooms.

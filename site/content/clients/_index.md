@@ -1,10 +1,10 @@
 ---
 title: "Clients"
-image: /img/values.jpg
-values:
+image: /img/clients.jpg
+clients:
   - heading: "Aphex"
     text: >
-      Aphex deliver construction success through innovative planning software. We got involved with them after helping them setup BuildKite on Google Kubernetes Engine to streamline deployments. Most recently they wanted development help so Pat from Cell 5 joined Aphex's CTO and is delivering features to hit important new milestones. Here is Pat explaining their architecture and process.
+      Aphex deliver construction success through innovative planning software. We got involved with them after helping them setup [BuildKite](http://buildkite.com/) on Google Kubernetes Engine to streamline deployments. Most recently they wanted development help so Pat from Cell 5 joined Aphex's CTO and is delivering features to hit important new milestones. Here is Pat explaining their architecture and process.
     imageUrl: "/img/skate.jpg"
 
   - heading: "Tendrr"
