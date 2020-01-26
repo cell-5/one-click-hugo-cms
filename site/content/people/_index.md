@@ -1,6 +1,6 @@
 ---
-title: "People"
-image: /img/people.jpg
+title: ""
+image: /img/figures.jpeg
 text: >
      "Our team spans the UK and Philippines. Everyone works from their own home on a flexible schedule. Our approach to recruitment, retention, incentives, and client partnerships is in keeping with [our values](/values). Basically, we hire carefully, we trust our team, we try to keep them happy, we let them help define [our process](/process) and we expect them to deliver early and often. We partner with, and where necessary educate [our clients](/clients) on how to get the best out of the process and we make sure the team blend is right to succeed." -- Peter Barry
 people:
