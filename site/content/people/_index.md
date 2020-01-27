@@ -6,7 +6,7 @@ text: >
 people:
   - heading: "Peter Barry"
     text: >
-      Peter has over 15 years of experience in delivering technology products. These days he enjoys blending the right teams and unblocking them when needed. Usually he chips in with hands-on work and advise around delivery strategy and cloud architectures. He keeps an eye on projects to ensure client projects are on track for success.
+      Peter has over 15 years of experience in delivering technology products. These days he enjoys blending the right teams and unblocking them when needed. Usually he chips in with hands-on work and advise around delivery strategy and cloud architectures. He keeps an eye on client projects to ensure they are on track for success.
     imageUrl: "/img/peter.jpeg"
     linkedin: 'https://uk.linkedin.com/in/peterbarry/'
 
