@@ -32,7 +32,10 @@ preludes:
   - heading: "Values"
     moreLink: "/values"
     text: >
-      We take [our values](/values) seriously. We can tell you stories about how our actions reflect our values, and what influenced us to form them. They are most useful to help remind us when we go off track, and to help filter [the people](/people) and [the clients](/clients) we choose to work with.
+      We take [our values](/values) seriously. We can tell you stories about how our actions reflect our values, and what influenced us to form them. 
+      
+      
+      They are most useful to help remind us when we go off track, and to help filter [the people](/people) and [the clients](/clients) we choose to work with.
        
 
     imageUrl: "/img/long-term-value-2.jpg"
@@ -40,10 +43,16 @@ preludes:
   - heading: "Process"
     moreLink: "/process"
     text: >
-      Building the right team is way more important than [the process](/process), so we try to keep this light.
-      
+      At a high level an engagement with us follows a simple 4 step process:
 
-      We also document our currently preferred [tools and techniques](/tools) which we update regularly to reflect our actual working practises.
+      1. Establish Fit & Agree Mission
+
+      2. Blend a Team
+
+      3. Execute
+
+      4. Amplify
+      
     imageUrl: "/img/long-term-value-2.jpg"
   - heading: "Tools & Techniques"
     moreLink: "/tools"
