@@ -1,135 +1,63 @@
 ---
 title: "Tools and Techniques"
-image: /img/about-jumbotron.jpg
+text: >
+    Being a remote-first, small I.T. consultancy means we have tried a lot of tools and are always trying to improve our techniques. If you are willing to suggest better ones, or want us to add a missing section, please [let us know](/contact) in exchange for some goodies!
+footer: >
+    **What about Testing, Marketing, Measurement, Analytics, Admin tools and techniques?** You are right! We want to cover those but just did  not write it yet. 
 tools:
-  - heading: "Collaboration and Communication"
+  - heading: "Communication"
     text: >
-      We use [Slack](https://slack.com), organized into per-client rooms as our primary means of communication. We allow clients to join our Slack for their specific room and general chat and can happily join their own Slack or IM system, but we do encourage one to exist.
+      For remote-teams, a shared channel of communication is critical. 
       
 
-      For team meetings and project meetings we use [Google Hangouts](https://hangouts.google.com/) and we expect all team members to sort out a working decent quality mic, and webcam. 
+      We currently use [Slack](https://slack.com), organized into per-client rooms as our primary means of communication on a project and we invite client team members to join. 
       
 
-      We store our documents and client documents on our [Google Drive](https://www.google.com/drive/). We have a shared team drive, and a company exec drive.
+      For adhoc voice and video meetings we use [Google Hangouts](https://hangouts.google.com/). All team members are expected to have a working mic and cam, though we understand some people have unavoidable noisy working conditions sometimes.
       
 
-      Everyone on the team gets a cell5 gmail account for registering with Saas products and client communication.
+      We store shared documents and client documents on our [Google Drive](https://www.google.com/drive/). We have a shared team drive, and a company exec drive.
       
 
-      We **dislike** Zoom as too slow / heavy on memory.
-      We watch Discord but its not as good for managing our channels or integrations. 
-
+      Everyone who joins us gets a cell5 gmail account for registering with SaaS products and client and team email communication.
+      
     imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Software Project Management"
+  - heading: "Tracking"
     text: >
-      We like to have regular project cycles lasting one or two weeks at most. These cycles are started and finished by a single short meeting of communicating what has changed, and planning who will change what, next. Change here is meant broadly, deployments, process, business goals, can all change and need communicating. 
-    
-
-      We use [Trello](https://trello.com) where possible for light weight task tracking and prioritzation.
+      We track tasks, ownership, progress, and prioritzation on a single shared [Trello](https://trello.com) board. The columns used are up to the team, but we focus on finishing things and limiting work-in-progress.
 
 
-      We like the [XP values](http://www.extremeprogramming.org/values.html), and we use some of the practises, our favourites being **Continuous Integration** and **small releases**. We **pair program** for two purposes. For coaching, and for troubleshooting. We encourage a culture of asking for help, and giving it when asked.
-
-
-      We like the Work-In-Progress limits, and focus on finshing things from [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) and its tendancy to result in greater teamwork, as no-one is left behind.
-
-
-      We like small batches and attention to derisking releases and automation of deployments from [Continous Delivery](https://continuousdelivery.com/principles/).
-
-
-      We release often, more often than our planning cycle, usually weekly, but as much as multiple times a day. We make judgements based on our level of risk, test automation, deployment control and what is actually a discrete piece of value. 
+      We have a single weekly meeting per product, which provides a rhythm. The agenda is flexible. It usually includes things like : Decision Making, Reminders to action, and information sharing.  
       
-
-      Usually weekly is about right for start-ups.
-
-
-      We **dislike** JIRA, though we can use it if we keep it really simple. It is just too bloated and has too many features which people get tempted to use. 
+      
+      This meeting is not for feature review or sign off, or even backlog pruning as those activities happen when they are needed during the week. That said it would commonly involve some tweak to short term prioritization.
       
     imageUrl: "/img/about-single-origin.jpg"
-  - heading: "Software Product Design"
+  - heading: "Design"
     text: >
 
-      We prefer to use a design system such as [Polaris](https://polaris.shopify.com/),  [Material](https://material.io/) or [Bootstrap](https://getbootstrap.com/) for most of the application and focus design flair on specific areas. Having a common design system just makes the communication and delivery that much faster, and they have sensible out of box defaults incorporating usability research and tooling integration which makes mobile-first easier. 
+      We prefer to use a design system such as  [Material](https://material.io/) or [Bootstrap](https://getbootstrap.com/) for most of the application UI/UX and focus any creative, on specific areas or widgets that are key. 
+      
+      
+      Having a common design system just makes the communication and delivery that much faster, and they have sensible out of box defaults incorporating usability research and tooling integration which makes mobile-first easier. 
 
 
-      We highly recommend [Figma](https://www.figma.com/) as a collaborative design and rapid protoyping tool. [Invision](https://www.invisionapp.com) is marginally more powerful and a great tool too, but Figma suits our remote collaboration goals better.
+      We highly recommend [Figma](https://www.figma.com/) as a collaborative design and rapid protoyping tool. 
+    
 
-
-      We do think it is worth designing and spec-ing before development for main journies and new features, but Just-In-Time ideally as otherwise the business direction changes while the designs are still wet. 
-
-
-      Once a design system is in place and main journies are mapped out, there is less need for design inputs. In our experience the development team can usually progress well after this and should not be blocked on waiting for the designer to pick a colour. 
-
-
-      After this initial period, we would then treat UX and Designers more as adivsory specialists dipping in adhoc.
-
+      Once a design system is in place and main journies are mapped out design spend is usually less as the developers can follow the patterns in place.
 
     imageUrl: "/img/about-sustainable-farming.jpg"
-  - heading: "Development Practises & Tooling"
+  - heading: "Development"
     text: >
-      We insist source code for development is versioned in a version control system. At this point git and Github or GitLab are fairly ubiqutous and we would need a strong reason not to use them. git is almost a must these days.
-      
-      We encourage trunk based development, merging early and often. 
 
-      We expect Pull Requests to be small, and where possible to include a PR deployment or a showcase screen cast and evidence of testing attached.
+      We use [GitHub](https://github.com/cell-5) for version control and [trunk based development](https://trunkbaseddevelopment.com/). 
 
-      We like unit testing but are not dogmatic, depending on the size of the app and the amount of pure UI code we are flexible provided risk is being managed thoughfully.
 
-      We insist every change that is planned to be deployed has a roll back plan, and usually a feature-toggle to make the revert instant.
+      We use Pull Requests, and every PR should be a [discrete slice of value](https://en.wikipedia.org/wiki/Vertical_slice), that has a screen-cast attached with the developer demoing the feature. This is shared by Slack and email to the relevant team members for technical and feature review. If it too large it will be rejected.
 
-      For development each language has its best tools but we like VSCode for front end technologies and the Jetbrains suite of tools like GoLand, PHPStorm, Intellij for most back end work.
-      
-      We prefer medium sized services or well layered monoliths to microservices for the core start-up product but welcome a set of ancillary microservices, usually deployed as docker containers in the ecosystem.
+
+      For development each language has its best tools but we like [VSCode](https://code.visualstudio.com/) for front end and the [Jetbrains](https://www.jetbrains.com/) suite of tools like GoLand, PHPStorm and IntelliJ for most back end work.
 
     imageUrl: "/img/about-direct-sourcing.jpg"
-  # - heading: "Runtime & Deployment Practises & Tooling"
-  #   text: >
-  #     For microservices we recommend javascript (node), golang, python or java.
-  #     For monolithic backends we recommend PHP, java, golang or python.
-  #     For front end development we recommend javascript for most work but TypeScript for important core models
-  #   imageUrl: "/img/about-reinvest-profits.jpg"
-  # - heading: "Front End Web Technologies"
-  #   text: >
-  #     We recommend ReactJs, VueJs, or AngularJs for large applications
-  #     We recommend Jquery or template rendering for smaller sites. 
-  #   imageUrl: "/img/about-reinvest-profits.jpg"
-  # - heading: "Mobile Technologies"
-  #   text: >
-  #     We recommend ReactNative for startups
-  #     we do not recommend D.I.Y native as too expensive to manage for startups.
-  #   imageUrl: "/img/about-reinvest-profits.jpg"  
-  # - heading: "Web Services Technologies"
-  #   text: >
-  #     We recommend ReactNative for startups
-  #     we do not recommend D.I.Y native as too expensive to manage for startups.
-  #   imageUrl: "/img/about-reinvest-profits.jpg"    
-  # - heading: "Digital Marketing Tools & Experience"
-  #   text: >
-  #     Our favourite approach to digital marketing is to focus on sharing value and not focusing on selling, as this fits with out own believe in long-term value creation and brand-building.  
-
-
-  #     We usually seek external partners for advanced marketing strategies, but we are familiar with the basics. 
-
-
-  #     We can optimize web products for on-site S.E.O, and we integrate Google Analytics and Tag Manager, as well as Facebook Pixel. 
-      
-      
-  #     We can configure funnels and provide live recording from HotJar integration to help assess journey success. 
-
-
-  #     We understand the basics of Keyword ads and Facebook Ad manager. We can run the campaigns operationally, and we can provide CopyWriters and Social Media Managers, but we would seek advise on campaign strategy until we gain more knowledge in this area. 
-
-  #   imageUrl: "/img/about-reinvest-profits.jpg"  
-
-  # - heading: "Ecommerce Tools & Experience"
-  #   text: >
-  #     We can and have  integrated payment systems like Stripe which we recommend.  
-
-  #     We can and have build Shopify shop sites and Facebook shops for simple FBA or Dropshipping or Print On Demand shops or those with custom inventory. 
-
-  #     We recommend Etsy for more bespoke inventory, and Ebay for second hand, and Amazon for commodity inventory. 
-
-  #     For ecommerce strategy we would seek advise from experts, while we do have the knowledge to build the shops and can supply Product Sourcers if required.
-
-  #   imageUrl: "/img/about-reinvest-profits.jpg"  
 ---
