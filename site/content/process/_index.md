@@ -24,10 +24,10 @@ process:
       The roles a team need vary based on the project, and on what skills our client brings to the table. 
 
 
-      [Our people](/people) are skilled adaptable generalists, each having their own specialities and strengths. We can deliver a good job across most aspects of the project.  
+      [Our people](/people) are mostly skilled adaptable generalists, each having their own specialities and strengths. We can deliver a good job across most aspects of the project.  
       
 
-      That said, it is important to make sure we have the right mix of business skills, technical skills and specialist skills to succeed. If we need to call in specialist expertise to deliver we Will let you know.
+      That said, it is important to make sure we have the right mix of business skills, technical skills and specialist skills to succeed. If we need to call in specialist expertise to deliver we will let you know.
       
       
     imageUrl: "/img/long-term-value-2.jpg"
@@ -41,7 +41,6 @@ process:
       
       
       Probably most importantly, to be listening and open to change when our team say things are not working. 
-
 
     imageUrl: "/img/long-term-value-2.jpg"
 
