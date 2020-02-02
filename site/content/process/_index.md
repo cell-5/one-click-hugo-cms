@@ -1,6 +1,10 @@
 ---
 title: "Process"
 image: /img/values.jpg
+text: >
+    Building the right team is way more important than the process, so we try to keep this light. We also document our currently preferred [tools and techniques](/tools) which we update regularly to reflect our actual working practises.
+footer: >
+    **If you want to discuss us fitting into your process or want a tailored execution plan we are happy to expand on this in a pitch. [Let us Pitch?](/contact)**
 process:
   - heading: "1. Establish Fit & Agree Mission"
     text: >

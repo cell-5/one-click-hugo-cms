@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
 
 <div class="mw7 center ph3 pt4">
 
@@ -13,5 +13,8 @@
   {{ end }}
 
 </div>
+
+{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+
 
 {{ end }}
