@@ -7,6 +7,13 @@
   <div class="ph3-m w-50-m">
     <h3 class="f3 b lh-title mb1">{{.heading}}</h3>
     <p>{{.text | markdownify }}</p>
+    {{ if .moreLink }}
+    <div class="tc">
+      <a href="{{ .moreLink }}" class="btn raise">Read more</a>
+    </div>
+    {{ end }}
+  
   </div>
 
+ 
 </div>
