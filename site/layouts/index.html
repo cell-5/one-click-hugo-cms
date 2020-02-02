@@ -2,12 +2,19 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "short-text" .Params.blurb}}
+{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
 
-{{ partial "2-up" .Params }}
+<div class="mw7 center ph3 pt4">
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+  {{ range $index, $element := .Params.preludes }}
+    {{ if modBool $index 2 }}
+      {{ partial "media-block" $element }}
+    {{ else }}
+      {{ partial "media-block-reverse" $element }}
+    {{ end }}
+  {{ end }}
 
-{{ partial "blog" . }}
+</div>
+{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
 
 {{ end }}

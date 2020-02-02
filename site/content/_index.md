@@ -1,60 +1,48 @@
 ---
 title: cell 5
-subtitle: value delivery for disruptive start-ups
+subtitle: a tech team for start-ups
 image: img/GettyImages-1017380290.jpgAPI-DISRUPTION-696x435.jpg
-blurb:
-  heading: 'Client Notice'
-  text: >-
-    We have two excellent people freeing up at the end of March 2020. 
-    If you would like to discuss your projects with u
-    construction planning platform Aphex.  [Read
-    more...](https://www.aphex.co/https://www.aphex.co/)
-intro:
-  heading: 'Invitations[2]: Start-up clients wanted'
-  text: >-
-    We are currently looking for one or two new clients to deliver successful
-    start-up technology products with. In our experience start-up delivery teams
-    are more successful when they:
+text: >
+    We partner with [our clients](/clients) to blend [the teams](/people) for delivering start-ups scale-ups.
+footer: >
+    **If you are not ready to engage with us yet and have questions or need more convincing, invite us to pitch to you. [Let us Pitch?](/contact)**
+preludes:
+  - heading: "People"
+    text: >
+      We are currently [7 people](/people), in a distributed remote team, supported by an extensive freelance network.
+      
+      
+      We have experience delivering start-up products from scratch, and supporting them through launches, pivots and scale-ups. 
+      
+      
+      We blend teams with our clients, providing anywhere between one developer or an entire start-up technology team, including acting CTO.
+    imageUrl: "/img/skate.jpg"
 
+  - heading: "Clients"
+    text: > 
+      [Our clients](/clients) are small businesses with between 1-50 people. They are either bootstrapping, early-stage start-ups or trying to make strategic IT investment on a limited budget.
+      
 
-    * Have a strategy laser focused on solving customer problems
+      They want to get to market rapidly and iteratively and are looking for an experienced, affordable start-up technology partner who can build or extend their product quickly and sustainably.
+      
+    imageUrl: "/img/long-term-value-2.jpg"
 
-    * Release early and often
+  - heading: "Values"
+    text: >
+      We take [our values](/values) seriously. We can tell you stories about how our actions reflect our values, and what influenced us to form them. They are most useful to help remind us when we go off track, and to help filter [the people](/people) and [the clients](/clients) we choose to work with.
+       
 
-    * Take a data driven approach to feature selection
+    imageUrl: "/img/long-term-value-2.jpg"
 
-    * Include business and technology experts
+  - heading: "Process"
+    text: >
+      Building the right team is way more important than [the process](/process), so we try to keep this light.
+      
 
-    * Share single shared communication channels
-
-    * Foster empathy and respect
-
-    * Follow a light-weight process with a regular frequency ( 1 or 2 week
-    cycles )
-
-    * Regularly re-evaluate assumptions
-
-      **Do you agree? If so, we would love the opportunity to be open to collaboration with you, and together we can create a team with the right blend to suit your start-up application product goals.**
-products:
-  - image: img/illustrations-coffee.svg
-    text: >-
-      We sell green and roasted coffee beans that are sourced directly from
-      independent farmers and farm cooperatives. We’re proud to offer a variety
-      of coffee beans grown with great care for the environment and local
-      communities. Check our post or contact us directly for current
-      availability. [markdown](what)
-  - image: /img/illustrations-coffee-gear.svg
-    text: >-
-      We offer a small, but carefully curated selection of brewing gear and
-      tools for every taste and experience level. No matter if you roast your
-      own beans or just bought your first french press, you’ll find a gadget to
-      fall in love with in our shop.
-values:
-  heading: Our values
-  text: >-
-    Coffee is an amazing part of human culture but it has a dark side too – one
-    of colonialism and mindless abuse of natural resources and human lives. We
-    want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
+      We also document our currently preferred [tools and techniques](/tools) which we update regularly to reflect our actual working practises.
+    imageUrl: "/img/long-term-value-2.jpg"
+  - heading: "Tools & Techniques"
+    text: >
+      Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
+    imageUrl: "/img/long-term-value-2.jpg"  
 ---
-
