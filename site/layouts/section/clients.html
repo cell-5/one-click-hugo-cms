@@ -2,7 +2,7 @@
 
 {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
 
-<div class="mw7 center ph3 pt4">
+<div class="mw7 center ph3 pt4 clients">
 
   {{ range $index, $element := .Params.clients }}
     {{ if modBool $index 2 }}
