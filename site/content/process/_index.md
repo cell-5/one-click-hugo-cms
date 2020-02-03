@@ -2,7 +2,7 @@
 title: "Process"
 image: /img/values.jpg
 text: >
-    Building the right team is way more important than the process, so we try to keep this light. We also document our currently preferred [tools and techniques](/tools) which we update regularly to reflect our actual working practises.
+    **We are always open to discuss better ways of working. We try to keep the balance right between having a light process that empowers people, and having enough process to stay organized. If you have feedback on our process we would really enjoy discussing it. [Talk process with us?](/contact)**
 footer: >
     **If you want to discuss us fitting into your process or want a tailored execution plan we are happy to expand on this in a pitch. [Let us Pitch?](/contact)**
 process:
@@ -11,13 +11,13 @@ process:
       Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
 
 
-      1> Are we trying to build a product that delivers lasting value?
+      1. Are we trying to build a product that delivers lasting value?
       
       
-      2> Can we realistically deliver what is needed?
+      2. Can we realistically deliver what is needed?
       
       
-      3> Are we ready to execute?
+      3. Are we ready to execute?
     imageUrl: "/img/skate.jpg"
 
   - heading: "2. Blend a Team"
@@ -38,13 +38,25 @@ process:
 
   - heading: "3. Execute"
     text: >
-      We put a lot of effort into picking the right people, and are not dogmatic on process. However, there are various traits to our execution which we believe are important.
+      When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery.
+      That said we do stick to these common practises:
+
+      + Get something delivered and released early and often. 
+      ( [Devops](https://en.wikipedia.org/wiki/DevOps) inspired )
       
 
-      In a nutshell we will aim to deliver early and often, to have regular change review, prioritization and planning meetings, to focus on finshing things and limiting work in progress. 
+      + Have a single project heart-beat meeting, either weekly or fortnighthly. 
+      ( [XP](http://www.extremeprogramming.org/) inspired )
       
+      + Have a single team communication channel for the remote team.
+
+      + Have a single project board to track progress, blockers and priotization.
+
+      + Focus on finishing things, by limiting work in progress. 
+      ( [kanban](https://en.wikipedia.org/wiki/Kanban) inspired ) 
       
-      Probably most importantly, to be listening and open to change when our team say things are not working. 
+
+      **Most important of all, to keep asking the team what is working, listening to their answers and adapting accordingly!**
 
     imageUrl: "/img/long-term-value-2.jpg"
 
