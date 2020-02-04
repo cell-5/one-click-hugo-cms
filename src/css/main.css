@@ -86,4 +86,6 @@
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
 
+/* might need more specificity */
 ol { list-style-type: decimal !important; margin-left: 2rem }
+.process ul { list-style-type: circle !important; margin-left: 1rem }
