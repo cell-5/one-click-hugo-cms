@@ -21,7 +21,7 @@ people:
 
   - heading: "Harry Wynn-Williams"
     text: >
-        Harry co-founded Cell 5 in Jan 2018. is a founder and front end development lead. 
+        Harry co-founded Cell 5 in Jan 2018.
         
         
         He has experience building web and mobile apps at an investment bank, in the gaming industry and for multiple start-up clients. He loves building complex UIs, especially when it's with Vue.js or ReactJs.
@@ -54,28 +54,27 @@ people:
   - heading: "Ronnel James Bote"
     text: >
       Ronnel joined in July 2019. 
-      
+
       
       "When I joined Cell 5 I wanted to grow by getting variety and I get to do quality work for multiple start-up companies. Having flexibility in my work schedule, helps not only with my work-life balance but also makes me productive because I can work at times I know I am at my fullest.
       
-      
+
       I appreciate the aspiration here, to have a culture of knowledge sharing and empathy - making mistakes is an opportunity to learn more - there is no such thing as a stupid question."
     imageUrl: "/img/ronnel.jpeg"
 
-  - heading: "James Lacandula"
-    text: >
-      James joined in Feb 2020. 
-      
-      
-      He needs to provide content here!
     imageUrl: "/img/james.png"
     
   - heading: "Clynt Flauta"
     text: >
       Clynt joined in Feb 2020. 
-      
-      
-      He needs to provide content here!
+
+
+      An awesome web developer and experienced DevOps. Specializes in python based frameworks
+      for backend and component-based javascript frameworks such as (Vue, React) for frontend.
+      Provides DevOps work with AWS EC2 instance deployments, S3 implementations, Lambda,
+      Cloudwatch and more. Also has experience in NoSQL and SQL Databases. Passionate and loves
+      to code. I am always looking forward to building long term and good relationships with my
+      customers or clients by providing excellent service and on time project delivery.
       
     imageUrl: "/img/clynt.jpeg"  
 
