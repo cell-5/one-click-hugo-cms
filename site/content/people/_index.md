@@ -61,8 +61,6 @@ people:
 
       I appreciate the aspiration here, to have a culture of knowledge sharing and empathy - making mistakes is an opportunity to learn more - there is no such thing as a stupid question."
     imageUrl: "/img/ronnel.jpeg"
-
-    imageUrl: "/img/james.png"
     
   - heading: "Clynt Flauta"
     text: >
