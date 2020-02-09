@@ -2,7 +2,7 @@
 title: "Values"
 image: /img/values.jpg
 text: >
-    We take our values seriously. We can tell you stories about how our actions reflect our values, and what influenced us to form them. They are most useful to help remind us when we go off track, and to help filter [the people](/people) and [the clients](/clients) we choose to work with.
+    Each big decision we make as an organization, is measured against these values, especially to filter [the people](/people) and [the clients](/clients) we work with.
 values:
   - heading: "Take action, over deliberation"
     text: >
@@ -21,7 +21,10 @@ values:
       We make recruitment and investment decisions from a long-term perspective as this is the only rational way to grow a team, reputation and business. 
 
       
-      We welcome clients who share this approach. They need to demonstrate a long term vision focused on value creation, for their customers.
+      We welcome clients who share this approach. 
+      
+      
+      They need to demonstrate a long term vision focused on value creation, for their customers.
 
     imageUrl: "/img/long-term.jpg"
 
@@ -36,10 +39,10 @@ values:
 
   - heading: "Encourage small businesses & profit sharing"
     text: >
-      We proudly redistribute 15% of profit as bonuses to our Philippines team in December each year. 
+      We proudly redistribute 10% of profit as bonuses to our Philippines team at year end.
       
       
-      We encourage our team to do side-hussles, or be enterpenuerial provided they deliver for us, and we offer a leadership and micro-finance scheme for anyone in the team with an idea they are willing to lead and execute.
+      We encourage our team to do side-hussles, or be enterpenuerial provided they deliver for us. We offer a leadership and micro-finance scheme for anyone in the team with an idea they are willing to lead and execute.
       
 
       For clients, we offer fee discounts in exchange for equity. This is a no-brainer as we only partner with clients that can convince us their business has merit and is focused on long term value. 

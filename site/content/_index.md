@@ -1,9 +1,9 @@
 ---
 title: cell 5
-subtitle: a tech team for start-ups
+subtitle: start-up technology experts
 image: img/GettyImages-1017380290.jpgAPI-DISRUPTION-696x435.jpg
 text: >
-    We partner with [our clients](/clients) to blend [the teams](/people) for delivering start-ups and scale-ups.
+    We will help you to blend a high-value technology team, then partner with you to deliver your start-up or scale-up technology product until your goals are met.
 footer: >
     **If you are not ready to engage with us yet and have questions or need more convincing, invite us to pitch to you. [Let us Pitch?](/contact)**
 preludes:
