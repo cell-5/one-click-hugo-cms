@@ -17,7 +17,7 @@ clients:
       
       
       Today, our team is delivering features to hit important new milestones on their modern stack of [ReactJs](https://reactjs.org/), [MeteorJs](https://www.meteor.com/), [MongoDB](https://www.mongodb.com/) and [Python](https://www.python.org/) alongside their CTO Elliot.
-    imageUrl: "/img/skate.jpg"
+    imageUrl: "/img/clients/aphex-screenshot.jpg"
 
   - heading: "Tendrr"
     text: >
@@ -29,7 +29,7 @@ clients:
       
       We automated deployment with [Github Actions](https://github.com/actions) and added some defence against bot attacks to their system. 
       
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/clients/tendrr-screenshot-2.jpg"
 
   - heading: "Carmella Terrana Agency"
     text: >
@@ -41,7 +41,7 @@ clients:
       
       We built out a prototype in [Laravel](https://laravel.com/), and are currently working on their website rebranding for a launch in late February 2020.
 
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/clients/cta-screenshot.jpg"
 
   - heading: "good2rent"
     text: >
@@ -58,7 +58,7 @@ clients:
       
       
       While partnering with them we consolidated their infrastructure to be [terraform](https://www.terraform.io/) defined, and containerized all their [golang](https://golang.org/), java and python services on [AWS Fargate](https://aws.amazon.com/fargate/).
-    imageUrl: "/img/business.jpg"
+    imageUrl: "/img/clients/good2rent-screenshot-2.jpg"
 
   - heading: "White Spider Media"
     text: >  
@@ -68,7 +68,7 @@ clients:
       They wanted a new unique website and ongoing professional hosting and technical support. 
       
       We use our preferred static hosting at [netlify](https://www.netlify.com/) for this along with  [NUXT](https://nuxtjs.org/) for the [JAMStack](https://jamstack.org/).
-    imageUrl: "/img/remote.jpg"
+    imageUrl: "/img/clients/wsm.gif"
 
   - heading: "myVal"
     text: >
@@ -76,7 +76,7 @@ clients:
       
       
       We worked with the team at Proptek to improve it, add numerous features over 18 months, and consoldated its deployments. It is mostly built in Laravel, but has some [SpringBoot](https://spring.io/projects/spring-boot) java, and python microservices. 
-    imageUrl: "/img/fail-differently.jpg"
+    imageUrl: "/img/clients/myval-screenshot-2.jpg"
 
   - heading: "Mark Ellwood"
     text: >
@@ -84,7 +84,7 @@ clients:
       
       
       He wanted a clean, bold, personal website focused on his content which we delivered quickly. 
-    imageUrl: "/img/shoes.jpg"
+    imageUrl: "/img/clients/mark-ellwood.gif"
 
   - heading: "Melissa Twigg"
     text: >
@@ -92,7 +92,7 @@ clients:
       
       
       She came to us because she wanted to put her portfolio front and center of her website and have an easy way to keep it up-to-date, which we delivered and host.
-    imageUrl: "/img/shoes.jpg"
+    imageUrl: "/img/clients/mtwigg-screenshot-2.jpg"
 
   - heading: "Portland Decorating"
     text: >
@@ -100,5 +100,5 @@ clients:
       
       
       So our team at Cell 5 picked up their existing stack and delivered and enhanced their website and S.E.O. 
-    imageUrl: "/img/shoes.jpg"   
+    imageUrl: "/img/clients/portland-screenshot.jpg"   
 ---

@@ -89,3 +89,16 @@
 /* might need more specificity */
 ol { list-style-type: decimal !important; margin-left: 2rem }
 .process ul { list-style-type: circle !important; margin-left: 1rem }
+
+.people img { margin: 2rem auto 2rem;
+    display: block; }
+
+.clients img { 
+    margin: 2rem auto 2rem;
+    display: block; 
+}
+
+.clients {
+    background-color: snow;
+
+}

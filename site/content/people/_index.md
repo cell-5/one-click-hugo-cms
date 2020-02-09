@@ -16,7 +16,7 @@ people:
 
       I like to think that my 15 years experience of making mistakes in the software industry means I have less left to make!
       
-    imageUrl: "/img/peter.jpeg"
+    imageUrl: "/img/people/peter.jpg"
     linkedin: 'https://uk.linkedin.com/in/peterbarry/'
 
   - heading: "Harry Wynn-Williams"
@@ -26,7 +26,7 @@ people:
         
         He has experience building web and mobile apps at an investment bank, in the gaming industry and for multiple start-up clients. He loves building complex UIs, especially when it's with Vue.js or ReactJs.
     linkedin: 'https://www.linkedin.com/in/harry-wynn-williams-59b89040/'
-    imageUrl: "/img/harry.jpeg"
+    imageUrl: "/img/people/harry.jpg"
 
   - heading: "Pat Bautista"
     text: >  
@@ -37,7 +37,7 @@ people:
       
       
       He has worked on several client apps, delivering in python, java, node and golang.
-    imageUrl: "/img/pat.jpeg"
+    imageUrl: "/img/people/pat.jpg"
     linkedin: 'https://www.linkedin.com/in/pat-bautista/'
 
   - heading: "Jediah Diah"
@@ -49,7 +49,7 @@ people:
       
       
       He's a huge fan of combat sports, gaming and comedy movies.
-    imageUrl: "/img/jedi.jpeg"
+    imageUrl: "/img/people/jedi.jpg"
 
   - heading: "Ronnel James Bote"
     text: >
@@ -60,7 +60,7 @@ people:
       
 
       I appreciate the aspiration here, to have a culture of knowledge sharing and empathy - making mistakes is an opportunity to learn more - there is no such thing as a stupid question."
-    imageUrl: "/img/ronnel.jpeg"
+    imageUrl: "/img/people/ronnel.jpg"
     
   - heading: "Clynt Flauta"
     text: >
@@ -74,7 +74,7 @@ people:
       to code. I am always looking forward to building long term and good relationships with my
       customers or clients by providing excellent service and on time project delivery.
       
-    imageUrl: "/img/clynt.jpeg"  
+    imageUrl: "/img/people/clynt.jpg"  
 
   - heading: "Trusted Freelance Partners"
     text: >
@@ -84,6 +84,6 @@ people:
       
       
       If we do not have the skills we will say so, but we may recommend a partner or a joint venture.
-    imageUrl: "/img/peeps.jpeg"
+    imageUrl: "/img/people/peeps.jpg"
  
 ---

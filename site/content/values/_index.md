@@ -14,7 +14,7 @@ values:
       
       We advise clients to get something live and iterate and we release early and often, in the spirit of [Build-Measure-Learn](https://en.wikipedia.org/wiki/Lean_startup#Build-Measure-Learn).
 
-    imageUrl: "/img/skate.jpg"
+    imageUrl: "/img/take-action.jpg"
 
   - heading: "Focus on long term value"
     text: >
@@ -23,7 +23,7 @@ values:
       
       We welcome clients who share this approach. They need to demonstrate a long term vision focused on value creation, for their customers.
 
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/long-term.jpg"
 
   - heading: "Champion remote-first teams"
     text: >    
