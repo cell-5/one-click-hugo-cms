@@ -98,7 +98,7 @@ ol { list-style-type: decimal !important; margin-left: 2rem }
     display: block; 
 }
 
-.clients {
-    background-color: snow;
-
+.clients img { 
+    margin: 2rem auto 2rem;
+    display: block; 
 }
