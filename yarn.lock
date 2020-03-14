@@ -1204,9 +1204,9 @@ acorn-jsx@^5.1.0:
   integrity sha512-tMUqwBWfLFbJbizRmEcWSLw6HnFzfdJs2sOJEOwwtVPMoH/0Ay+E703oZz78VSXZiiDcZrQ5XKjPIUQixhmgVw==
 
 acorn@^6.2.1:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.0.tgz#b659d2ffbafa24baf5db1cdbb2c94a983ecd2784"
-  integrity sha512-gac8OEcQ2Li1dxIEWGZzsp2BitJxwkwcOm0zHAJLcPJaVvm58FRnk6RkuLRpU1EujipU2ZFODv2P9DLMfnV8mw==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 acorn@^7.1.0:
   version "7.1.0"
@@ -4929,10 +4929,10 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-hugo-bin@^0.50.0:
-  version "0.50.2"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.50.2.tgz#78b5191d17e1faa9ba8581eace45d81badf56b48"
-  integrity sha512-h3SreRNNjnrYrHGYrYQgRuERkHv1MVvScdh9ckl8K6Pbnv1ZrHgmUH2ibOoU5tyn89/DlUuPCnYjNzBd58Iqww==
+hugo-bin@^0.51.1:
+  version "0.51.2"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.51.2.tgz#ef91b26699573cfa3d3399b83f6b5ae5cd9f7cfe"
+  integrity sha512-5MaIUnqTCI1brLrBu/TA10dxJZuZidDQxIT8o6+NWjxhCUNA0Moy2itMx2/EhefQQW7tM5qFOK2GQ+nUhymN/A==
   dependencies:
     bin-wrapper "^4.1.0"
     pkg-conf "^3.1.0"
