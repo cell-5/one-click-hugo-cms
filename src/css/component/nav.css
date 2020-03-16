@@ -1,0 +1,49 @@
+.nav-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.nav-people{
+    position: absolute;
+    left: 63.49%;
+    right: 33.54%;
+    top: 0.94%;
+    bottom: 98.82%;
+}
+
+.nav-client{
+    position: absolute;
+    left: 70.78%;
+    right: 26.72%;
+    top: 0.94%;
+    bottom: 98.82%;
+}
+
+.nav-values{
+    position: absolute;
+    left: 77.6%;
+    right: 19.58%;
+    top: 0.94%;
+    bottom: 98.82%;
+}
+
+.nav-process{
+    position: absolute;
+    left: 84.74%;
+    right: 11.98%;
+    top: 0.94%;
+    bottom: 98.82%;
+}
+
+.nav-tool{
+    position: absolute;
+    left: 92.34%;
+    right: 5.89%;
+    top: 0.94%;
+    bottom: 98.82%;
+}

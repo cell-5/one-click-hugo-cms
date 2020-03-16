@@ -1,7 +1,7 @@
 ---
 title: cell 5
 subtitle: building today's start-up technology
-image: img/GettyImages-1017380290.jpgAPI-DISRUPTION-696x435.jpg
+image: img/cell5/cell-5-logo-229x240.png
 text: >
     We will help you to blend a high-value technology team, then partner with you to deliver your start-up or scale-up technology product until your goals are met.
 footer: >

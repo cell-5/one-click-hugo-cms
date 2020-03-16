@@ -1,0 +1,12 @@
+/* banner image */
+
+.banner-img{
+
+    position: absolute;
+    left: 17.66%;
+    right: 16.71%;
+    top: 9.18%;
+    bottom: 85.17%;
+
+    /* background: url(banner image.png); */
+}
