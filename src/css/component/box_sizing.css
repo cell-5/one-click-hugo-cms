@@ -12,10 +12,10 @@
 
 .main-body{
     position: relative;
-    /* width: 1920px;
-    height: 8329px; */
-    width: 100%;
-    height: auto;
+    width: 1920px;
+    height: 8329px;
+    /* width: 100%;
+    height: auto; */
 
     background: #FFFFFF;
 }

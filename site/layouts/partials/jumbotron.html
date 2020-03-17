@@ -1,5 +1,14 @@
-<!-- <div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw7 center ph3">
+<div class="bg-home o-vertical">
+  <img src="{{.imageUrl}}" class="home-logo" />
+  <h1 class="main-title">
+    {{.title}}
+  </h1>
+  {{ if .subtitle }}
+  <p class="main-subtitle">
+    {{.subtitle | markdownify }}
+  </p>
+  {{ end }}
+  <!-- <div class="mw7 center ph3">
     <div class="db mb3">
       <div class="mw7 relative bg-fix-primary mb3">
         <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
@@ -14,15 +23,11 @@
         {{ end }}
       </div>
     </div>
-  </div>
-</div> -->
-
-<div class="bg-home">
-  <img src="{{.image}}" alt="" class="home-logo">
-  <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-    {{.title}}
-  </h1>
-  <!-- <p>
-    {{ if .subtitle }}
-  </p> -->
+  </div> -->
 </div>
+<!-- 
+<div class="bg-home">
+  <img alt="" class="home-logo">
+  <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
+  </h1>
+</div> -->

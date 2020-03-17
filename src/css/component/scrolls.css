@@ -1,0 +1,17 @@
+.o-hidden{
+    overflow: hidden;
+}
+
+.o-auto{
+    overflow: auto;
+}
+
+.o-horizontal{
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.o-vertical{
+    overflow-y: auto;
+    overflow-x: hidden;
+}

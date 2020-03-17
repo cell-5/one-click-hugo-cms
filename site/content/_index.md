@@ -1,5 +1,5 @@
 ---
-title: cell 5
+title: CELL 5
 subtitle: building today's start-up technology
 image: img/cell5/cell-5-logo-229x240.png
 text: >
