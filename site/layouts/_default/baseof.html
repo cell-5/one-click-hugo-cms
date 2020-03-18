@@ -2,18 +2,21 @@
 <html lang="{{ $.Site.Language.Lang }}">
 {{ partial "head" . }}
 
-<body class="bg-home main-font">
+<body>
+  <div id="root">
+    <div class="container bg-home">
+      {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
-  {{ block "header" . }}{{ partial "nav" . }}{{end}}
+      {{ block "main" . }}{{ end }}
 
-  {{ block "main" . }}{{ end }}
+      {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
-  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
-  {{ $script := .Site.Data.webpack.main }}
-  {{ with $script.js }}
-  <script src="{{ relURL . }}"></script>
-  {{ end }}
+      {{ $script := .Site.Data.webpack.main }}
+      {{ with $script.js }}
+      <script src="{{ relURL . }}"></script>
+      {{ end }}
+    </div>
+  </div>
 </body>
 
 </html>
