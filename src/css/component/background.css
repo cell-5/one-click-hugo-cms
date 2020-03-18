@@ -1,9 +1,9 @@
 .bg-home{
-    /* position: absolute;
-    left: 0%;
-    right: -21.25%;
-    top: -0.43%;
-    bottom: 84.8%; */
-
+    width: 100%;
+    height: auto;
     background: linear-gradient(133.09deg, #D623E9 -64.47%, #7021E9 98.59%);
+}
+
+.bg-bv{
+    background: #4B4AA1;
 }

@@ -1,33 +1,21 @@
-<div class="bg-home o-vertical">
-  <img src="{{.imageUrl}}" class="home-logo" />
-  <h1 class="main-title">
+<div class="home-top">
+  <div class="center-horizantal">
+    <img src="{{.imageUrl}}" />
+  </div>
+  <h1 class="main-title line-spacing-10">
     {{.title}}
   </h1>
   {{ if .subtitle }}
-  <p class="main-subtitle">
+  <div class="main-subtitle line-spacing-10">
     {{.subtitle | markdownify }}
-  </p>
+  </div>
   {{ end }}
-  <!-- <div class="mw7 center ph3">
-    <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb3">
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-          {{.title}}
-        </h1>
-      </div>
-      <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-          {{.subtitle | markdownify }}
-        </p>
-        {{ end }}
-      </div>
-    </div>
-  </div> -->
+  <div class="center-horizantal line-spacing-30">
+    <button class="eclipse-btn bg-bv text-18-22">
+      Get Started
+    </button>
+  </div>
+  <div class="center-horizantal top-50">
+    <img src="/img/banner image.png" />
+  </div>
 </div>
-<!-- 
-<div class="bg-home">
-  <img alt="" class="home-logo">
-  <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-  </h1>
-</div> -->

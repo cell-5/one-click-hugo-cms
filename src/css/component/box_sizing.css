@@ -1,21 +1,14 @@
-/* Rectangle 149 */
+/* HomePage */
 
-.rect-149{
-    position: absolute;
-    width: 258px;
-    height: 809px;
-
-    background: #C4C4C4;
+.home-top{
+    height: 1200px;
+    width: 100%;
+    background: transparent;
 }
 
-/* PEOPLE */
-
-.main-body{
-    position: relative;
-    width: 1920px;
-    height: 8329px;
-    /* width: 100%;
-    height: auto; */
-
-    background: #FFFFFF;
+/*Buttons*/
+.eclipse-btn{
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
 }
