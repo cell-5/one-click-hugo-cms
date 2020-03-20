@@ -38,3 +38,28 @@
 .center-text{
     text-align: center !important;
 }
+
+/*Headers*/
+.head-black{
+    font-weight: 800;
+    font-size: 3.125rem;
+    line-height: 3.8125rem;
+
+    color: #000000;
+}
+
+.head-white{
+    font-weight: 800;
+    font-size: 3.125rem;
+    line-height: 3.8125rem;
+
+    color: #FFFFFF;
+}
+
+/*body*/
+.body-black{
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 1.75rem !important;
+    color: #000000 !important;
+}
