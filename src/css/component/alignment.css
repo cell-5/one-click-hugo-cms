@@ -6,20 +6,28 @@
     width: 100%;
 }
 
-.svg1{
-    width: 100%;
+/*absolute position*/
+.abs-top-0{
     position: absolute;
-    top: 96%;
+    top: 0%;
 }
 
-.svg2{
-    width: 100%;
-    position: absolute;
-    top: 89%;
+/*relative positions*/
+.rel-top-neg-30vw{
+    position: relative;
+    top: -30vw;
 }
 
-.svg3{
-    width: 100%;
-    position: absolute;
-    top: 104%;
+.rel-top-neg-45vw{
+    position: relative;
+    top: -45vw;
 }
+
+.rel-top-neg-72vw{
+    position: relative;
+    top: -72vw;
+}
+
+
+
+

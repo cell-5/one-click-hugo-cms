@@ -3,18 +3,20 @@
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
 {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+<!-- <div class="w-100 bg-white rel-top-neg-45vw">
+  <div class="mw7 center ph3 pt4">
 
-<div class="mw7 center ph3 pt4">
+    {{ range $index, $element := .Params.preludes }}
+    {{ if modBool $index 2 }}
+    {{ partial "media-block" $element }}
+    {{ else }}
+    {{ partial "media-block-reverse" $element }}
+    {{ end }}
+    {{ end }}
 
-  {{ range $index, $element := .Params.preludes }}
-  {{ if modBool $index 2 }}
-  {{ partial "media-block" $element }}
-  {{ else }}
-  {{ partial "media-block-reverse" $element }}
-  {{ end }}
-  {{ end }}
+  </div>
+</div> -->
 
-</div>
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+<!-- {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }} -->
 
 {{ end }}
