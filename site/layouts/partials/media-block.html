@@ -1,14 +1,15 @@
 <div class="flex-m mhn3-m mb4">
   <div class="ph3-m w-50-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
-  </div>
-  <div class="ph3-m w-50-m">
+    <!-- <img src="{{.imageUrl}}" alt="" class="db mb2"> -->
     <h3 class="head-black">{{.heading}}</h3>
-    <div class="body-black">{{.text | markdownify }}</div>
+    <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
     {{ if .moreLink }}
     <button class="eclipse-btn bg-bv text-18-22">
       Read more
     </button>
     {{ end }}
+  </div>
+  <div class="ph3-m w-50-m">
+
   </div>
 </div>
