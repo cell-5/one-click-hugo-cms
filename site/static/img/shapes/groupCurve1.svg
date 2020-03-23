@@ -11,17 +11,11 @@
         <path d="M2161.59 889.934C2161.59 889.934 2057.46 871.805 1890.2 765.358C1790.09 699.474 1627.81 671.447 1514.29 704.704C1369.76 728.458 1299.8 757.385 1135.67 704.704C971.539 652.022 307.256 491.077 -14.8555 525.88C-15.1809 527.521 -14.8555 987.94 -14.8555 987.94H2161.59V889.934Z" fill="white"/>
     </symbol>
 
-
     <symbol id="normal" width="100%">
         <use x="0" y="-300" width="100%" href="#curve2"/>
         <use x="0" y="-250" width="100%" href="#curve1"/>
         <use x="0" y="100" width="100%" href="#curve3"/>
     </symbol>
 
-     <!-- <symbol id="normal" width="100%">
-        <use x="0" y="100" width="100%" href="#curve2"/>
-        <use x="0" y="150" width="100%" href="#curve1"/>
-        <use x="0" y="480" width="100%" href="#curve3"/>
-    </symbol> -->
     <use href="#normal"/>
 </svg>

@@ -17,7 +17,7 @@ preludes:
       
       
       We blend teams with our clients, providing anywhere between one developer or an entire start-up technology team, including acting CTO.
-    imageUrl: "/img/skate.jpg"
+    imageUrl: "/img/shapes/people.svg"
 
   - heading: "Clients"
     moreLink: "/clients"
@@ -27,7 +27,7 @@ preludes:
 
       They want to get to market rapidly and iteratively and are looking for an experienced, affordable start-up technology partner who can build or extend their product quickly and sustainably.
       
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/shapes/clients.svg"
 
   - heading: "Values"
     moreLink: "/values"
@@ -38,7 +38,7 @@ preludes:
       They are most useful to help remind us when we go off track, and to help filter [the people](/people) and [the clients](/clients) we choose to work with.
        
 
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/shapes/values.svg"
 
   - heading: "Process"
     moreLink: "/process"
@@ -53,7 +53,7 @@ preludes:
 
       4. Amplify
       
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/shapes/process.svg"
   - heading: "Tools & Techniques"
     moreLink: "/tools"
     text: >
