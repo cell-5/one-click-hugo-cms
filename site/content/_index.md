@@ -44,19 +44,12 @@ preludes:
     moreLink: "/process"
     text: >
       At a high level an engagement with us follows a simple 4 step process:
-
-      1. Establish Fit & Agree Mission
-
-      2. Blend a Team
-
-      3. Execute
-
-      4. Amplify
-      
+    
+    imageUrl0: "/img/shapes/process-main.svg"
     imageUrl: "/img/shapes/process.svg"
   - heading: "Tools & Techniques"
     moreLink: "/tools"
     text: >
       Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
-    imageUrl: "/img/long-term-value-2.jpg"  
+    imageUrl: "/img/shapes/tools.svg"  
 ---
