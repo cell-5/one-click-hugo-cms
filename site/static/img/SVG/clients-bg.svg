@@ -1,0 +1,21 @@
+<!-- <svg width="1920" height="559" viewBox="0 0 1920 559" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 831">
+        <defs>
+            <linearGradient id="linear-gradient" x1="0.451" y1="0.857" x2="0.5" y2="0.319" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ede3fc"/>
+            <stop offset="1" stop-color="#f6f0fd" stop-opacity="0.078"/>
+            </linearGradient>
+        </defs>
+        <symbol id="bg" width="1920" height="831" viewBox="0 0 1920 831">
+            <rect id="Rectangle_16" data-name="Rectangle 16" width="1920" height="831" fill="url(#linear-gradient)"/>
+        </symbol>
+        <symbol id="wave" width="1920" height="559" viewBox="0 0 1920 559">
+            <path x="0" y="272" d="M2445.12 440.965C2445.12 440.965 2320.86 419.313 2121.3 292.178C2001.85 213.489 1808.22 180.016 1672.77 219.735C1500.33 248.106 1416.85 282.655 1221.02 219.735C1025.18 156.815 232.581 -35.4093 -151.756 6.15648C-152.145 8.11669 -151.756 558.017 -151.756 558.017H2445.12V440.965Z" fill="white"/>
+        </symbol>
+        <symbol id="full">
+            <use x="0" y="0" href="#bg"/>
+            <use x="0" y="521" href="#wave"/>
+        </symbol>
+        <use href="#full" width="100%" height="100%"/>
+    </svg>
+<!-- </svg> -->

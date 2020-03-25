@@ -1,17 +1,22 @@
-<div class="flex-m mhn3-m mb4">
-  <div class="ph3-m w-50-m order-last-m">
-    <h3 class="head-black">{{.heading}}</h3>
-    <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
-    {{if .imageUrl0}}
-    <img src="{{.imageUrl0}}" alt="" />
-    {{end}}
-    {{ if .moreLink }}
-    <button class="eclipse-btn bg-bv text-18-22">
-      Read more
-    </button>
-    {{ end }}
+<div class="top-30vw">
+  <div class="flex-m mhn3-m mb4">
+    <div class="ph6-m w-50-m order-last-m">
+      <h3 class="head-black">{{.heading}}</h3>
+      <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
+      {{if .imageUrl0}}
+      <img src="{{.imageUrl0}}" alt="" class="z-max" />
+      {{end}}
+      {{ if .moreLink }}
+      <button class="eclipse-btn bg-bv text-18-22 z-max">
+        Read more
+      </button>
+      {{ end }}
+    </div>
+    <div class="ph6-m w-50-m">
+      <img src="{{.imageUrl}}" alt="" class="db mb2 z-max">
+    </div>
   </div>
-  <div class="ph3-m w-50-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
-  </div>
+  {{if .backgroundImg}}
+  <img src="{{.backgroundImg}}" class="rel-top-neg-30vw " />
+  {{end}}
 </div>

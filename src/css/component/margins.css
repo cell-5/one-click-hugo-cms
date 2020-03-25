@@ -8,10 +8,20 @@
     margin-bottom: 30px;
 }
 
-.top-50{
-    margin-top: 50px;
+.line-spacing-5vw{
+    margin-top: 5vw;
+    margin-bottom: vw;
+}
+
+.top-10{
+    margin-top: 10vw;
+}
+
+.top-30vw{
+    margin-top: 30vw;
 }
 
 .top-120{
     margin-top: 120px;
 }
+

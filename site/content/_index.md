@@ -28,6 +28,7 @@ preludes:
       They want to get to market rapidly and iteratively and are looking for an experienced, affordable start-up technology partner who can build or extend their product quickly and sustainably.
       
     imageUrl: "/img/SVG/clients.svg"
+    backgroundImg: "/img/SVG/clients-bg.svg"
 
   - heading: "Values"
     moreLink: "/values"
@@ -51,5 +52,6 @@ preludes:
     moreLink: "/tools"
     text: >
       Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
-    imageUrl: "/img/SVG/tools.svg"  
+    imageUrl: "/img/SVG/tools.svg"
+    backgroundImg: "/img/SVG/tools-bg.svg"
 ---

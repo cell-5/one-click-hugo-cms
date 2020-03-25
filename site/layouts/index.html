@@ -2,9 +2,11 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+<div class="rel-top-neg-72vw">
+  {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+</div>
 <div class="w-100 bg-white rel-top-neg-45vw pv3">
-  <div class="mw9 center ph3 pt4">
+  <div class="center">
 
     {{ range $index, $element := .Params.preludes }}
     {{ if modBool $index 2 }}
@@ -16,7 +18,8 @@
 
   </div>
 </div>
+<!-- <img src="/img/SVG/FOOTER.svg" /> -->
 
-<!-- {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }} -->
+{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
 
 {{ end }}
