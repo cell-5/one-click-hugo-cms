@@ -1,9 +1,35 @@
 <footer class="bg-black ph3 pv4 white">
+	<div class="nav-bar z-max">
+		<div class="nav-container">
+			<div class="brand">
+				<a href="/">
+					<img src="/img/cell5/cell-5-logo-58x60.png" alt="Cell 5 logo" style="float: left;" />
+				</a>
+			</div>
+			<nav>
+				<ul class="nav-list">
+					<li><a href="/people">People</a></li>
 
-	<div class="mw7 center pt3">
+					<li><a href="/clients">Clients</a></li>
 
+					<li><a href="/values">Values</a></li>
+
+					<li><a href="/process">Process</a></li>
+
+					<li><a href="/tools">Tools</a></li>
+				</ul>
+				<ul class="nav-list" style="float: right;">
+					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}</li>
+					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}</li>
+					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}</li>
+					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	<!-- <div class="mw7 center pt3">
 		<div class="flex-ns justify-between">
-
 			<div>
 				<h3 class="f4 b lh-title mb1 primary"></h3>
 				<ul class="mb3">
@@ -16,7 +42,6 @@
 		
 				</ul>
 			</div>
-
 			<div>
 				<h3 class="f4 b lh-title mb1 primary"></h3>
 				<ul class="mhn2">
@@ -26,9 +51,8 @@
 					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}</li>
 				</ul>
 			</div>
-
 		</div>
-	</div>
+	</div> -->
 
 </footer>
 
