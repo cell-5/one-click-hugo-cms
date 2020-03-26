@@ -13,6 +13,10 @@
 }
 
 /*relative positions*/
+.rel-top-51vw{
+    position: relative;
+    top: 51vw;
+}
 
 .rel-top-30vw{
     position: relative;
@@ -29,9 +33,19 @@
     top: -45vw;
 }
 
+.rel-top-neg-55vw{
+    position: relative;
+    top: -55vw;
+}
+
 .rel-top-neg-72vw{
     position: relative;
     top: -72vw;
+}
+
+.rel-top-neg-238vw{
+    position: relative;
+    top: -238vw;
 }
 
 .rel-top-neg-238vw{

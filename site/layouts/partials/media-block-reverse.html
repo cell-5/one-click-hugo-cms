@@ -1,10 +1,18 @@
 <div class="top-30vw">
-  <div class="flex-m mhn3-m mb4">
-    <div class="ph6-m w-50-m order-last-m">
-      <h3 class="head-black">{{.heading}}</h3>
-      <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
-      {{if .imageUrl0}}
-      <img src="{{.imageUrl0}}" alt="" class="z-max" />
+  <div class="flex-m mhn3-m mb4 ">
+    <div class="ph6-m w-50-m order-last-m relative z-1">
+      <h3 class="head-black {{.additionalCss}}">{{.heading}}</h3>
+      <div class="body-black pt4 pb3 {{.additionalCss}}">{{.text | markdownify }}</div>
+      {{if .details}}
+      <div id="process-buttons" class="process-main">
+        <div class="btn-group">
+          {{ range $index, $element := .details }}
+          <button id={{.id}} class="btn-grp-child" onclick='handleClickProcess("{{.id}}", "{{.content | jsonify }}")'>
+            {{.name}}
+          </button>
+          {{end}}
+        </div>
+      </div>
       {{end}}
       {{ if .moreLink }}
       <button class="eclipse-btn bg-bv text-18-22 z-max">
@@ -12,11 +20,28 @@
       </button>
       {{ end }}
     </div>
-    <div class="ph6-m w-50-m">
-      <img src="{{.imageUrl}}" alt="" class="db mb2 z-max">
+    <div class="ph6-m w-50-m relative z-1">
+      {{if .details}}
+      <div id="process-deatils" class="process-details">
+        <img src="{{.imageUrl}}" width="100%" height="auto" />
+      </div>
+      {{else}}
+      <img src="{{.imageUrl}}" alt="" class="db mb2 z-max" />
+      {{end}}
+
     </div>
   </div>
   {{if .backgroundImg}}
-  <img src="{{.backgroundImg}}" class="rel-top-neg-30vw " />
+  <img src="{{.backgroundImg}}" class="{{.bgcss}}" />
   {{end}}
+  <script>
+    var value = "test";
+    function handleClickProcess(id, content) {
+      console.log("content: ", JSON.parse(content));
+      var btns = document.getElementById("process-buttons").getElementsByTagName("*");
+      for (var i = 1; i < btns.length; i++) {
+        document.getElementById(btns[i].id).disabled = (btns[i].id === id);
+      }
+    };
+  </script>
 </div>

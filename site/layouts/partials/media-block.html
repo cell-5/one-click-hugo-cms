@@ -1,4 +1,4 @@
-<div class="flex-m mhn3-m mb4">
+<div class="flex-m mhn3-m mb4 relative z-1">
   <div class="ph6-m w-50-m">
     <h3 class="head-black">{{.heading}}</h3>
     <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
@@ -13,5 +13,5 @@
   </div>
 </div>
 {{if .backgroundImg}}
-<img src="{{.backgroundImg}}" class="rel-top-30vw" />
+<img src="{{.backgroundImg}}" class="{{.bgcss}}" />
 {{end}}

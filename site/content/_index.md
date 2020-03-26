@@ -29,6 +29,7 @@ preludes:
       
     imageUrl: "/img/SVG/clients.svg"
     backgroundImg: "/img/SVG/clients-bg.svg"
+    bgcss: "rel-top-neg-30vw"
 
   - heading: "Values"
     moreLink: "/values"
@@ -45,13 +46,31 @@ preludes:
     moreLink: "/process"
     text: >
       At a high level an engagement with us follows a simple 4 step process:
+    additionalCss: "color-white"
+    details:
+      - name: Establish Fit & Agree Mission
+        id: process-1
+        content:
+          - title: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
+            subText:
+            - textDetail: Are we trying to build a product that delivers lasting value?
+            - textDetail: Can we realistically deliver what is needed?
+            - textDetail: Are we ready to execute?
+      - name: Blend a Team
+        id: process-2
+      - name: Execute
+        id: process-3 
+      - name: Amplify
+        id: process-4
     
-    imageUrl0: "/img/SVG/process-main.svg"
+    backgroundImg: "/img/SVG/process-bg.svg"
+    bgcss: "rel-top-neg-55vw"
     imageUrl: "/img/SVG/process.svg"
   - heading: "Tools & Techniques"
     moreLink: "/tools"
     text: >
       Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
     imageUrl: "/img/SVG/tools.svg"
-    backgroundImg: "/img/SVG/tools-bg.svg"
+    backgroundImg: "/img/SVG/FOOTER.svg"
+    bgcss: "rel-top-51vw"
 ---
