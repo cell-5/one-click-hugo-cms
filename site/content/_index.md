@@ -18,6 +18,8 @@ preludes:
       
       We blend teams with our clients, providing anywhere between one developer or an entire start-up technology team, including acting CTO.
     imageUrl: "/img/SVG/people.svg"
+    # backgroundImg: "/img/SVG/groupCurve1.svg"
+
 
   - heading: "Clients"
     moreLink: "/clients"
@@ -29,7 +31,7 @@ preludes:
       
     imageUrl: "/img/SVG/clients.svg"
     backgroundImg: "/img/SVG/clients-bg.svg"
-    bgcss: "rel-top-neg-30vw"
+    bgcss: "rel-top-30vw"
 
   - heading: "Values"
     moreLink: "/values"
@@ -64,7 +66,7 @@ preludes:
         id: process-4
     
     backgroundImg: "/img/SVG/process-bg.svg"
-    bgcss: "rel-top-neg-55vw"
+    bgcss: "rel-top-55vw"
     imageUrl: "/img/SVG/process.svg"
   - heading: "Tools & Techniques"
     moreLink: "/tools"
