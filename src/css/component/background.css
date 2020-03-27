@@ -2,7 +2,6 @@
     background: linear-gradient(133.09deg, #D623E9 -64.47%, #7021E9 98.59%);
     /* background-image: url("/img/SVG/HomPageBG.svg"); */
     width: 100%;
-    height: 100%;
 }
 
 .bg-white{
@@ -11,4 +10,9 @@
 
 .bg-bv{
     background: #4B4AA1;
+}
+
+
+.home-bg{
+    background: url("/img/SVG/HomPageBG.svg") no-repeat center center fixed;
 }

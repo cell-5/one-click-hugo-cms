@@ -18,6 +18,7 @@ preludes:
       
       We blend teams with our clients, providing anywhere between one developer or an entire start-up technology team, including acting CTO.
     imageUrl: "/img/SVG/people.svg"
+    backgroundImg: "/img/SVG/clients-bg.svg"
 
   - heading: "Clients"
     moreLink: "/clients"
@@ -28,8 +29,7 @@ preludes:
       They want to get to market rapidly and iteratively and are looking for an experienced, affordable start-up technology partner who can build or extend their product quickly and sustainably.
       
     imageUrl: "/img/SVG/clients.svg"
-    backgroundImg: "/img/SVG/clients-bg.svg"
-    bgcss: "rel-top-neg-30vw"
+    bgcss: "rel-top-neg-50vw"
 
   - heading: "Values"
     moreLink: "/values"
@@ -41,6 +41,7 @@ preludes:
        
 
     imageUrl: "/img/SVG/values.svg"
+    backgroundImg: "/img/SVG/process-bg.svg"
 
   - heading: "Process"
     moreLink: "/process"
@@ -63,14 +64,12 @@ preludes:
       - name: Amplify
         id: process-4
     
-    backgroundImg: "/img/SVG/process-bg.svg"
-    bgcss: "rel-top-neg-55vw"
+    
+    bgcss: "rel-top-neg-75vw"
     imageUrl: "/img/SVG/process.svg"
   - heading: "Tools & Techniques"
     moreLink: "/tools"
     text: >
       Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
     imageUrl: "/img/SVG/tools.svg"
-    backgroundImg: "/img/SVG/FOOTER.svg"
-    bgcss: "rel-top-51vw"
 ---

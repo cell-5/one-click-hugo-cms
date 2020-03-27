@@ -1,25 +1,32 @@
 {{ define "main" }}
+<div style="position: relative;">
+  <div class="bg-home">
+    {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+    {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-<div class="rel-top-neg-72vw">
-  {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
-</div>
-<div class="w-100 bg-white rel-top-neg-45vw pv3">
-  <div class="center">
-
-    {{ range $index, $element := .Params.preludes }}
-    {{ if modBool $index 2 }}
-    {{ partial "media-block" $element }}
-    {{ else }}
-    {{ partial "media-block-reverse" $element }}
-    {{ end }}
-    {{ end }}
-
+    <div style="margin-top: 10vw; position:  relative; z-index: 1;">
+      {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+    </div>
   </div>
+  <div class="w-100 bg-white pv7">
+    <div class="center">
+      {{ range $index, $element := .Params.preludes }}
+      {{ if modBool $index 2 }}
+      {{ partial "media-block" $element }}
+      {{ else }}
+      {{ partial "media-block-reverse" $element }}
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <div>
+    {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+  </div>
+  <img width="100%" class="img-1" src="/img/SVG/groupCurve1.svg" />
+  <img width="100%" class="img-2" src="/img/SVG/clients-bg.svg" />
+  <img width="100%" class="img-3" src="/img/SVG/process-bg.svg" />
+  <img width="100%" class="img-4" src="/img/SVG/FOOTER.svg" />
 </div>
-<!-- <img src="/img/SVG/FOOTER.svg" /> -->
-
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
-
 {{ end }}
