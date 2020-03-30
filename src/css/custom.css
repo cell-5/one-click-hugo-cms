@@ -39,3 +39,17 @@ body {
     height: auto !important; 
     width: 100% !important; 
 }
+
+
+.svg-container{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.svg-waves{
+  position: relative;
+  top: 5px;
+  width: 100%;
+}

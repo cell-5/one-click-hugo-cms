@@ -1,6 +1,3 @@
-{{if .backgroundImg}}
-<img src="{{.backgroundImg}}" class="{{.bgcss}}" />
-{{end}}
 <div class="flex-m mhn3-m mb4">
   <div class="ph6-m w-50-m order-last-m relative z-1">
     <h3 class="head-black {{.additionalCss}}">{{.heading}}</h3>
@@ -24,22 +21,11 @@
   </div>
   <div class="ph6-m w-50-m relative z-1">
     {{if .details}}
-    <div id="process-deatils" class="process-details">
-      <img src="{{.imageUrl}}" width="100%" height="auto" />
+    <div id="process-details" class="process-details">
+      <img src="{{.imageUrl}}" />
     </div>
     {{else}}
     <img src="{{.imageUrl}}" alt="" class="db mb2 z-max" />
     {{end}}
-
   </div>
 </div>
-<script>
-  var value = "test";
-  function handleClickProcess(id, content) {
-    console.log("content: ", JSON.parse(content));
-    var btns = document.getElementById("process-buttons").getElementsByTagName("*");
-    for (var i = 1; i < btns.length; i++) {
-      document.getElementById(btns[i].id).disabled = (btns[i].id === id);
-    }
-  };
-</script>

@@ -1,4 +1,4 @@
-<footer class="bg-black ph3 pv4 white">
+<footer class="bg-black ph3 white">
 	<div class="nav-bar z-max">
 		<div class="nav-container">
 			<div class="brand">
@@ -18,7 +18,7 @@
 
 					<li><a href="/tools">Tools</a></li>
 				</ul>
-				<ul class="nav-list" style="float: right;">
+				<ul style="float: right;">
 					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}</li>
 					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}</li>
 					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}</li>
@@ -27,33 +27,6 @@
 			</nav>
 		</div>
 	</div>
-
-	<!-- <div class="mw7 center pt3">
-		<div class="flex-ns justify-between">
-			<div>
-				<h3 class="f4 b lh-title mb1 primary"></h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/people" class="link">People</a></li>
-					<li><a href="/clients" class="link">Clients</a></li>
-					<li><a href="/values" class="link">Values</a></li>
-					<li><a href="/process" class="link">Process</a></li>
-					<li><a href="/tools" class="link">Tools</a></li>
-		
-				</ul>
-			</div>
-			<div>
-				<h3 class="f4 b lh-title mb1 primary"></h3>
-				<ul class="mhn2">
-					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}</li>
-					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}</li>
-					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}</li>
-					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}</li>
-				</ul>
-			</div>
-		</div>
-	</div> -->
-
 </footer>
 
 {{ partial "svg" . }}

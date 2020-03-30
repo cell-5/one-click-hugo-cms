@@ -1,24 +1,91 @@
 {{ define "main" }}
+<div>
+  <div class="bg-home">
+    {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+    {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-<div class="rel-top-neg-72vw">
-  {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
-</div>
-<div class="w-100 bg-white rel-top-neg-45vw pv6">
-  <div class="center">
-
-    {{ range $index, $element := .Params.preludes }}
-    {{ if modBool $index 2 }}
-    {{ partial "media-block" $element }}
-    {{ else }}
-    {{ partial "media-block-reverse" $element }}
-    {{ end }}
-    {{ end }}
-
+    <div class="svg-container black-section">
+      {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 466" class="svg-waves">
+        <path
+          d="M2161.59 368.934C2161.59 368.934 2057.46 350.805 1890.2 244.358C1790.09 178.474 1627.81 150.447 1514.29 183.704C1369.76 207.458 1299.8 236.385 1135.67 183.704C971.539 131.022 307.256 -29.9229 -14.8555 4.88024C-15.1809 6.52148 -14.8555 466.94 -14.8555 466.94H2161.59V368.934Z"
+          fill="white" />
+      </svg>
+    </div>
   </div>
+  <div class="w-100 bg-white">
+    <div class="center">
+      {{ range $index, $element := .Params.preludes }}
+      {{ if eq $index 3}}
+      <section class="black-section">
+        {{ partial "media-block-reverse" $element }}
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 550" class="svg-waves">
+          <g class="currentLayer">
+            <path fill="#A66BF0"
+              d="M2153.276 136.079s-182.86 9.26-326.95-43.28c-144.1-52.55-577.67 144.96-605.6 153.81-27.93 8.85-217.208 57.24-451.625 45.1-234.418-12.14-814.127 40.86-867.545 64.08 1.677.62 0 313.73 0 313.73h2251.72v-533.44z"
+              opacity=".24" />
+            <path fill="#8C3CEC"
+              d="M2154.376 19.009s-247.33-73.635-441.58 75.98c-194.25 149.61-385.22 137.81-533.94 113.5-148.711-24.32-455.995-46.67-808.23 179.94-29.665 20.31-349.784 66.19-468.977 46.09-.21-.5 0 195.67 0 195.67h2252.727V19.009z"
+              opacity=".123" />
+            <path fill="#fff"
+              d="M2083.556 811.959v-652.08c-50.31-58.19-208.02-131.96-436.34 38.51-285.41 213.08-546.11 184.84-900.126 146.33-354.012-38.51-644.907 156.6-771.144 219.5-100.99 50.32-397.005 50.92-532.39 44.93v202.81h2640z" />
+          </g>
+        </svg>
+      </section>
+      {{ else if eq $index 2}}
+      <section>
+        <div class="pv7">
+          {{ partial "media-block" $element }}
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 350" class="svg-waves">
+          <path
+            d="M-111 349.614C-111 349.614 -12.4079 332.435 145.937 231.562C240.718 169.128 394.35 142.569 501.826 174.084C638.653 196.594 704.892 224.007 860.278 174.084C1015.66 124.161 1644.56 -28.356 1949.51 4.62468C1949.82 6.17998 1949.51 966.556 1949.51 966.556H-111V349.614Z"
+            fill="#25272E" id="Path_371" />
+        </svg>
+      </section>
+      {{ else if eq $index 1}}
+      <section class="client-section pt7">
+        <div class="relative top-50">
+          {{ partial "media-block-reverse" $element }}
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 555" class="svg-waves">
+          <path
+            d="M2445.12 440.965s-124.26-21.652-323.82-148.787c-119.45-78.689-313.08-112.162-448.53-72.443-172.44 28.371-255.92 62.92-451.75 0C1025.18 156.815 232.581-35.409-151.756 6.156c-.389 1.96 0 551.861 0 551.861H2445.12V440.965z"
+            fill="#fff" id="Path_592" />
+        </svg>
+      </section>
+      {{ else }}
+      <section class="pv7">
+        {{ partial "media-block" $element }}
+      </section>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <div class="footer-bg">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 550">
+      <path fill="#fff" fill-opacity=".24"
+        d="M-369.999-400.126l6.57 796.33c191.708-1.59 361.906 70.75 502.122 84.34 140.217 13.59 265.565 12.56 669.704-160.38 404.143-172.93 994.073-170.42 1252.323-150.43 206.6 15.99 822.9-63.32 1105.22-104.98l-4.07-494.02-3531.869 29.14z"
+        opacity=".3" />
+      <path fill="#fff"
+        d="M-1065 546.284s291.245-14.76 520.748 68.91c229.503 83.68 920.067-230.84 964.546-244.93 44.48-14.1 345.948-91.16 719.306-71.83 373.36 19.33 1296.67-65.07 1381.75-102.04-2.67-.99 0-499.62 0-499.62H-1065v849.51z"
+        opacity=".3" />
+      <path fill="#fff"
+        d="M-115.67 340.284s310.455 86.67 554.285-89.42c243.83-176.1 483.539-162.22 670.215-133.6 186.67 28.62 572.38 54.93 1014.52-211.79 37.23-23.91 439.06-77.9 588.67-54.25.27.6 0-230.31 0-230.31H-115.67v719.37z" />
+    </svg>
+    {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+  </div>
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 </div>
-
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
-
+<script>
+  var value = "test";
+  function handleClickProcess(id, content) {
+    console.log("content: ", JSON.parse(content));
+    var btns = document.getElementById("process-buttons").getElementsByTagName("*");
+    for (var i = 1; i < btns.length; i++) {
+      document.getElementById(btns[i].id).disabled = (btns[i].id === id);
+    }
+  };
+</script>
 {{ end }}
