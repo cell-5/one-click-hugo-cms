@@ -20,13 +20,11 @@
         d="M2159.59 368.934s-104.13-18.129-271.39-124.576c-100.11-65.884-262.39-93.911-375.91-60.654-144.53 23.754-214.49 52.681-378.62 0C969.539 131.022 305.256-29.923-16.855 4.88c-.326 1.641 0 462.06 0 462.06H2159.59v-98.006z" />
     </svg>
   </div>
-  <div class="mw7 center ph3 pt4 clients">
+  <div class="mw9 center clients">
 
     {{ range $index, $element := .Params.clients }}
     {{ if modBool $index 2 }}
-    {{ partial "media-block" $element }}
-    {{ else }}
-    {{ partial "media-block-reverse" $element }}
+    {{ partial "single-media-block" $element }}
     {{ end }}
     {{ end }}
 

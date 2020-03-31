@@ -56,6 +56,14 @@
     color: #000000;
 }
 
+.head-purple{
+    font-weight: 800;
+    font-size: 3.125rem;
+    line-height: 3.8125rem;
+
+    color: #8E21E9;
+}
+
 .head-white{
     font-weight: 800;
     font-size: 3.125rem;

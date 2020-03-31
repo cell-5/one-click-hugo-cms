@@ -10,7 +10,7 @@ text: >
 
     We blend teams with our clients, providing anywhere between  one developer or an entire start-up technology team,  including acting CTO.
 
-    
+
 footer: >
     **For existing or previous clients, if you think we can do a better job of representing you, or if there is an opportunity to share value about our work together, we would love the chance to collaborate on that content! [Contact us](/contact)**
 clients:
@@ -23,7 +23,7 @@ clients:
       
       
       Today, our team is delivering features to hit important new milestones on their modern stack of [ReactJs](https://reactjs.org/), [MeteorJs](https://www.meteor.com/), [MongoDB](https://www.mongodb.com/) and [Python](https://www.python.org/) alongside their CTO Elliot.
-    imageUrl: "/img/clients/aphex-screenshot.jpg"
+    imageUrl: "/img/clients/aphex-screenshot-1.png"
 
   - heading: "Tendrr"
     text: >
@@ -35,7 +35,7 @@ clients:
       
       We automated deployment with [Github Actions](https://github.com/actions) and added some defence against bot attacks to their system. 
       
-    imageUrl: "/img/clients/tendrr-screenshot-2.jpg"
+    imageUrl: "/img/clients/tendrr-screenshot-2-1.jpg"
 
   - heading: "Carmella Terrana Agency"
     text: >
