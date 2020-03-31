@@ -29,7 +29,6 @@ preludes:
       They want to get to market rapidly and iteratively and are looking for an experienced, affordable start-up technology partner who can build or extend their product quickly and sustainably.
       
     imageUrl: "/img/SVG/clients.svg"
-    bgcss: "rel-top-neg-50vw"
 
   - heading: "Values"
     moreLink: "/values"
@@ -52,18 +51,51 @@ preludes:
       - name: Establish Fit & Agree Mission
         id: process-1
         content:
-          - title: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
+          - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
+            headTextCss: top-255
+            subTextCss: center-text
             subText:
             - textDetail: Are we trying to build a product that delivers lasting value?
             - textDetail: Can we realistically deliver what is needed?
             - textDetail: Are we ready to execute?
       - name: Blend a Team
         id: process-2
+        content:
+          - subTextCss: left-text
+            subText:
+            - textDetail: The recipe for success always starts with the right team. 
+            - textDetail: The roles a team need vary based on the project, and on what skills our client brings to the table.
+            - textDetail: Our people are mostly skilled adaptable generalists, each having their own specialities and strengths. We can deliver a good job across most aspects of the project.
+            - textDetail: That said, it is important to make sure we have the right mix of business skills, technical skills and specialist skills to succeed. If we need to call in specialist expertise to deliver we will let you know.
       - name: Execute
-        id: process-3 
+        id: process-3
+        content:
+          - headText: > 
+              When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery. 
+
+
+              That said we do stick to these common practises:
+
+
+            headTextCss: top-230
+            subTextCss: left-text
+            subText:
+            - textDetail: Get something delivered and released early and often. ( Devops inspired )
+            - textDetail: Have a single project heart-beat meeting, either weekly or fortnighthly. ( XP inspired )
+            - textDetail: Have a single team communication channel for the remote team.
+            - textDetail: Have a single project board to track progress, blockers and priotization.
+            - textDetail: Focus on finishing things, by limiting work in progress. ( kanban inspired )
+            - textDetail: Most important of all, to keep asking the team what is working, listening to their answers and adapting accordingly!
       - name: Amplify
         id: process-4
-    bgcss: "rel-top-neg-75vw"
+        content:
+          - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
+            headTextCss: top-230
+            subTextCss: center-text
+            subText:
+            - textDetail: Are we trying to build a product that delivers lasting value?
+            - textDetail: Can we realistically deliver what is needed?
+            - textDetail: Are we ready to execute?
     imageUrl: "/img/SVG/process.svg"
     
   - heading: "Tools & Techniques"

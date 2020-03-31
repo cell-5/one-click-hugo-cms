@@ -38,6 +38,10 @@
     text-align: center !important;
 }
 
+.left-text{
+    text-align: left !important;
+}
+
 /*Headers*/
 .head-black{
     font-weight: 800;

@@ -6,15 +6,18 @@
     width: 100%;
 }
 
-/*absolute position*/
-.abs-top-0{
-    position: absolute;
-    top: 0%;
-}
 
 /*relative positions*/
 .top-50{
     top: 50px;
+}
+
+.top-255{
+    top: 255px;
+}
+
+.top-230{
+    top: 230px;
 }
 
 .top-3vw{
@@ -29,203 +32,10 @@
     top: 8vw;
 }
 
-.top-20vw{
-    top: 20vw;
+.top-21vw{
+    top: 21vw;
 }
 
 .top-30vw{
     top: 30vw;
 }
-
-.rel-top-51vw{
-    position: relative;
-    top: 51vw;
-}
-
-.rel-top-5vw{
-    position: relative;
-    top: 5vw;
-}
-
-.rel-top-30vw{
-    position: relative;
-    top: 30vw;
-}
-
-.rel-top-neg-30vw{
-    position: relative;
-    top: -30vw;
-}
-
-.rel-top-neg-45vw{
-    position: relative;
-    top: -45vw;
-}
-
-.rel-top-neg-50vw{
-    position: relative;
-    top: -50vw;
-}
-
-.rel-top-neg-75vw{
-    position: relative;
-    top: -75vw;
-}
-
-.rel-top-neg-72vw{
-    position: relative;
-    top: -72vw;
-}
-
-.rel-top-neg-238vw{
-    position: relative;
-    top: -238vw;
-}
-
-.rel-top-neg-238vw{
-    position: relative;
-    top: -238vw;
-}
-
-.img-1{
-    position: absolute;
-    top: 9%;
-}
-
-.img-2{
-    position: absolute;
-    top: 65%;
-}
-
-
-.img-3{
-    position: absolute;
-    top: 66%;
-}
-
-.img-4{
-    position: absolute;
-    top: 70%;
-}
-
-
-@media (min-width: 600px) {
-    .img-1{
-        position: absolute;
-        top: 15%;
-    }
-
-    .img-2{
-        position: absolute;
-        top: 65%;
-    }
-
-
-    .img-3{
-        position: absolute;
-        top: 97%;
-    }
-
-    .img-4{
-        position: absolute;
-        top: 105%;
-    }
- 
-}
-
-@media (min-width: 768px) {
-    .img-1{
-        position: absolute;
-        top: 15%;
-    }
-
-    .img-2{
-        position: absolute;
-        top: 65%;
-    }
-
-
-    .img-3{
-        position: absolute;
-        top: 97%;
-    }
-
-    .img-4{
-        position: absolute;
-        top: 105%;
-    }
-  
-}
-
-@media (min-width: 992px) {
-    .img-1{
-        position: absolute;
-        top: 9%;
-    }
-
-    .img-2{
-        position: absolute;
-        top: 39%;
-    }
-
-    .img-3{
-        position: absolute;
-        top: 62%;
-    }
-
-    .img-4{
-        position: absolute;
-        top: 66%;
-    }
-  
-}
-
-@media (min-width: 1200px) {
-    .img-1{
-        position: absolute;
-        top: 9%;
-    }
-
-    .img-2{
-        position: absolute;
-        top: 39%;
-    }
-
-    .img-3{
-        position: absolute;
-        top: 62%;
-    }
-
-    .img-4{
-        position: absolute;
-        top: 66%;
-    }
-  
-}
-
-@media (min-width: 1800px) {
-    .img-1{
-        position: absolute;
-        top: 9%;
-    }
-
-    .img-2{
-        position: absolute;
-        top: 39%;
-    }
-
-    .img-3{
-        position: absolute;
-        top: 62%;
-    }
-
-    .img-4{
-        position: absolute;
-        top: 66%;
-    }
-  
-}
-
-
-
-

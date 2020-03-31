@@ -17,10 +17,14 @@
   <div class="w-100 bg-white">
     <div class="center">
       {{ range $index, $element := .Params.preludes }}
-      {{ if eq $index 3}}
+      {{ if eq $index 4}}
+      <section class="pv7 mt6">
+        {{ partial "media-block" $element }}
+      </section>
+      {{ else if eq $index 3}}
       <section class="black-section">
         {{ partial "media-block-reverse" $element }}
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 550" class="svg-waves">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 600" class="svg-waves">
           <g class="currentLayer">
             <path fill="#A66BF0"
               d="M2153.276 136.079s-182.86 9.26-326.95-43.28c-144.1-52.55-577.67 144.96-605.6 153.81-27.93 8.85-217.208 57.24-451.625 45.1-234.418-12.14-814.127 40.86-867.545 64.08 1.677.62 0 313.73 0 313.73h2251.72v-533.44z"
@@ -79,12 +83,25 @@
   {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 </div>
 <script>
-  var value = "test";
-  function handleClickProcess(id, content) {
-    console.log("content: ", JSON.parse(content));
+  window.onload = (event) => {
+    console.log("initializing");
+    document.getElementById("process-1-btn").disabled = true;
+  };
+
+  function handleClickProcess(id) {
+    console.log("id: ", id);
     var btns = document.getElementById("process-buttons").getElementsByTagName("*");
+    var divs = document.getElementById("details-data").getElementsByTagName("div");
+
     for (var i = 1; i < btns.length; i++) {
-      document.getElementById(btns[i].id).disabled = (btns[i].id === id);
+      let btnId = btns[i].id;
+      let divId = btnId.slice(0, 9);
+      document.getElementById(btnId).disabled = (btnId === (id + "-btn"));
+      if (divs[divId].id !== id) {
+        document.getElementById(divs[divId].id).style.visibility = "hidden";
+      } else {
+        document.getElementById(divs[divId].id).style.visibility = "visible";
+      }
     }
   };
 </script>
