@@ -6,7 +6,9 @@
     {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
     <div class="svg-container black-section">
-      {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+      <div class="pv3 wide-text-bold">
+        {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 466" class="svg-waves">
         <path
           d="M2161.59 368.934C2161.59 368.934 2057.46 350.805 1890.2 244.358C1790.09 178.474 1627.81 150.447 1514.29 183.704C1369.76 207.458 1299.8 236.385 1135.67 183.704C971.539 131.022 307.256 -29.9229 -14.8555 4.88024C-15.1809 6.52148 -14.8555 466.94 -14.8555 466.94H2161.59V368.934Z"
@@ -78,9 +80,11 @@
       <path fill="#fff"
         d="M-115.67 340.284s310.455 86.67 554.285-89.42c243.83-176.1 483.539-162.22 670.215-133.6 186.67 28.62 572.38 54.93 1014.52-211.79 37.23-23.91 439.06-77.9 588.67-54.25.27.6 0-230.31 0-230.31H-115.67v719.37z" />
     </svg>
-    {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+    <div class="pv3 wide-text-bold">
+      {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+    </div>
   </div>
-  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
 </div>
 <script>
   window.onload = (event) => {

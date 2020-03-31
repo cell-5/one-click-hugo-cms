@@ -16,6 +16,10 @@
 
 
 /*relative positions*/
+.top-0{
+    top: 0;
+}
+
 .top-50{
     top: 50px;
 }
