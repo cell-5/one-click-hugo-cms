@@ -18,7 +18,6 @@ preludes:
       
       We blend teams with our clients, providing anywhere between one developer or an entire start-up technology team, including acting CTO.
     imageUrl: "/img/SVG/people.svg"
-    backgroundImg: "/img/SVG/clients-bg.svg"
 
   - heading: "Clients"
     moreLink: "/clients"
@@ -90,7 +89,7 @@ preludes:
         id: process-4
         content:
           - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
-            headTextCss: top-230
+            headTextCss: top-255
             subTextCss: center-text
             subText:
             - textDetail: Are we trying to build a product that delivers lasting value?

@@ -7,6 +7,14 @@
 }
 
 
+.ecclipse-svg{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+}
+
+
 /*relative positions*/
 .top-50{
     top: 50px;
