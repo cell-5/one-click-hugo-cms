@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "People"
 image: /img/figures.jpeg
 text: >
     **Open Roles:** We are currently looking for **two web developers**, a **web designer** and a **social media marketing manager** to join our team. [Apply Now](/contact).

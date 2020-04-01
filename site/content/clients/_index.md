@@ -2,7 +2,7 @@
 title: "Clients"
 image: /img/clients.jpg
 text: >
-    We are currently [7 people](/people), in a distributed remote team,  supported by an extensive freelance network.
+    We are currently [**7 people**](/people), in a distributed remote team,  supported by an extensive freelance network.
 
 
     We have experience delivering start-up products from scratch,  and supporting them through launches, pivots and scale-ups.

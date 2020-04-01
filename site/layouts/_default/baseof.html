@@ -5,6 +5,9 @@
 <body>
   <div id="root">
     <div class="container bg-white">
+      <div class="absolute top-0 w-100">
+        {{ block "header" . }}{{ partial "nav" . }}{{end}}
+      </div>
 
       {{ block "main" . }}{{ end }}
 

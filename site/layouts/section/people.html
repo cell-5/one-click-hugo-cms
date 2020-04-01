@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+{{ partial "custom-header-bg" . }}
+{{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
 
 <div class="mw7 center ph3 pt4 people">
 
@@ -13,7 +14,9 @@
   {{ end }}
 
 </div>
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+<div class="lh-1 color-white">
+  {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
+</div>
 
 
 {{ end }}
