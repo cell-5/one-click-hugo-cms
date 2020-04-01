@@ -3,10 +3,13 @@
     background: transparent;
     z-index: 1;
 }
- 
-.brand {
-    padding-top: 20px;
+
+.nav-bar-socmed {
+    height: auto;
+    background: transparent;
+    z-index: 1;
 }
+ 
 .brand a img {
 	max-height: 85px;
 }
@@ -18,7 +21,7 @@
  
 .nav-container {
     max-width: calc(100% - 100px);
-    margin: 0 auto;
+    margin: 20px auto;
 }
  
 nav {
