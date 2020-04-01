@@ -85,3 +85,16 @@
 .color-white{
     color: #FFFFFF !important;
 }
+
+.color-db{
+    color: #4B4AA1;
+}
+
+/*line-height*/
+.lh-1{
+    line-height: 1.25rem;
+}
+
+.lh-2{
+    line-height: 1.5rem;
+}

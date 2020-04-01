@@ -16,10 +16,6 @@
 
 
 /*relative positions*/
-.top-0{
-    top: 0;
-}
-
 .top-50{
     top: 50px;
 }
@@ -42,6 +38,10 @@
 
 .top-8vw{
     top: 8vw;
+}
+
+.top-10vw{
+    top: 10vw;
 }
 
 .top-21vw{
