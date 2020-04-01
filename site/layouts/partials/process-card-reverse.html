@@ -1,0 +1,9 @@
+<div class="card-container br-tr-100">
+    {{if .imageUrl}}
+    <div class="center-horizantal">
+        <img src="{{.imageUrl}}" />
+    </div>
+    {{ end }}
+    <div class="f4 b color-black lh-2 center-text">{{ .heading }}</div>
+    <div class="lh-title left-text">{{ .text | markdownify }}</div>
+</div>

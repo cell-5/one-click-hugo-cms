@@ -18,7 +18,7 @@ process:
       
       
       3. Are we ready to execute?
-    imageUrl: "/img/skate.jpg"
+    imageUrl: "/img/SVG/process/process-1.svg"
 
   - heading: "2. Blend a Team"
     text: >          
@@ -34,7 +34,7 @@ process:
       That said, it is important to make sure we have the right mix of business skills, technical skills and specialist skills to succeed. If we need to call in specialist expertise to deliver we will let you know.
       
       
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/SVG/process/process-2.svg"
 
   - heading: "3. Execute"
     text: >
@@ -58,7 +58,7 @@ process:
 
       **Most important of all, to keep asking the team what is working, listening to their answers and adapting accordingly!**
 
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/SVG/process/process-3.svg"
 
   - heading: "4. Amplify"
     text: >
@@ -72,5 +72,5 @@ process:
       
       
       We do not consider a task or engagement complete, until we have amplified the value to its full potential. 
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/SVG/process/process-4.svg"
 ---

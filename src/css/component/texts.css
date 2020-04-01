@@ -82,6 +82,10 @@
 
 
 /*color*/
+.color-black{
+    color: #000000 !important;
+}
+
 .color-white{
     color: #FFFFFF !important;
 }
@@ -90,11 +94,22 @@
     color: #4B4AA1;
 }
 
+/*font-size*/
+.cfs-1{
+    font-size: 1.875rem;
+}
+
 /*line-height*/
 .lh-1{
     line-height: 2.1875rem;
 }
 
 .lh-2{
+    line-height: 2.3125rem;
+}
+
+.lh-3{
     line-height: 3.8125rem;
 }
+
+
