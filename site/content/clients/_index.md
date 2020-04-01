@@ -15,10 +15,9 @@ footer: >
     **For existing or previous clients, if you think we can do a better job of representing you, or if there is an opportunity to share value about our work together, we would love the chance to collaborate on that content! [Contact us](/contact)**
 clients:
   - heading: "Aphex"
+    moreLink: "https://www.aphex.co/"
+    description: "Aphex deliver construction success through innovative planning software."
     text: >
-      [Aphex](https://www.aphex.co/) deliver construction success through innovative planning software. 
-      
-      
       We earned their trust by helping them setup [BuildKite](http://buildkite.com/) on [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/) to streamline deployments.
       
       
@@ -26,22 +25,20 @@ clients:
     imageUrl: "/img/clients/aphex-screenshot-1.png"
 
   - heading: "Tendrr"
+    moreLink: "https://tendrr.co/"
+    description: "Tendrr are passionate about sailing and are opening up opportunities to connect boat owners with more sailors to get them out on the water."
     text: >
-      [Tendrr](https://tendrr.co/) are passionate about sailing and are opening up opportunities to connect boat owners with more sailors to get them out on the water.
-      
-      
       They had a working prototype and big plans for the product. We helped them translate their vision into a delivery plan using collaborative rapid-prototyping in [Figma](https://www.figma.com) and worked closely in a single [Slack](https://slack.com) and [Trello](https://trello.com/) board. 
       
       
       We automated deployment with [Github Actions](https://github.com/actions) and added some defence against bot attacks to their system. 
       
-    imageUrl: "/img/clients/tendrr-screenshot-2-1.jpg"
+    imageUrl: "/img/clients/tendrr-screenshot-2.jpg"
 
   - heading: "Carmella Terrana Agency"
+    moreLink: "http://www.ctagencyltd.co.uk/"
+    description: Carmella Terrana Agency is a UK wide Event Staffing Agency. They reached out to us after a referral.
     text: >
-      [Carmella Terrana Agency](http://www.ctagencyltd.co.uk/) is a UK wide Event Staffing Agency. They reached out to us after a referral. 
-      
-      
       Carmella asked us to design and develop their new website, and build a staff registration, search and management platform.
       
       
@@ -50,10 +47,9 @@ clients:
     imageUrl: "/img/clients/cta-screenshot.jpg"
 
   - heading: "good2rent"
+    moreLink: "https://www.good2rent.co.uk/"
+    description: "good2rent are automating tenant referencing and pioneered rental passporting."
     text: >
-      [good2rent](https://www.good2rent.co.uk/) are automating tenant referencing and pioneered rental passporting. 
-      
-
       We approached them by bidding for a fixed scope short term project, that resulted in us being hired for a two year engagement across their product suite.
       
       
@@ -67,44 +63,39 @@ clients:
     imageUrl: "/img/clients/good2rent-screenshot-2.jpg"
 
   - heading: "White Spider Media"
+    moreLink: "https://www.whitespidermedia.com/"
+    description: "White Spider Media are a digital media, planning and buying agency."
     text: >  
-      [White Spider Media](https://www.whitespidermedia.com/) are a digital media, planning and buying agency. 
-      
-      
       They wanted a new unique website and ongoing professional hosting and technical support. 
       
       We use our preferred static hosting at [netlify](https://www.netlify.com/) for this along with  [NUXT](https://nuxtjs.org/) for the [JAMStack](https://jamstack.org/).
     imageUrl: "/img/clients/wsm.gif"
 
   - heading: "myVal"
+    moreLink: "https://myval.co.uk/"
+    description: "myVal is a tool for estate agents that supports valuations of properties in the UK."
     text: >
-      [myVal](https://myval.co.uk/) is a tool for estate agents that supports valuations of properties in the UK. 
-      
-      
       We worked with the team at Proptek to improve it, add numerous features over 18 months, and consoldated its deployments. It is mostly built in Laravel, but has some [SpringBoot](https://spring.io/projects/spring-boot) java, and python microservices. 
     imageUrl: "/img/clients/myval-screenshot-2.jpg"
 
   - heading: "Mark Ellwood"
+    moreLink: "https://www.mark-ellwood.com/"
+    description: "Mark is a frequent television host, contributor, editor and travel expert, who contacted us after we were recommended."
     text: >
-      [Mark](https://www.mark-ellwood.com/) is a frequent television host, contributor, editor and travel expert, who contacted us after we were recommended. 
-      
-      
       He wanted a clean, bold, personal website focused on his content which we delivered quickly. 
     imageUrl: "/img/clients/mark-ellwood.gif"
 
   - heading: "Melissa Twigg"
+    moreLink: "http://melissatwigg.co.uk/#/portfolio"
+    description: Melissa is a London based freelance journalist via referral.
     text: >
-      [Melissa](http://melissatwigg.co.uk/#/portfolio) is a London based freelance journalist via referral. 
-      
-      
       She came to us because she wanted to put her portfolio front and center of her website and have an easy way to keep it up-to-date, which we delivered and host.
     imageUrl: "/img/clients/mtwigg-screenshot-2.jpg"
 
   - heading: "Portland Decorating"
+    moreLink: "http://portlanddecorating.co.uk/"
+    description: "Portland had some site enhancements to make in keeping with existing designs."
     text: >
-      [Portland](http://portlanddecorating.co.uk/) had some site enhancements to make in keeping with existing designs. 
-      
-      
       So our team at Cell 5 picked up their existing stack and delivered and enhanced their website and S.E.O. 
     imageUrl: "/img/clients/portland-screenshot.jpg"   
 ---

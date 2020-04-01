@@ -21,13 +21,11 @@
     </svg>
   </div>
   <div class="mw9 center clients">
-
     {{ range $index, $element := .Params.clients }}
-    {{ if modBool $index 2 }}
-    {{ partial "single-media-block" $element }}
+    <div class="pv5">
+      {{ partial "single-media-block" $element }}
+    </div>
     {{ end }}
-    {{ end }}
-
   </div>
   <div class="footer-bg">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 550">

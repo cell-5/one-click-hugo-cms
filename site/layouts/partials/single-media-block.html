@@ -1,14 +1,19 @@
 <div class="flex-m mhn3-m mb4">
     <div class="ph6-m w-50-m order-last-m relative z-1">
         <h3 class="head-purple">{{.heading}}</h3>
-        <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
+        <div class="body-black pt4 pb3">{{.description | markdownify }}</div>
         {{ if .moreLink }}
         <button class="eclipse-btn bg-bv text-18-22 z-1">
-            Read more
+            Visit Site
         </button>
         {{ end }}
     </div>
     <div class="ph6-m w-50-m relative z-1">
-        <img src="{{.imageUrl}}" alt="" class="db mb2" />
+        <div class="relative top-8vw">
+            <img src="{{.imageUrl}}" alt="" class="db img-shadow" />
+        </div>
     </div>
+</div>
+<div class="media-box-1">
+    {{ .text | markdownify }}
 </div>
