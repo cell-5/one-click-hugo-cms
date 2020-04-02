@@ -28,6 +28,9 @@
 .h-auto {     height: auto; }
 .h-inherit {  height: inherit; }
 
+/*custom heights*/
+.hvw-300{ height: 300vw !important; }
+
 @media (--breakpoint-not-small) {
   .h1-ns {  height: var(--spacing-medium); }
   .h2-ns {  height: 2rem; }

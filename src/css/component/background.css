@@ -22,8 +22,8 @@
   background: #25272E;
 }
 
-.client-section{
-  background: linear-gradient(2.25deg, #EDE3FC 16.87%, rgba(246, 240, 253, 0.078) 66.59%);;
+.light-gradient-bg{
+  background: linear-gradient(2.25deg, #EDE3FC 16.87%, rgba(246, 240, 253, 0.078) 66.59%);
 }
 
 .footer-bg{
