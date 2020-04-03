@@ -8,6 +8,7 @@ footer: >
 process:
   - heading: "Establish Fit & Agree Mission"
     svgUrl: "/img/SVG/process/step-1.svg"
+    cardCss: p-card-1
     text: >
       Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
 
@@ -40,6 +41,7 @@ process:
 
   - heading: "Execute"
     svgUrl: "/img/SVG/process/step-3.svg"
+    cardCss: p-card-r
     text: >
       When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery.
       That said we do stick to these common practises:

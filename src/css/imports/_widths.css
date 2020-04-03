@@ -28,7 +28,7 @@
 .w-auto { width: auto; }
 
 /*custom widths*/
-.w-25vw{ width: 25vw; }
+.w-470-f{ width: 470px; }
 
 @media (--breakpoint-not-small) {
   .w1-ns {  width: var(--spacing-medium); }

@@ -57,3 +57,18 @@
     left: 50%;
     transform: translate(-50%);
 }
+
+/*cards*/
+.p-card-l{
+    right: 250px;
+}
+
+.p-card-r{
+    left: 150px;
+}
+
+.p-card-1{
+    top: 215px;
+    left: 120px;
+}
+
