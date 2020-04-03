@@ -4,10 +4,10 @@
     {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
     <div class="svg-container black-section color-white">
-      <div class="pv3 lh-1 b">
+      <div class="pv3 lh-1 b center-text">
         {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 466" class="svg-waves">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 466" class="svg-bg-bottom">
         <path
           d="M2161.59 368.934C2161.59 368.934 2057.46 350.805 1890.2 244.358C1790.09 178.474 1627.81 150.447 1514.29 183.704C1369.76 207.458 1299.8 236.385 1135.67 183.704C971.539 131.022 307.256 -29.9229 -14.8555 4.88024C-15.1809 6.52148 -14.8555 466.94 -14.8555 466.94H2161.59V368.934Z"
           fill="white" />
@@ -21,11 +21,11 @@
       {{ partial "media-block" $element }}
     </div>
     {{ else if eq $index 3}}
-    <div class="black-section">
+    <div class="svg-container black-section">
       <div class="mw9 center">
         {{ partial "media-block-reverse" $element }}
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 600" class="svg-waves">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 600" class="svg-bg-bottom">
         <g class="currentLayer">
           <path fill="#A66BF0"
             d="M2153.276 136.079s-182.86 9.26-326.95-43.28c-144.1-52.55-577.67 144.96-605.6 153.81-27.93 8.85-217.208 57.24-451.625 45.1-234.418-12.14-814.127 40.86-867.545 64.08 1.677.62 0 313.73 0 313.73h2251.72v-533.44z"
@@ -39,22 +39,22 @@
       </svg>
     </div>
     {{ else if eq $index 2}}
-    <div>
+    <div class="svg-container">
       <div class="pv7 mw9 center">
         {{ partial "media-block" $element }}
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 350" class="svg-waves">
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 350" class="svg-bg-bottom">
         <path
           d="M-111 349.614C-111 349.614 -12.4079 332.435 145.937 231.562C240.718 169.128 394.35 142.569 501.826 174.084C638.653 196.594 704.892 224.007 860.278 174.084C1015.66 124.161 1644.56 -28.356 1949.51 4.62468C1949.82 6.17998 1949.51 966.556 1949.51 966.556H-111V349.614Z"
           fill="#25272E" id="Path_371" />
       </svg>
     </div>
     {{ else if eq $index 1}}
-    <div class="light-gradient-bg pt7">
+    <div class="svg-container light-gradient-bg pt7">
       <div class="relative top-50 mw9 center">
         {{ partial "media-block-reverse" $element }}
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 555" class="svg-waves">
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 555" class="svg-bg-bottom">
         <path
           d="M2445.12 440.965s-124.26-21.652-323.82-148.787c-119.45-78.689-313.08-112.162-448.53-72.443-172.44 28.371-255.92 62.92-451.75 0C1025.18 156.815 232.581-35.409-151.756 6.156c-.389 1.96 0 551.861 0 551.861H2445.12V440.965z"
           fill="#fff" id="Path_592" />
