@@ -6,7 +6,8 @@ text: >
 footer: >
     **If you want to discuss us fitting into your process or want a tailored execution plan we are happy to expand on this in a pitch. [Let us Pitch?](/contact)**
 process:
-  - heading: "1. Establish Fit & Agree Mission"
+  - heading: "Establish Fit & Agree Mission"
+    svgUrl: "/img/SVG/process/step-1.svg"
     text: >
       Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
 
@@ -20,7 +21,8 @@ process:
       3. Are we ready to execute?
     imageUrl: "/img/SVG/process/process-1.svg"
 
-  - heading: "2. Blend a Team"
+  - heading: "Blend a Team"
+    svgUrl: "/img/SVG/process/step-2.svg"
     text: >          
       The recipe for success always starts with the right team.
 
@@ -36,7 +38,8 @@ process:
       
     imageUrl: "/img/SVG/process/process-2.svg"
 
-  - heading: "3. Execute"
+  - heading: "Execute"
+    svgUrl: "/img/SVG/process/step-3.svg"
     text: >
       When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery.
       That said we do stick to these common practises:
@@ -60,7 +63,8 @@ process:
 
     imageUrl: "/img/SVG/process/process-3.svg"
 
-  - heading: "4. Amplify"
+  - heading: "Amplify"
+    svgUrl: "/img/SVG/process/step-4.svg"
     text: >
       Delivery is not done when the product is launched. It is done when value is created and maximized. 
       
