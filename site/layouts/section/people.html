@@ -1,16 +1,21 @@
 {{ define "main" }}
 
 {{ partial "custom-header-bg" . }}
-{{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
 
-<div class="mw7 center ph3 pt4 people">
+<div class="black-section ">
+  <div class="lh-1 color-white center-text">
+    <div class="w-100 b f1 pt4">{{ .Params.title }}</div>
+    <div class="pv7">
+      {{ partial "wide-text" (dict "text" .Params.text) }}
+    </div>
+  </div>
+
+</div>
+
+<div class="container1">
 
   {{ range $index, $element := .Params.people }}
-  {{ if modBool $index 2 }}
-  {{ partial "media-block" $element }}
-  {{ else }}
-  {{ partial "media-block-reverse" $element }}
-  {{ end }}
+  {{ partial "z-brix" $element}}
   {{ end }}
 
 </div>
