@@ -1,20 +1,40 @@
 {{ define "main" }}
 
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+{{ partial "custom-header-bg" . }}
+
+<div class="black-section ">
+  <div class="lh-1 color-white center-text">
+    <div class="w-100 b f1 pt4">{{ .Params.title }}</div>
+    <div class="pv7">
+      {{ partial "wide-text" (dict "text" .Params.text) }}
+    </div>
+  </div>
+
+</div>
 
 <div class="mw7 center ph3 pt4 people">
 
   {{ range $index, $element := .Params.people }}
+<<<<<<< HEAD
   {{ partial "media-block" $element }}
   <!-- {{ if modBool $index 2 }}
       {{ partial "media-block" $element }}
     {{ else }}
       {{ partial "media-block-reverse" $element }}
     {{ end }} -->
+=======
+  {{ if modBool $index 2 }}
+  {{ partial "media-block" $element }}
+  {{ else }}
+  {{ partial "media-block-reverse" $element }}
+  {{ end }}
+>>>>>>> 9606479ec631f4f509351e481b9ec77efd4ff9d6
   {{ end }}
 
 </div>
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+<div class="lh-1 color-white">
+  {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
+</div>
 
 
 {{ end }}

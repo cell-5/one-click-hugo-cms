@@ -1,18 +1,51 @@
 {{ define "main" }}
 
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+{{ partial "custom-header-bg" . }}
+{{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
 
-<div class="mw7 center ph3 pt4 tools">
-
+<div class="tools pv3 f4">
   {{ range $index, $element := .Params.tools }}
-    {{ if modBool $index 2 }}
-      {{ partial "media-block" $element }}
-    {{ else }}
-      {{ partial "media-block-reverse" $element }}
+  {{ if ne $index 3 }}
+  <div class="svg-container light-gradient-bg mv5 h-25">
+    <div class="mw7 center">
+      <div class="center-text pb5">
+        <span class="head-purple">{{ .heading }}</span>
+        {{ if .text }}
+        <p class="pv3">{{ .text }}</p>
+        {{ end }}
+      </div>
+      {{ range $index, $element := .details }}
+      <div class="pv3">
+        {{ partial "values-card" $element }}
+      </div>
+      {{ end }}
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom">
+      <path
+        d="M2435.12 440.965C2435.12 440.965 2310.86 419.313 2111.3 292.178C1991.85 213.489 1798.22 180.016 1662.77 219.735C1490.33 248.106 1406.85 282.655 1211.01 219.735C1015.18 156.815 222.58 -35.4093 -161.757 6.15648C-162.146 8.11669 -161.757 558.017 -161.757 558.017H2435.12V440.965Z"
+        fill="white" id="Patch_592" />
+    </svg>
+  </div>
+  {{ else }}
+  <div class="mw7 center">
+    <div class="center-text pb5">
+      <span class="head-purple">{{ .heading }}</span>
+      {{ if .text }}
+      <p class="pv3">{{ .text }}</p>
+      {{ end }}
+    </div>
+    {{ range $index, $element := .details }}
+    <div class="pv3">
+      {{ partial "values-card" $element }}
+    </div>
     {{ end }}
+  </div>
+  {{ end }}
   {{ end }}
 
 </div>
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
+<div class="lh-1 color-white">
+  {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
+</div>
 
 {{ end }}

@@ -1,21 +1,19 @@
 {{ define "main" }}
+<div>
+  {{ partial "custom-header-bg" . }}
 
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+  {{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
 
-<div class="mw7 center ph3 pt4 clients">
-
-  {{ range $index, $element := .Params.clients }}
-    {{ if modBool $index 2 }}
-      {{ partial "media-block" $element }}
-    {{ else }}
-      {{ partial "media-block-reverse" $element }}
+  <div class="mw9 center clients">
+    {{ range $index, $element := .Params.clients }}
+    <div class="pv5">
+      {{ partial "single-media-block" $element }}
+    </div>
     {{ end }}
-  {{ end }}
-
+  </div>
+  <div class="lh-1 b color-white">
+    {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
+  </div>
 </div>
 
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
-
-
 {{ end }}
-

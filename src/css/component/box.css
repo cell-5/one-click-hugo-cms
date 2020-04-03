@@ -1,0 +1,149 @@
+/* HomePage */
+
+.home-top{
+    width: 100%;
+    background: transparent;
+}
+
+/*Buttons*/
+.eclipse-btn{
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+/*Home - Process*/
+.process-main{
+    height: 300px;
+    width: 403px;
+    background: #1E2024;
+    color: white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.btn-group .btn-grp-child {
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #292B2F;
+    display: block;
+    cursor: pointer;
+    width: 343px;
+    height: 56px;
+    text-align: left;
+    box-shadow: none !important;
+    padding: 0px 20px;
+}
+
+.btn-group .btn-grp-child:disabled {
+    border: 1px solid #A063FC !important;
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: none !important;
+}
+
+.btn-group .btn-grp-child:focus {
+    box-shadow: none !important;
+}
+
+
+.btn-group .btn-grp-child:last-child {
+    border: none;
+}
+
+.process-details{
+    width: 594px;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 30px 0px;
+    position: absolute;
+    top: 0;
+}
+
+.process-details-head{
+    height: auto;
+    width: 514px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #F8F8F8;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 30px 120px 30px 35px;
+}
+
+.grp-process .grp-detail{
+    height: auto;
+    width: 514px;
+    border-bottom: 1px solid #BBB6B6;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 30px 0px;
+}
+
+.grp-process .grp-detail:last-child {
+    border: none;
+}
+
+#process-1{
+    visibility: visible;
+}
+
+#process-2{
+    visibility: hidden;
+}
+
+#process-3{
+    visibility: hidden;
+}
+
+#process-4{
+    visibility: hidden;
+}
+
+
+/*Clients Page*/
+.media-box-1{
+    width: 80%;
+    background: #FAFAFA;
+    border-radius: 50px;
+    padding: 10% 10% 5% 10%;
+    margin-left: 5%;
+    font-size: 1.25rem;
+    line-height: 2.188rem;
+}
+
+.img-shadow{
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+}
+
+/*values-page*/
+.card-container{
+    /* width: 80%; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    padding: 10%;
+
+}
+
+/*border-radius*/
+.br-a-50{
+    border-radius: 50px;
+}
+
+.br-tl-100{
+    border-radius: 100px 0px 0px 0px;
+}
+
+.br-tr-100{
+    border-radius: 0px 100px 0px 0px;
+}
+
+

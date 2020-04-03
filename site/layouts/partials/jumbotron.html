@@ -1,18 +1,36 @@
-<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw7 center ph3">
-    <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb3">
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-          {{.title}}
-        </h1>
-      </div>
-      <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-          {{.subtitle | markdownify }}
-        </p>
-        {{ end }}
-      </div>
+<div class="home-top pt6 z-1">
+  <div class="center-horizantal">
+    <img src="{{.imageUrl}}" />
+  </div>
+  <h1 class="main-title relative top-3vw">
+    {{.title}}
+  </h1>
+  {{ if .subtitle }}i
+  <div class="main-subtitle relative top-5vw">
+    {{.subtitle | markdownify }}
+  </div>
+  {{ end }}
+  <div class="center-horizantal relative top-8vw">
+    <button class="eclipse-btn bg-bv text-18-22">
+      Get Started
+    </button>
+  </div>
+  <div class="center-horizantal  relative top-21vw">
+    <img src="/img/banner image.png" class="z-1" height="auto" width="50%" />
+  </div>
+  <div>
+    <div class="svg-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1918 570" class="svg-bg-bottom">
+        <path id="Path_799" data-name="Path 799"
+          d="M1917.4999589920044,118.50215264892574 s-155.839,7.854 -278.641,-36.674 s-492.307,122.839 -516.107,130.34 s-185.109,48.508 -384.886,38.22 s-693.819,34.628 -739.344,54.3 c1.429,0.528 0,265.865 0,265.865 H1917.4999589920044 z"
+          fill="#fff" opacity="0.24" />
+        <path id="Path_800" data-name="Path 800"
+          d="M1917.4999589920044,18.988152648925734 s-210.766,-62.4 -376.3,64.386 s-328.27,116.792 -455,96.186 s-388.587,-39.546 -688.749,152.489 c-25.28,17.212 -298.075,56.088 -399.647,39.057 c-0.1790000000000001,-0.4270000000000002 0,165.821 0,165.821 H1917.4999589920044 z"
+          fill="#fff" opacity="0.123" />
+        <path id="Path_801" data-name="Path 801"
+          d="M-102.66666674613953,510.82612387084964 s98.592,-17.179 256.937,-118.052 c94.781,-62.434 248.413,-88.993 355.889,-57.478 c136.827,22.51 203.066,49.923 358.452,0 C1023.9933332538604,285.3731238708496 1652.8933332538604,132.85612387084961 1957.8433332538605,165.8361238708496 c0.3100000000000001,1.556 0,961.932 0,961.932 H-102.66666674613953 V510.82612387084964 z"
+          fill="#25272E" />
+      </svg>
     </div>
   </div>
 </div>

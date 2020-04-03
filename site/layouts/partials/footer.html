@@ -1,35 +1,38 @@
-<footer class="bg-black ph3 pv4 white">
-
-	<div class="mw7 center pt3">
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary"></h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/people" class="link">People</a></li>
-					<li><a href="/clients" class="link">Clients</a></li>
-					<li><a href="/values" class="link">Values</a></li>
-					<li><a href="/process" class="link">Process</a></li>
-					<li><a href="/tools" class="link">Tools</a></li>
-		
-				</ul>
+<footer class="bg-black pa3 white">
+	<div class="nav-bar z-max">
+		<div class="nav-container">
+			<div class="brand">
+				<a href="/">
+					<img src="/img/cell5/cell-5-logo-black.svg" alt="Cell 5 logo" style="float: left;" class="z-1" />
+				</a>
 			</div>
+			<nav>
+				<ul class="nav-list">
+					<li><a href="/people">People</a></li>
 
-			<div>
-				<h3 class="f4 b lh-title mb1 primary"></h3>
-				<ul class="mhn2">
+					<li><a href="/clients">Clients</a></li>
+
+					<li><a href="/values">Values</a></li>
+
+					<li><a href="/process">Process</a></li>
+
+					<li><a href="/tools">Tools</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="nav-bar-socmed z-max">
+		<div class="nav-container">
+			<nav>
+				<ul style="float: right;">
 					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}</li>
 					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}</li>
 					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}</li>
 					<li>{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}</li>
 				</ul>
-			</div>
-
+			</nav>
 		</div>
 	</div>
-
 </footer>
 
 {{ partial "svg" . }}

@@ -1,19 +1,54 @@
 <div class="flex-m mhn3-m mb4">
-
-  <div class="ph3-m w-50-m order-last-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
-  </div>
-
-  <div class="ph3-m w-50-m">
-    <h3 class="f3 b lh-title mb1">{{.heading}}</h3>
-    <p>{{.text | markdownify }}</p>
-    {{ if .moreLink }}
-    <div class="tc">
-      <a href="{{ .moreLink }}" class="btn raise">Read more</a>
+  <div class="ph6-m w-50-m order-last-m relative z-1">
+    <h3 class="head-black {{.additionalCss}}">{{.heading}}</h3>
+    <div class="body-black pt4 pb3 {{.additionalCss}}">{{.text | markdownify }}</div>
+    {{if .details}}
+    <div id="process-buttons" class="process-main">
+      <div class="btn-group">
+        {{ range $index, $element := .details }}
+        <button id="{{.id}}-btn" class="btn-grp-child" onclick='handleClickProcess("{{.id}}")'>
+          {{.name}}
+        </button>
+        {{end}}
+      </div>
     </div>
+    {{end}}
+    {{ if .moreLink }}
+    <button class="eclipse-btn bg-bv text-18-22 z-max">
+      Read more
+    </button>
     {{ end }}
-  
   </div>
-
- 
+  <div class="ph6-m w-50-m relative z-1">
+    {{if .details}}
+    <div id="details-data">
+      {{ range $index, $element := .details }}
+      <div id="{{.id}}" class="process-details">
+        <img src="/img/process-cover.png" />
+        {{ range .content }}
+        {{if .headText}}
+        <div class="process-details-head {{.headTextCss}}">
+          {{.headText | markdownify }}
+          <img src="/img/SVG/process-circle.svg" width="40" height="40" class="ecclipse-svg" />
+        </div>
+        {{end}}
+        {{if .subText}}
+        <div class="pv4 center-horizantal">
+          <div class="grp-process {{.subTextCss}}">
+            {{ range .subText }}
+            <div class="grp-detail">
+              {{.textDetail}}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{end}}
+    </div>
+    {{else}}
+    <img src="{{.imageUrl}}" alt="" class="db mb2 z-max" />
+    {{end}}
+  </div>
 </div>

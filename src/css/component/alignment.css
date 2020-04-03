@@ -1,0 +1,59 @@
+.center-horizantal{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.ecclipse-svg{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*top positions*/
+.top-50{
+    top: 50px;
+}
+
+.top-255{
+    top: 255px;
+}
+
+.top-230{
+    top: 230px;
+}
+
+.top-3vw{
+    top: 3vw;
+}
+
+.top-5vw{
+    top: 5vw;
+}
+
+.top-8vw{
+    top: 8vw;
+}
+
+.top-10vw{
+    top: 10vw;
+}
+
+.top-21vw{
+    top: 21vw;
+}
+
+.top-30vw{
+    top: 30vw;
+}
+
+/*left position*/
+.l-50{
+    left: 50%;
+    transform: translate(-50%);
+}

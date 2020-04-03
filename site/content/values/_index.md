@@ -3,6 +3,8 @@ title: "Values"
 image: /img/values.jpg
 text: >
     Each big decision we make as an organization, is measured against these values, especially to filter [the people](/people) and [the clients](/clients) we work with.
+footer: >
+    For existing or previous clients, if you think we can do a better job of representing you, or if there is an opportunity to share value about our work together, we would love the chance to collaborate on that content! Contact us
 values:
   - heading: "Take action, over deliberation"
     text: >
@@ -14,7 +16,7 @@ values:
       
       We advise clients to get something live and iterate and we release early and often, in the spirit of [Build-Measure-Learn](https://en.wikipedia.org/wiki/Lean_startup#Build-Measure-Learn).
 
-    imageUrl: "/img/take-action.jpg"
+    symbol: "/img/values/value-1.png"
 
   - heading: "Focus on long term value"
     text: >
@@ -26,7 +28,7 @@ values:
       
       They need to demonstrate a long term vision focused on value creation, for their customers.
 
-    imageUrl: "/img/long-term.jpg"
+    symbol: "/img/values/value-2.png"
 
   - heading: "Champion remote-first teams"
     text: >    
@@ -35,7 +37,7 @@ values:
 
       Running our business this way keeps our costs down while at the same time it offers our remote employees a better work-life balance, and often better full compensation than working in under-valued local markets on legacy incumbent products.
 
-    imageUrl: "/img/remote.jpg"
+    symbol: "/img/values/value-3.png"
 
   - heading: "Encourage small businesses & profit sharing"
     text: >
@@ -46,7 +48,7 @@ values:
       
 
       For clients, we offer fee discounts in exchange for equity. This is a no-brainer as we only partner with clients that can convince us their business has merit and is focused on long term value. 
-    imageUrl: "/img/business.jpg"
+    symbol: "/img/values/value-4.png"
 
   - heading: "Fail fast, but differently"
     text: >
@@ -55,7 +57,7 @@ values:
 
       That said, we expect and demand transparency about failure in order that we can maximize the learning and avoid repeating the same mistakes.
      
-    imageUrl: "/img/fail-differently.jpg"
+    symbol: "/img/values/value-5.png"
 
   - heading: "Have empathy"
     text: >
@@ -64,6 +66,6 @@ values:
       
       We recognise individual contributions, but we always put the team ahead of the individual during conflict-resolution and decision-making.
        
-    imageUrl: "/img/shoes.jpg"
+    symbol: "/img/values/value-6.png"
  
 ---

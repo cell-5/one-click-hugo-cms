@@ -1,0 +1,17 @@
+/* banner image */
+
+.banner-img{
+    position: absolute;
+    left: 17.66%;
+    right: 16.71%;
+    top: 9.18%;
+    bottom: 85.17%;
+    z-index: 4;
+}
+
+.home-img{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 0;
+}

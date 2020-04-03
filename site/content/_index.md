@@ -1,7 +1,7 @@
 ---
-title: cell 5
+title: CELL 5
 subtitle: building today's start-up technology
-image: img/GettyImages-1017380290.jpgAPI-DISRUPTION-696x435.jpg
+image: img/cell5/cell-5-logo-black.svg
 text: >
     We will help you to blend a high-value technology team, then partner with you to deliver your start-up or scale-up technology product until your goals are met.
 footer: >
@@ -17,7 +17,7 @@ preludes:
       
       
       We blend teams with our clients, providing anywhere between one developer or an entire start-up technology team, including acting CTO.
-    imageUrl: "/img/skate.jpg"
+    imageUrl: "/img/SVG/people.svg"
 
   - heading: "Clients"
     moreLink: "/clients"
@@ -27,7 +27,7 @@ preludes:
 
       They want to get to market rapidly and iteratively and are looking for an experienced, affordable start-up technology partner who can build or extend their product quickly and sustainably.
       
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/SVG/clients.svg"
 
   - heading: "Values"
     moreLink: "/values"
@@ -38,25 +38,68 @@ preludes:
       They are most useful to help remind us when we go off track, and to help filter [the people](/people) and [the clients](/clients) we choose to work with.
        
 
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/SVG/values.svg"
+    backgroundImg: "/img/SVG/process-bg.svg"
 
   - heading: "Process"
     moreLink: "/process"
     text: >
       At a high level an engagement with us follows a simple 4 step process:
+    additionalCss: "color-white"
+    details:
+      - name: Establish Fit & Agree Mission
+        id: process-1
+        content:
+          - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
+            headTextCss: top-255
+            subTextCss: center-text
+            subText:
+            - textDetail: Are we trying to build a product that delivers lasting value?
+            - textDetail: Can we realistically deliver what is needed?
+            - textDetail: Are we ready to execute?
+      - name: Blend a Team
+        id: process-2
+        content:
+          - subTextCss: left-text
+            subText:
+            - textDetail: The recipe for success always starts with the right team. 
+            - textDetail: The roles a team need vary based on the project, and on what skills our client brings to the table.
+            - textDetail: Our people are mostly skilled adaptable generalists, each having their own specialities and strengths. We can deliver a good job across most aspects of the project.
+            - textDetail: That said, it is important to make sure we have the right mix of business skills, technical skills and specialist skills to succeed. If we need to call in specialist expertise to deliver we will let you know.
+      - name: Execute
+        id: process-3
+        content:
+          - headText: > 
+              When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery. 
 
-      1. Establish Fit & Agree Mission
 
-      2. Blend a Team
+              That said we do stick to these common practises:
 
-      3. Execute
 
-      4. Amplify
-      
-    imageUrl: "/img/long-term-value-2.jpg"
+            headTextCss: top-230
+            subTextCss: left-text
+            subText:
+            - textDetail: Get something delivered and released early and often. ( Devops inspired )
+            - textDetail: Have a single project heart-beat meeting, either weekly or fortnighthly. ( XP inspired )
+            - textDetail: Have a single team communication channel for the remote team.
+            - textDetail: Have a single project board to track progress, blockers and priotization.
+            - textDetail: Focus on finishing things, by limiting work in progress. ( kanban inspired )
+            - textDetail: Most important of all, to keep asking the team what is working, listening to their answers and adapting accordingly!
+      - name: Amplify
+        id: process-4
+        content:
+          - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
+            headTextCss: top-255
+            subTextCss: center-text
+            subText:
+            - textDetail: Are we trying to build a product that delivers lasting value?
+            - textDetail: Can we realistically deliver what is needed?
+            - textDetail: Are we ready to execute?
+    imageUrl: "/img/SVG/process.svg"
+    
   - heading: "Tools & Techniques"
     moreLink: "/tools"
     text: >
       Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
-    imageUrl: "/img/long-term-value-2.jpg"  
+    imageUrl: "/img/SVG/tools.svg"
 ---

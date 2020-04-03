@@ -1,0 +1,9 @@
+<div class="card-container br-a-50 w-80">
+    {{if .symbol}}
+    <div>
+        <img src="{{.symbol}}" />
+    </div>
+    {{ end }}
+    <div class="f4 color-db lh-copy fw8 pv3">{{.heading}}</div>
+    <div class="lh-title">{{.text | markdownify}}</div>
+</div>

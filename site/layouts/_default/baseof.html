@@ -2,6 +2,7 @@
 <html lang="{{ $.Site.Language.Lang }}">
 {{ partial "head" . }}
 
+<<<<<<< HEAD
 <body class="sans-serif">
 
   {{ block "header" . }}{{ partial "nav" . }}{{end}}
@@ -14,6 +15,25 @@
   {{ with $script.js }}
   <script src="{{ relURL . }}"></script>
   {{ end }}
+=======
+<body>
+  <div id="root">
+    <div class="container bg-white">
+      <div class="absolute top-0 w-100">
+        {{ block "header" . }}{{ partial "nav" . }}{{end}}
+      </div>
+
+      {{ block "main" . }}{{ end }}
+
+      {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+      {{ $script := .Site.Data.webpack.main }}
+      {{ with $script.js }}
+      <script src="{{ relURL . }}"></script>
+      {{ end }}
+    </div>
+  </div>
+>>>>>>> 9606479ec631f4f509351e481b9ec77efd4ff9d6
 </body>
 
 </html>
