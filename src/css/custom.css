@@ -48,8 +48,14 @@ body {
 	width: 100%;
 }
 
-.svg-waves{
+.svg-bg-bottom{
   position: relative;
   top: 1vw;
+  width: 100%;
+}
+
+.svg-bg-top{
+  position: relative;
+  bottom: 1vw;
   width: 100%;
 }
