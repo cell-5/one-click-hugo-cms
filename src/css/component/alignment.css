@@ -52,6 +52,15 @@
     top: 30vw;
 }
 
+/*bottom vw*/
+.bottom-10-vw{
+    bottom: 10vw;
+}
+
+.bottom-30-vw{
+    bottom: 20vw;
+}
+
 /*left position*/
 .l-50{
     left: 50%;

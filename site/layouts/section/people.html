@@ -5,17 +5,64 @@
 <div class="black-section">
   <div class="lh-1 color-white center-text">
     <div class="w-100 b f1 pt4">{{ .Params.title }}</div>
-    <div class="pv7">
+    <div class="pv6">
       {{ partial "wide-text" (dict "text" .Params.text) }}
     </div>
   </div>
-
 </div>
 
-<div class="container1">
-
+<div>
   {{ range $index, $element := .Params.people }}
-  {{ partial "z-brix" $element }}
+  {{ if lt $index 2 }}
+  {{ if modBool $index 2}}
+  <div class="black-section">
+    <div class="container1">
+      {{ partial "z-brix" $element }}
+      {{ else }}
+      {{ partial "z-brix" $element }}
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 600" class="svg-bg-bottom">
+      <g class="currentLayer">
+        <path fill="#A66BF0"
+          d="M2153.276 136.079s-182.86 9.26-326.95-43.28c-144.1-52.55-577.67 144.96-605.6 153.81-27.93 8.85-217.208 57.24-451.625 45.1-234.418-12.14-814.127 40.86-867.545 64.08 1.677.62 0 313.73 0 313.73h2251.72v-533.44z"
+          opacity=".24" />
+        <path fill="#8C3CEC"
+          d="M2154.376 19.009s-247.33-73.635-441.58 75.98c-194.25 149.61-385.22 137.81-533.94 113.5-148.711-24.32-455.995-46.67-808.23 179.94-29.665 20.31-349.784 66.19-468.977 46.09-.21-.5 0 195.67 0 195.67h2252.727V19.009z"
+          opacity=".123" />
+        <path fill="#fff"
+          d="M2083.556 811.959v-652.08c-50.31-58.19-208.02-131.96-436.34 38.51-285.41 213.08-546.11 184.84-900.126 146.33-354.012-38.51-644.907 156.6-771.144 219.5-100.99 50.32-397.005 50.92-532.39 44.93v202.81h2640z" />
+      </g>
+    </svg>
+  </div>
+  {{end}}
+  {{ else if lt $index 4}}
+  {{ if modBool $index 2}}
+  <div class="light-gradient-bg">
+    <div class="container1 relative bottom-10-vw">
+      {{ partial "z-brix" $element }}
+      {{ else }}
+      {{ partial "z-brix" $element }}
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 555" class="svg-bg-bottom">
+      <path
+        d="M2445.12 440.965s-124.26-21.652-323.82-148.787c-119.45-78.689-313.08-112.162-448.53-72.443-172.44 28.371-255.92 62.92-451.75 0C1025.18 156.815 232.581-35.409-151.756 6.156c-.389 1.96 0 551.861 0 551.861H2445.12V440.965z"
+        fill="#fff" id="Path_592" />
+    </svg>
+  </div>
+  {{ end }}
+  {{ else if lt $index 6}}
+  {{ if modBool $index 2}}
+  <div class="bg-white">
+    <div class="container1 relative bottom-10-vw">
+      {{ partial "z-brix" $element }}
+      {{ else }}
+      {{ partial "z-brix" $element }}
+    </div>
+  </div>
+  {{ end }}
+  {{ else }}
+  {{ partial "light-wide-text" $element }}
+  {{ end }}
   {{ end }}
 
 </div>
