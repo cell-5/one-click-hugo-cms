@@ -3,9 +3,11 @@
     <h3 class="head-black">{{.heading}}</h3>
     <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
     {{ if .moreLink }}
-    <button class="eclipse-btn bg-bv text-18-22">
-      Read more
-    </button>
+    <div id="moreLink">
+      <button class="eclipse-btn bg-bv text-18-22 z-max">
+        Read more
+      </button>
+    </div>
     {{ end }}
   </div>
   <div class="ph6-m w-50-m">

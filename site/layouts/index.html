@@ -3,8 +3,8 @@
   <div class="bg-home">
     {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
-    <div class="svg-container black-section color-white">
-      <div class="pv3 lh-1 b center-text">
+    <div class="svg-container black-section c-white">
+      <div class="pv3 lh-1 ta-center">
         {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 466" class="svg-bg-bottom">
@@ -67,7 +67,7 @@
     {{ end }}
     {{ end }}
   </div>
-  <div class="lh-1 b color-white">
+  <div class="lh-1 c-white">
     {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
   </div>
 

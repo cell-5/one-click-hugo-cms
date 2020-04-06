@@ -5,7 +5,7 @@ image: img/cell5/cell-5-logo-black.svg
 text: >
     We will help you to blend a high-value technology team, then partner with you to deliver your start-up or scale-up technology product until your goals are met.
 footer: >
-    **If you are not ready to engage with us yet and have questions or need more convincing, invite us to pitch to you. [Let us Pitch?](/contact)**
+    If you are not ready to engage with us yet and have questions or need more convincing, invite us to pitch to you. **[Let us Pitch?](/contact)**
 preludes:
   - heading: "People"
     moreLink: "/people"
@@ -45,14 +45,16 @@ preludes:
     moreLink: "/process"
     text: >
       At a high level an engagement with us follows a simple 4 step process:
-    additionalCss: "color-white"
+
+
+    additionalCss: "c-white"
     details:
       - name: Establish Fit & Agree Mission
         id: process-1
         content:
           - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
             headTextCss: top-255
-            subTextCss: center-text
+            subTextCss: ta-center
             subText:
             - textDetail: Are we trying to build a product that delivers lasting value?
             - textDetail: Can we realistically deliver what is needed?
@@ -90,7 +92,7 @@ preludes:
         content:
           - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
             headTextCss: top-255
-            subTextCss: center-text
+            subTextCss: ta-center
             subText:
             - textDetail: Are we trying to build a product that delivers lasting value?
             - textDetail: Can we realistically deliver what is needed?

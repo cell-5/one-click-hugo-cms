@@ -14,38 +14,42 @@
     </div>
     {{end}}
     {{ if .moreLink }}
-    <button class="eclipse-btn bg-bv text-18-22 z-max">
-      Read more
-    </button>
+    <div id="moreLink">
+      <button class="eclipse-btn bg-bv text-18-22 z-max">
+        Read more
+      </button>
+    </div>
     {{ end }}
   </div>
   <div class="ph6-m w-50-m relative z-1">
     {{if .details}}
-    <div id="details-data">
-      {{ range $index, $element := .details }}
-      <div id="{{.id}}" class="process-details">
-        <img src="/img/process-cover.png" />
-        {{ range .content }}
-        {{if .headText}}
-        <div class="process-details-head {{.headTextCss}}">
-          {{.headText | markdownify }}
-          <img src="/img/SVG/process-circle.svg" width="40" height="40" class="ecclipse-svg" />
+    <div class="d-main">
+      <div id="details-data">
+        {{ range $index, $element := .details }}
+        <div id="{{.id}}" class="process-details">
+          <img src="/img/process-cover.png" width="100%" />
+          {{ range .content }}
+          {{if .headText}}
+          <div class="process-details-head {{.headTextCss}}">
+            {{.headText | markdownify }}
+            <img src="/img/SVG/process-circle.svg" width="40" height="40" class="ecclipse-svg" />
+          </div>
+          {{end}}
+          {{if .subText}}
+          <div class="pv4 center-horizantal">
+            <div class="grp-process {{.subTextCss}}">
+              {{ range .subText }}
+              <div class="grp-detail">
+                {{.textDetail}}
+              </div>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+          {{ end }}
         </div>
         {{end}}
-        {{if .subText}}
-        <div class="pv4 center-horizantal">
-          <div class="grp-process {{.subTextCss}}">
-            {{ range .subText }}
-            <div class="grp-detail">
-              {{.textDetail}}
-            </div>
-            {{ end }}
-          </div>
-        </div>
-        {{ end }}
-        {{ end }}
       </div>
-      {{end}}
     </div>
     {{else}}
     <img src="{{.imageUrl}}" alt="" class="db mb2 z-max" />

@@ -39,7 +39,7 @@
 }
 
 /*text-alignment*/
-.center-text{
+.ta-center{
     text-align: center !important;
 }
 
@@ -82,15 +82,15 @@
 
 
 /*color*/
-.color-black{
+.c-black{
     color: #000000 !important;
 }
 
-.color-white{
+.c-white{
     color: #FFFFFF !important;
 }
 
-.color-db{
+.c-db{
     color: #4B4AA1;
 }
 
@@ -110,6 +110,27 @@
 
 .lh-3{
     line-height: 3.8125rem;
+}
+
+
+@media only screen and (max-width: 798px) {
+  .head-black{
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #000000;
+    text-align: center;
+ }
+
+ .body-black{ 
+     visibility: collapse;
+ }
+
+ .body-black p:first-of-type{ 
+     visibility: visible;
+     text-align: center; 
+     padding: 0px 15px;
+ }
 }
 
 
