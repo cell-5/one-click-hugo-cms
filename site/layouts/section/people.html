@@ -3,7 +3,7 @@
 {{ partial "custom-header-bg" . }}
 
 <div class="black-section">
-  <div class="lh-1 color-white center-text">
+  <div class="lh-1 c-white ta-center">
     <div class="w-100 b f1 pt4">{{ .Params.title }}</div>
     <div class="pv6">
       {{ partial "wide-text" (dict "text" .Params.text) }}
@@ -66,7 +66,7 @@
   {{ end }}
 
 </div>
-<div class="lh-1 color-white">
+<div class="lh-1 c-white">
   {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
 </div>
 

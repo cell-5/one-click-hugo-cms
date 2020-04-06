@@ -1,12 +1,12 @@
-<div class="home-top pt6 z-1">
-  <div class="center-horizantal">
+<div class="home-top ta-center c-white pt6 z-1">
+  <div class="center-horizantal d-main">
     <img src="{{.imageUrl}}" />
   </div>
-  <h1 class="main-title relative top-3vw">
+  <h1 class="f-title fw8 relative top-3vw">
     {{.title}}
   </h1>
-  {{ if .subtitle }}i
-  <div class="main-subtitle relative top-5vw">
+  {{ if .subtitle }}
+  <div class="f4 lh-copy w-50 m-auto relative top-5vw">
     {{.subtitle | markdownify }}
   </div>
   {{ end }}
@@ -15,8 +15,8 @@
       Get Started
     </button>
   </div>
-  <div class="center-horizantal  relative top-21vw">
-    <img src="/img/banner image.png" class="z-1" height="auto" width="50%" />
+  <div class="center-horizantal relative top-21vw">
+    <img src="/img/banner image.png" class="z-1 v-mobile" height="auto" width="50%" />
   </div>
   <div>
     <div class="svg-container">

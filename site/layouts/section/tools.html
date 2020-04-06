@@ -8,7 +8,7 @@
   {{ if ne $index 3 }}
   <div class="svg-container light-gradient-bg mv5 h-25">
     <div class="mw7 center">
-      <div class="center-text pb5">
+      <div class="ta-center pb5">
         <span class="head-purple">{{ .heading }}</span>
         {{ if .text }}
         <p class="pv3">{{ .text }}</p>
@@ -28,7 +28,7 @@
   </div>
   {{ else }}
   <div class="mw7 center">
-    <div class="center-text pb5">
+    <div class="ta-center pb5">
       <span class="head-purple">{{ .heading }}</span>
       {{ if .text }}
       <p class="pv3">{{ .text }}</p>
@@ -44,7 +44,7 @@
   {{ end }}
 
 </div>
-<div class="lh-1 color-white">
+<div class="lh-1 c-white">
   {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
 </div>
 
