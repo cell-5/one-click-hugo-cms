@@ -62,7 +62,7 @@ preludes:
       - name: Blend a Team
         id: process-2
         content:
-          - subTextCss: left-text
+          - subTextCss: ta-left
             subText:
             - textDetail: The recipe for success always starts with the right team. 
             - textDetail: The roles a team need vary based on the project, and on what skills our client brings to the table.
@@ -79,7 +79,7 @@ preludes:
 
 
             headTextCss: top-230
-            subTextCss: left-text
+            subTextCss: ta-left
             subText:
             - textDetail: Get something delivered and released early and often. ( Devops inspired )
             - textDetail: Have a single project heart-beat meeting, either weekly or fortnighthly. ( XP inspired )
