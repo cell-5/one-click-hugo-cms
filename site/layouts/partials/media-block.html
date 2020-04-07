@@ -1,4 +1,7 @@
 <div class="flex-m mhn3-m mb4 z-1">
+  <div class="ph6-m w-50-m order-1">
+    <img src="{{.imageUrl}}" alt="" class="db mb2 media-img">
+  </div>
   <div class="ph6-m w-50-m">
     <h3 class="head-black">{{.heading}}</h3>
     <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
@@ -9,8 +12,5 @@
       </button>
     </div>
     {{ end }}
-  </div>
-  <div class="ph6-m w-50-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
   </div>
 </div>

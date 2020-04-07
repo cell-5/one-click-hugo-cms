@@ -1,26 +1,4 @@
 <div class="flex-m mhn3-m mb4">
-  <div class="ph6-m w-50-m order-last-m relative z-1">
-    <h3 class="head-black {{.additionalCss}}">{{.heading}}</h3>
-    <div class="body-black pt4 pb3 {{.additionalCss}}">{{.text | markdownify }}</div>
-    {{if .details}}
-    <div id="process-buttons" class="process-main">
-      <div class="btn-group">
-        {{ range $index, $element := .details }}
-        <button id="{{.id}}-btn" class="btn-grp-child" onclick='handleClickProcess("{{.id}}")'>
-          {{.name}}
-        </button>
-        {{end}}
-      </div>
-    </div>
-    {{end}}
-    {{ if .moreLink }}
-    <div id="moreLink">
-      <button class="eclipse-btn bg-bv text-18-22 z-max">
-        Read more
-      </button>
-    </div>
-    {{ end }}
-  </div>
   <div class="ph6-m w-50-m relative z-1">
     {{if .details}}
     <div class="d-main">
@@ -52,7 +30,29 @@
       </div>
     </div>
     {{else}}
-    <img src="{{.imageUrl}}" alt="" class="db mb2 z-max" />
+    <img src="{{.imageUrl}}" alt="" class="db mb2 media-img z-1" />
     {{end}}
+  </div>
+  <div class="ph6-m w-50-m order-last-m relative z-1">
+    <h3 class="head-black {{.additionalCss}}">{{.heading}}</h3>
+    <div class="body-black pt4 pb3 {{.additionalCss}}">{{.text | markdownify }}</div>
+    {{if .details}}
+    <div id="process-buttons" class="process-main">
+      <div class="btn-group">
+        {{ range $index, $element := .details }}
+        <button id="{{.id}}-btn" class="btn-grp-child" onclick='handleClickProcess("{{.id}}")'>
+          {{.name}}
+        </button>
+        {{end}}
+      </div>
+    </div>
+    {{end}}
+    {{ if .moreLink }}
+    <div id="moreLink">
+      <button class="eclipse-btn bg-bv text-18-22 z-max">
+        Read more
+      </button>
+    </div>
+    {{ end }}
   </div>
 </div>

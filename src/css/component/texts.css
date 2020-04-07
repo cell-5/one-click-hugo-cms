@@ -120,11 +120,13 @@
     line-height: 2.25rem;
     color: #000000;
     text-align: center;
+    margin-bottom: 10%;
  }
 
  .body-black {
     text-align: center; 
-    padding: 20px 15px;
+    padding: 20px 15px 10px;
+    margin: 0;
  }
 
  .body-black p:nth-of-type(1n+2){
