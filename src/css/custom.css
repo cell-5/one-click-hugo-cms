@@ -80,4 +80,7 @@ body {
   .v-mobile{
       visibility: hidden;
   }
+  .custom-header-mobile{
+      padding-top: 50px;
+  }
 }

@@ -16,10 +16,16 @@
   {{ if lt $index 2 }}
   {{ if modBool $index 2}}
   <div class="black-section">
-    <div class="container1">
-      {{ partial "z-brix" $element }}
-      {{ else }}
-      {{ partial "z-brix" $element }}
+    <div class="mw8 center relative z-1">
+      <div class="flex-m mhn3-m mb4 z-1">
+        <div class="ph4-m w-50-m">
+          {{ partial "z-brix" $element }}
+        </div>
+        {{ else }}
+        <div class="ph4-m w-50-m">
+          {{ partial "z-brix" $element }}
+        </div>
+      </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 600" class="svg-bg-bottom">
       <g class="currentLayer">
@@ -37,11 +43,17 @@
   {{end}}
   {{ else if lt $index 4}}
   {{ if modBool $index 2}}
-  <div class="light-gradient-bg">
-    <div class="container1 relative bottom-10-vw">
-      {{ partial "z-brix" $element }}
-      {{ else }}
-      {{ partial "z-brix" $element }}
+  <div class="light-gradient-bg people-mobile">
+    <div class="mw8 center">
+      <div class="flex-m mhn3-m mb4 relative people-r1 z-1">
+        <div class="ph4-m w-50-m">
+          {{ partial "z-brix" $element }}
+        </div>
+        {{ else }}
+        <div class="ph4-m w-50-m">
+          {{ partial "z-brix" $element }}
+        </div>
+      </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 555" class="svg-bg-bottom">
       <path
@@ -49,17 +61,21 @@
         fill="#fff" id="Path_592" />
     </svg>
   </div>
-  {{ end }}
+  {{end}}
   {{ else if lt $index 6}}
   {{ if modBool $index 2}}
-  <div class="bg-white">
-    <div class="container1 relative bottom-10-vw">
-      {{ partial "z-brix" $element }}
+  <div class="mw8 center">
+    <div class="flex-m mhn3-m mb4 relative people-r2 z-1">
+      <div class="ph4-m w-50-m">
+        {{ partial "z-brix" $element }}
+      </div>
       {{ else }}
-      {{ partial "z-brix" $element }}
+      <div class="ph4-m w-50-m">
+        {{ partial "z-brix" $element }}
+      </div>
     </div>
   </div>
-  {{ end }}
+  {{end}}
   {{ else }}
   {{ partial "light-wide-text" $element }}
   {{ end }}
