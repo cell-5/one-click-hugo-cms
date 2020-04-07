@@ -8,9 +8,9 @@
       <div class="absolute top-0 w-100">
         {{ block "header" . }}{{ partial "nav" . }}{{end}}
       </div>
-
-      {{ block "main" . }}{{ end }}
-
+      <div id="main-block">
+        {{ block "main" . }}{{ end }}
+      </div>
       {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
       {{ $script := .Site.Data.webpack.main }}

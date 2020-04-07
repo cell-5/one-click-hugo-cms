@@ -1,23 +1,39 @@
-<div class="nav-bar relative z-1">
-	<div class="nav-container">
-		<div class="brand">
-			<a href="/">
-				<img src="/img/cell5/cell-5-logo-black.svg" alt="Cell 5 logo" style="float: left;" class="z-1" />
-			</a>
+<div class="nav-container">
+	<div class="logo">
+		<a href="/">
+			<img src="/img/cell5/cell-5-logo-black.svg" alt="Cell 5 logo" style="float: left;" class="z-1" />
+		</a>
+	</div>
+	<div class="navbar">
+		<div class="icon-bar" onclick="Show()">
+			<i></i>
+			<i></i>
+			<i></i>
 		</div>
-		<nav>
-			<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-			<ul class="nav-list">
+		<div id="drawer-nav">
+			<ul id="nav-lists">
+				<li class="close"><span onclick="Hide()">×</span></li>
 				<li><a href="/people">People</a></li>
-
 				<li><a href="/clients">Clients</a></li>
-
 				<li><a href="/values">Values</a></li>
-
 				<li><a href="/process">Process</a></li>
-
 				<li><a href="/tools">Tools</a></li>
 			</ul>
-		</nav>
+		</div>
+
 	</div>
 </div>
+
+<script>
+	var navList = document.getElementById("nav-lists");
+	var drawer = document.getElementById("drawer-nav");
+	function Show() {
+		navList.classList.add("_Menus-show");
+		drawer.classList.add("drawer-open");
+	}
+
+	function Hide() {
+		navList.classList.remove("_Menus-show");
+		drawer.classList.remove("drawer-open");
+	}
+</script>
