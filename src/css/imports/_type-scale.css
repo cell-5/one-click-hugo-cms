@@ -7,7 +7,6 @@
 
 /*custom*/
 .f-title{ font-size: 3.125rem; }
-.f-wide-text{ font-size: 0.625rem; }
 
 
 @media (--breakpoint-not-small) {
@@ -22,7 +21,6 @@
   .f5-ns { font-size: var(--spacing-medium); }
   .f6-ns { font-size: .875rem; }
   .f-title{ font-size: 6.25rem; }
-  .f-wide-text{ font-size: 1.25rem; }
 }
 
 @media (--breakpoint-medium) {
@@ -37,7 +35,6 @@
   .f5-m { font-size: var(--spacing-medium); }
   .f6-m { font-size: .875rem; }
   .f-title{ font-size: 6.25rem; }
-  .f-wide-text{ font-size: 1.25rem; }
 }
 
 @media (--breakpoint-large) {
@@ -56,5 +53,4 @@
   .f5-l { font-size: var(--spacing-medium); }
   .f6-l { font-size: .875rem; }
   .f-title{ font-size: 6.25rem; }
-  .f-wide-text{ font-size: 1.25rem; }
 }

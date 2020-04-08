@@ -41,11 +41,19 @@ body {
   width: 100% !important;
 }
 
+<<<<<<< HEAD
 .svg-container {
   position: relative;
   margin: 0;
   padding: 0;
   width: 100%;
+=======
+.svg-container{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+>>>>>>> cd885e3c6b37db3adb5eb34b96de81685e661807
 }
 
 .svg-bg-bottom {
@@ -69,16 +77,41 @@ body {
   visibility: visible;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 798px) {
   .d-main {
     display: none !important;
+=======
+.ch-mobile{
+    padding-top: 0px;
+}
+
+.mobile-only{
+    display: none;
+}
+
+
+@media only screen and (max-width: 798px) {
+  .mobile-only{
+    display: contents;
+  }
+
+  .d-main{
+      display: none !important;
+>>>>>>> cd885e3c6b37db3adb5eb34b96de81685e661807
   }
 
   .v-mobile {
     visibility: hidden;
   }
+<<<<<<< HEAD
   .custom-header-mobile {
     padding-top: 60px;
+=======
+
+  .ch-mobile{
+      padding-top: 60px;
+>>>>>>> cd885e3c6b37db3adb5eb34b96de81685e661807
   }
 
   .v-card-mobile {

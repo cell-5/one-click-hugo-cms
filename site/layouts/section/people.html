@@ -4,13 +4,12 @@
 
 <div class="black-section">
   <div class="lh-1 c-white ta-center">
-    <div class="w-100 b f1 pt4">{{ .Params.title }}</div>
-    <div class="pv6">
+    <div class="w-100 h-white pv4">{{ .Params.title }}</div>
+    <div class="pv5 media-mobile">
       {{ partial "wide-text" (dict "text" .Params.text) }}
     </div>
   </div>
 </div>
-
 <div>
   {{ range $index, $element := .Params.people }}
   {{ if lt $index 2 }}

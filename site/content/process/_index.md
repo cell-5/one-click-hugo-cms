@@ -4,7 +4,7 @@ image: /img/values.jpg
 text: >
   We are always open to discuss better ways of working. We try to keep the balance right between having a light process that empowers people, and having enough process to stay organized. If you have feedback on our process we would really enjoy discussing it. [Talk process with us?](/contact)
 footer: >
-  **If you want to discuss us fitting into your process or want a tailored execution plan we are happy to expand on this in a pitch. [Let us Pitch?](/contact)**
+  If you want to discuss us fitting into your process or want a tailored execution plan we are happy to expand on this in a pitch. **[Let us Pitch?](/contact)**
 process:
   - heading: "Establish Fit & Agree Mission"
     svgUrl: "/img/SVG/process/step-1.svg"
