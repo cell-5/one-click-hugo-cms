@@ -74,9 +74,9 @@
     font-weight: 800;
     font-size: 3.125rem;
     line-height: 3.8125rem;
-
     color: #FFFFFF;
 }
+
 
 /*body*/
 .body-black{
@@ -120,6 +120,16 @@
 
 
 @media only screen and (max-width: 798px) {
+  .m-txt-s{
+    font-size: 0.625rem !important;
+    line-height: 0.9375rem !important;
+  }
+
+  .m-txt-m{
+    font-size: 1rem !important;
+    line-height: 1.5625rem !important;
+  }
+
   .h-black{
     font-weight: 800;
     font-size: 1.875rem;
@@ -128,6 +138,13 @@
     text-align: center;
     margin-bottom: 10%;
  }
+
+ .h-white{
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #FFFFFF;
+}
 
  .body-black {
     text-align: center; 

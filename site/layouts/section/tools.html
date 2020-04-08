@@ -8,10 +8,10 @@
   {{ if ne $index 3 }}
   <div class="svg-container light-gradient-bg mv5 h-25">
     <div class="mw7 center">
-      <div class="ta-center pb5">
+      <div class="ta-center">
         <span class="h-purple">{{ .heading }}</span>
         {{ if .text }}
-        <p class="pv3">{{ .text }}</p>
+        <p class="pv3 m-txt-m">{{ .text }}</p>
         {{ end }}
       </div>
       {{ range $index, $element := .details }}
@@ -28,7 +28,7 @@
   </div>
   {{ else }}
   <div class="mw7 center">
-    <div class="ta-center pb5">
+    <div class="ta-center">
       <span class="h-purple">{{ .heading }}</span>
       {{ if .text }}
       <p class="pv3">{{ .text }}</p>
