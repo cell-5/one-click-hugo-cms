@@ -70,11 +70,19 @@ body {
 }
 
 .ch-mobile{
-      padding-top: 0px;
-  }
+    padding-top: 0px;
+}
+
+.mobile-only{
+    display: none;
+}
 
 
 @media only screen and (max-width: 798px) {
+  .mobile-only{
+    display: contents;
+  }
+
   .d-main{
       display: none !important;
   }

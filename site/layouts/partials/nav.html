@@ -10,14 +10,24 @@
 			<i></i>
 			<i></i>
 		</div>
-		<div id="drawer-nav">
+		<div id="drawer-nav" onclick="Hide()">
 			<ul id="nav-lists">
-				<li class="close"><span onclick="Hide()">×</span></li>
+				<li class="close">
+					<span onclick="Hide()">
+						<img src="/img/icons-close.svg" width="30" height="30" />
+					</span>
+				</li>
 				<li><a href="/people">People</a></li>
 				<li><a href="/clients">Clients</a></li>
 				<li><a href="/values">Values</a></li>
 				<li><a href="/process">Process</a></li>
 				<li><a href="/tools">Tools</a></li>
+				<div class="mobile-only">
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+				</div>
 			</ul>
 		</div>
 
