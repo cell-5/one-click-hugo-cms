@@ -41,8 +41,6 @@ body {
 }
 
 
-
-
 .svg-container{
 	position: relative;
 	margin: 0;
@@ -71,6 +69,10 @@ body {
     visibility: visible;
 }
 
+.ch-mobile{
+      padding-top: 0px;
+  }
+
 
 @media only screen and (max-width: 798px) {
   .d-main{
@@ -80,7 +82,8 @@ body {
   .v-mobile{
       visibility: hidden;
   }
-  .custom-header-mobile{
+
+  .ch-mobile{
       padding-top: 60px;
   }
 
