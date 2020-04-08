@@ -1,8 +1,6 @@
-<div class="card-container br-a-50 w-80">
+<div class="card-container br-a-50 w-80 v-card-mobile">
     {{if .symbol}}
-    <div>
-        <img src="{{.symbol}}" />
-    </div>
+    <img src="{{.symbol}}" />
     {{ end }}
     <div class="f4 c-db lh-copy fw8 pv3">{{.heading}}</div>
     <div class="lh-title">{{.text | markdownify}}</div>

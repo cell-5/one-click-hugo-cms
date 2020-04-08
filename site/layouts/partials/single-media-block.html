@@ -1,19 +1,33 @@
-<div class="flex-m mhn3-m mb4">
-    <div class="ph6-m w-50-m order-last-m relative z-1">
-        <h3 class="head-purple">{{.heading}}</h3>
-        <div class="body-black pt4 pb3">{{.description | markdownify }}</div>
-        {{ if .moreLink }}
-        <button class="eclipse-btn bg-bv text-18-22 z-1">
-            Visit Site
-        </button>
-        {{ end }}
-    </div>
-    <div class="ph6-m w-50-m relative z-1">
-        <div class="relative top-8vw">
-            <img src="{{.imageUrl}}" alt="" class="db img-shadow" />
+<div class="d-main">
+    <div class="flex-m mhn3-m mb4">
+        <div class="ph6-m w-50-m order-last-m relative z-1">
+            <h3 class="h-purple">{{.heading}}</h3>
+            <div class="body-black pt4 pb3">{{.description | markdownify }}</div>
+            {{ if .moreLink }}
+            <button class="eclipse-btn bg-bv text-18-22 z-1">
+                Visit Site
+            </button>
+            {{ end }}
+        </div>
+        <div class="ph6-m w-50-m relative z-1">
+            <div class="relative top-8vw">
+                <img src="{{.imageUrl}}" alt="" class="db img-shadow" />
+            </div>
         </div>
     </div>
 </div>
 <div class="media-box-1">
+    <div class="cm-box">
+        <img src="{{.imageUrl}}" alt="" class="db img-shadow" />
+        <h3 class="h-purple">{{.heading}}</h3>
+        {{.description | markdownify }}
+    </div>
     {{ .text | markdownify }}
+    <div class="cm-box">
+        {{ if .moreLink }}
+        <button class="eclipse-btn bg-bv btn-text z-1">
+            Visit Site
+        </button>
+        {{ end }}
+    </div>
 </div>

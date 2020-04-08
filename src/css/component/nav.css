@@ -53,6 +53,10 @@
   align-items: center;
 }
 
+.nav-container .logo a:focus {
+  box-shadow: none;
+}
+
 .nav-container .logo a img {
   max-width: 100%;
   max-height: 60px;

@@ -12,7 +12,7 @@ text: >
 
 
 footer: >
-    **For existing or previous clients, if you think we can do a better job of representing you, or if there is an opportunity to share value about our work together, we would love the chance to collaborate on that content! [Contact us](/contact)**
+    For existing or previous clients, if you think we can do a better job of representing you, or if there is an opportunity to share value about our work together, we would love the chance to collaborate on that content! **[Contact us](/contact)**
 clients:
   - heading: "Aphex"
     moreLink: "https://www.aphex.co/"

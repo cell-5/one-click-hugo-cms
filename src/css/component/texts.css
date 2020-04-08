@@ -38,6 +38,13 @@
     color: #FFFFFF;
 }
 
+.btn-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
 /*text-alignment*/
 .ta-center{
     text-align: center !important;
@@ -48,7 +55,7 @@
 }
 
 /*Headers*/
-.head-black{
+.h-black{
     font-weight: 800;
     font-size: 3.125rem;
     line-height: 3.8125rem;
@@ -56,15 +63,14 @@
     color: #000000;
 }
 
-.head-purple{
+.h-purple{
     font-weight: 800;
     font-size: 3.125rem;
     line-height: 3.8125rem;
-
     color: #8E21E9;
 }
 
-.head-white{
+.h-white{
     font-weight: 800;
     font-size: 3.125rem;
     line-height: 3.8125rem;
@@ -114,7 +120,7 @@
 
 
 @media only screen and (max-width: 798px) {
-  .head-black{
+  .h-black{
     font-weight: 800;
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -131,6 +137,16 @@
 
  .body-black p:nth-of-type(1n+2){
     display: none;
+ }
+
+ .h-purple{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+ }
+
+ .btn-text{
+    font-size: 0.625rem;
+    line-height: 0.75rem;
  }
 }
 

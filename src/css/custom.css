@@ -64,7 +64,7 @@ body {
 
 /*display and visibility*/
 .d-main{
-    display: flex;
+    display: block;
 }
 
 .v-mobile{
@@ -82,5 +82,9 @@ body {
   }
   .custom-header-mobile{
       padding-top: 50px;
+  }
+
+  .v-card-mobile{
+    text-align: center;
   }
 }
