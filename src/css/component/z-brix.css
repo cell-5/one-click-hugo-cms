@@ -1,3 +1,6 @@
+/* THIS IS BRIX's CSS FOR 'PEOPLE' PAGE */
+/* CSS STARTS HERE */
+
 .container1 {
   width: 80%;
   margin: 0 auto;
@@ -49,6 +52,52 @@
   text-align: center;
 }
 
+/* END OF 'PEOPLE' PAGE CSS */
+
+/* THIS IS BRIX`s CSS FOR MOBILE VIEW OF 'PROCESS' PAGE */
+/* CSS STARTS HERE */
+
+.process-mobile {
+  display: none;
+}
+
+.card-process {
+  width: 60%;
+  background: #ffffff;
+  padding: 25px;
+  height: auto;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  margin: 300px auto auto auto;
+  align-items: center;
+  text-align: center;
+}
+
+.card-process img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card-process h3 {
+  margin-top: 10%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.card-process p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+}
+
+/* END OF MOBILE 'PROCESS' PAGE CSS */
 
 @media only screen and (max-width: 799px) {
   .card1 {
@@ -68,5 +117,13 @@
   .card1 p {
     font-size: 0.625rem;
     line-height: 0.9375rem;
+  }
+
+  .process {
+    display: none;
+  }
+
+  .process-mobile {
+    display: block;
   }
 }

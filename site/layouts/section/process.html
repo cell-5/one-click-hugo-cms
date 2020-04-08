@@ -38,6 +38,20 @@
 
   </div>
 
+  <div class="process-mobile">
+    {{ range $index, $element := .Params.process }}
+    <div class="card-process">
+      <img src="{{.imageUrl}}">
+      <div class="info-section">
+        <h3>{{.heading}}</h3>
+        <p>
+          {{.text | markdownify }}
+        </p>
+      </div>
+    </div>
+    {{end}}
+  </div>
+
   <div class="lh-1 c-white">
     {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
   </div>

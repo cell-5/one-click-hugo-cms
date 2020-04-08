@@ -1,90 +1,87 @@
+@import "./component/alignment.css";
+@import "./component/background.css";
+@import "./component/box.css";
+@import "./component/images.css";
+@import "./component/margins.css";
+@import "./component/nav.css";
+@import "./component/scrolls.css";
+@import "./component/texts.css";
+@import "./component/z-brix.css";
 
-@import './component/alignment.css';
-@import './component/background.css';
-@import './component/box.css';
-@import './component/images.css';
-@import './component/margins.css';
-@import './component/nav.css';
-@import './component/scrolls.css';
-@import './component/texts.css';
-
-body,html {
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 
 html {
-    font-size: 14px
+  font-size: 14px;
 }
 
 body {
-    width: 100%;
-	max-width: 1920px; 
-	margin-right: auto;
-	margin-left: auto;
-} 
-
-#root{
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	font-size: 12px;
-    line-height: normal !important;
-    font-family: Montserrat !important;
-    font-style: normal;
+  width: 100%;
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.container { 
-    height: auto !important; 
-    width: 100% !important; 
+#root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  line-height: normal !important;
+  font-family: Montserrat !important;
+  font-style: normal;
 }
 
-
-
-
-.svg-container{
-	position: relative;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+.container {
+  height: auto !important;
+  width: 100% !important;
 }
 
-.svg-bg-bottom{
+.svg-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.svg-bg-bottom {
   position: relative;
   top: 2vw;
   width: 100%;
 }
 
-.svg-bg-top{
+.svg-bg-top {
   position: relative;
   bottom: 1vw;
   width: 100%;
 }
 
 /*display and visibility*/
-.d-main{
-    display: block;
+.d-main {
+  display: block;
 }
 
-.v-mobile{
-    visibility: visible;
+.v-mobile {
+  visibility: visible;
 }
-
 
 @media only screen and (max-width: 798px) {
-  .d-main{
-      display: none !important;
+  .d-main {
+    display: none !important;
   }
 
-  .v-mobile{
-      visibility: hidden;
+  .v-mobile {
+    visibility: hidden;
   }
-  .custom-header-mobile{
-      padding-top: 60px;
+  .custom-header-mobile {
+    padding-top: 60px;
   }
 
-  .v-card-mobile{
+  .v-card-mobile {
     text-align: center;
   }
 }
