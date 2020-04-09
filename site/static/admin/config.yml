@@ -37,6 +37,25 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "markdown"}]}
+          - label: Preludes
+            name: preludes
+            widget: list
+            fields:
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: imageUrl, widget: image}
+              - label: Details
+                name: details
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: id, name: id, widget: string}
+                  - label: Contents
+                    name: contents
+                    widget: list
+                    fields:
+                      - {label: Content, name: content, widget: text}
+                      - {label: Type, name: type, widget: string}
       - file: "site/content/values/_index.md"
         label: "Values Page"
         name: "values"
