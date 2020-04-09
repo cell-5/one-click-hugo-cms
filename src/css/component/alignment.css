@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.ecclipse-svg {
+.circle-svg {
   position: absolute;
   top: 50%;
   right: 2%;
@@ -91,5 +91,14 @@
 
   .top-10vw {
     top: 0;
+  }
+
+  .circle-svg {
+    position: static;
+    top: 0;
+    right: 0;
+    transform: none;
+    display:block;
+    margin: 10px auto 0px;
   }
 }

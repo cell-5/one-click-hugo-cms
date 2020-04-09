@@ -1,0 +1,22 @@
+<div class="p-d">
+    <img src="/img/process-cover.png" width="100%" />
+    {{ range .content }}
+    {{if .headText}}
+    <div class="p-d-head">
+        {{.headText | markdownify }}
+        <img src="/img/SVG/process-circle.svg" width="40" height="40" class="circle-svg" />
+    </div>
+    {{end}}
+    {{if .subText}}
+    <div class="pb4 center-horizantal">
+        <div class="grp-process ta-center w-80">
+            {{ range .subText }}
+            <div class="grp-detail">
+                {{.textDetail}}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>

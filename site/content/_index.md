@@ -53,8 +53,6 @@ preludes:
         id: process-1
         content:
           - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
-            headTextCss: top-255
-            subTextCss: ta-center
             subText:
             - textDetail: Are we trying to build a product that delivers lasting value?
             - textDetail: Can we realistically deliver what is needed?
@@ -62,8 +60,7 @@ preludes:
       - name: Blend a Team
         id: process-2
         content:
-          - subTextCss: ta-left
-            subText:
+          - subText:
             - textDetail: The recipe for success always starts with the right team. 
             - textDetail: The roles a team need vary based on the project, and on what skills our client brings to the table.
             - textDetail: Our people are mostly skilled adaptable generalists, each having their own specialities and strengths. We can deliver a good job across most aspects of the project.
@@ -78,8 +75,6 @@ preludes:
               That said we do stick to these common practises:
 
 
-            headTextCss: top-230
-            subTextCss: ta-left
             subText:
             - textDetail: Get something delivered and released early and often. ( Devops inspired )
             - textDetail: Have a single project heart-beat meeting, either weekly or fortnighthly. ( XP inspired )
@@ -91,8 +86,6 @@ preludes:
         id: process-4
         content:
           - headText: Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
-            headTextCss: top-255
-            subTextCss: ta-center
             subText:
             - textDetail: Are we trying to build a product that delivers lasting value?
             - textDetail: Can we realistically deliver what is needed?

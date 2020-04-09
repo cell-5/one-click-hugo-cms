@@ -79,17 +79,23 @@
   };
 
   function handleClickProcess(id) {
+    console.log(id);
     var btns = document.getElementById("process-buttons").getElementsByTagName("*");
     var divs = document.getElementById("details-data").getElementsByTagName("div");
+    var div_mob = document.getElementById("p-d-mobile").getElementsByTagName("div");
+
+    console.log("div_mob: ", div_mob);
 
     for (var i = 1; i < btns.length; i++) {
       let btnId = btns[i].id;
       let divId = btnId.slice(0, 9);
       document.getElementById(btnId).disabled = (btnId === (id + "-btn"));
       if (divs[divId].id !== id) {
-        document.getElementById(divs[divId].id).style.visibility = "hidden";
+        document.getElementById(divs[divId].id).style.display = "none";
+        document.getElementById(div_mob[divId + "-m"].id).style.display = "none";
       } else {
-        document.getElementById(divs[divId].id).style.visibility = "visible";
+        document.getElementById(divs[divId].id).style.display = "block";
+        document.getElementById(div_mob[divId + "-m"].id).style.display = "block";
       }
     }
   };

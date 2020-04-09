@@ -4,27 +4,8 @@
     <div class="d-main">
       <div id="details-data">
         {{ range $index, $element := .details }}
-        <div id="{{.id}}" class="process-details">
-          <img src="/img/process-cover.png" width="100%" />
-          {{ range .content }}
-          {{if .headText}}
-          <div class="process-details-head {{.headTextCss}}">
-            {{.headText | markdownify }}
-            <img src="/img/SVG/process-circle.svg" width="40" height="40" class="ecclipse-svg" />
-          </div>
-          {{end}}
-          {{if .subText}}
-          <div class="pv4 center-horizantal">
-            <div class="grp-process {{.subTextCss}}">
-              {{ range .subText }}
-              <div class="grp-detail">
-                {{.textDetail}}
-              </div>
-              {{ end }}
-            </div>
-          </div>
-          {{ end }}
-          {{ end }}
+        <div id="{{.id}}">
+          {{ partial "process-details" $element }}
         </div>
         {{end}}
       </div>
@@ -37,12 +18,13 @@
     <h3 class="h-black {{.additionalCss}}">{{.heading}}</h3>
     <div class="body-black pt4 pb3 {{.additionalCss}}">{{.text | markdownify }}</div>
     {{if .details}}
-    <div id="process-buttons" class="process-main">
-      <div class="btn-group">
+    {{ partial "process-buttons" (dict "details" .details)}}
+    <div class="mobile-only">
+      <div id="p-d-mobile">
         {{ range $index, $element := .details }}
-        <button id="{{.id}}-btn" class="btn-grp-child" onclick='handleClickProcess("{{.id}}")'>
-          {{.name}}
-        </button>
+        <div id="{{.id}}-m">
+          {{ partial "process-details" $element }}
+        </div>
         {{end}}
       </div>
     </div>
