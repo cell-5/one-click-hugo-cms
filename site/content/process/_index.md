@@ -8,6 +8,7 @@ footer: >
 process:
   - heading: "Establish Fit & Agree Mission"
     svgUrl: "/img/SVG/process/step-1.svg"
+    mobileSvgUrl: "/img/SVG/process/step-1-mobile.svg"
     cardCss: p-card-1
     text: >
       Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
@@ -24,6 +25,7 @@ process:
 
   - heading: "Blend a Team"
     svgUrl: "/img/SVG/process/step-2.svg"
+    mobileSvgUrl: "/img/SVG/process/step-2-mobile.svg"
     text: >
       The recipe for success always starts with the right team.
 
@@ -40,6 +42,7 @@ process:
 
   - heading: "Execute"
     svgUrl: "/img/SVG/process/step-3.svg"
+    mobileSvgUrl: "/img/SVG/process/step-3-mobile.svg"
     cardCss: p-card-r
     text: >
       When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery.
@@ -66,6 +69,7 @@ process:
 
   - heading: "Amplify"
     svgUrl: "/img/SVG/process/step-4.svg"
+    mobileSvgUrl: "/img/SVG/process/step-4-mobile.svg"
     text: >
       Delivery is not done when the product is launched. It is done when value is created and maximized. 
 

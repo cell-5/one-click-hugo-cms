@@ -95,7 +95,7 @@
 }
 
 #process-1{
-    display: inline;
+    display: block;
 }
 
 #process-2{
@@ -107,6 +107,22 @@
 }
 
 #process-4{
+    display: none;
+}
+
+#process-1-m{
+    display: block;
+}
+
+#process-2-m{
+    display: none;
+}
+
+#process-3-m{
+    display: none;
+}
+
+#process-4-m{
     display: none;
 }
 

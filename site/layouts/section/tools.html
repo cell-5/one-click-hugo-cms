@@ -7,7 +7,7 @@
   {{ range $index, $element := .Params.tools }}
   {{ if ne $index 3 }}
   <div class="svg-container light-gradient-bg mv5 h-25">
-    <div class="mw7 center">
+    <div class="pv5 mw7 center">
       <div class="ta-center">
         <span class="h-purple">{{ .heading }}</span>
         {{ if .text }}
@@ -27,7 +27,7 @@
     </svg>
   </div>
   {{ else }}
-  <div class="mw7 center">
+  <div class="pv5 mw7 center">
     <div class="ta-center">
       <span class="h-purple">{{ .heading }}</span>
       {{ if .text }}

@@ -38,8 +38,11 @@
 
   </div>
 
-  <div class="process-mobile">
+  <div class="process-mobile pv5">
     {{ range $index, $element := .Params.process }}
+    <div class="w-100 ta-center lh-0">
+      <img src="{{ .mobileSvgUrl }}" width="30" height="auto" />
+    </div>
     <div class="card-process">
       <img src="{{.imageUrl}}">
       <div class="info-section">
@@ -50,12 +53,13 @@
       </div>
     </div>
     {{end}}
+    <div class="w-100 ta-center lh-0">
+      <img src="/img/SVG/process/step-5-mobile.svg" width="30" height="auto" />
+    </div>
   </div>
-
   <div class="lh-1 c-white">
     {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
   </div>
-
 </div>
 
 {{ end }}

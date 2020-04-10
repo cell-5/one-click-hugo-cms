@@ -79,12 +79,9 @@
   };
 
   function handleClickProcess(id) {
-    console.log(id);
-    var btns = document.getElementById("process-buttons").getElementsByTagName("*");
-    var divs = document.getElementById("details-data").getElementsByTagName("div");
-    var div_mob = document.getElementById("p-d-mobile").getElementsByTagName("div");
-
-    console.log("div_mob: ", div_mob);
+    let btns = document.getElementById("process-buttons").getElementsByTagName("*");
+    let divs = document.getElementById("details-data").getElementsByTagName("div");
+    let div_mob = document.getElementById("p-d-mobile").getElementsByTagName("div");
 
     for (var i = 1; i < btns.length; i++) {
       let btnId = btns[i].id;
