@@ -41,11 +41,11 @@ body {
   width: 100% !important;
 }
 
-.svg-container{
-	position: relative;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+.svg-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .svg-bg-bottom {
@@ -69,30 +69,29 @@ body {
   visibility: visible;
 }
 
-.ch-mobile{
-    padding-top: 0px;
+.ch-mobile {
+  padding-top: 0px;
 }
 
-.mobile-only{
-    display: none;
+.mobile-only {
+  display: none;
 }
-
 
 @media only screen and (max-width: 799px) {
-  .mobile-only{
+  .mobile-only {
     display: contents;
   }
 
-  .d-main{
-      display: none !important;
+  .d-main {
+    display: none !important;
   }
 
   .v-mobile {
     visibility: hidden;
   }
 
-  .ch-mobile{
-      padding-top: 60px;
+  .ch-mobile {
+    padding-top: 60px;
   }
 
   .v-card-mobile {
