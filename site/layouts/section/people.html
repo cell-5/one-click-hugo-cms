@@ -2,7 +2,7 @@
 
 {{ partial "custom-header-bg" . }}
 
-<div class="black-section">
+<div class="dark-bg">
   <div class="lh-1 c-white ta-center">
     <div class="w-100 h-white pv4">{{ .Params.title }}</div>
     <div class="pv5 media-mobile">
@@ -14,7 +14,7 @@
   {{ range $index, $element := .Params.people }}
   {{ if lt $index 2 }}
   {{ if modBool $index 2}}
-  <div class="black-section">
+  <div class="dark-bg">
     <div class="mw8 center relative z-1">
       <div class="flex-m mhn3-m mb4 z-1">
         <div class="ph4-m w-50-m">

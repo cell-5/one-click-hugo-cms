@@ -1,36 +1,36 @@
-<div class="home-top ta-center c-white pt6 z-1">
-  <div class="center-horizantal d-main">
-    <img src="{{.imageUrl}}" />
-  </div>
-  <h1 class="f-title fw8 relative top-3vw">
-    {{.title}}
-  </h1>
-  {{ if .subtitle }}
-  <div class="f4 lh-copy w-50 m-auto relative top-5vw">
-    {{.subtitle | markdownify }}
-  </div>
-  {{ end }}
-  <div class="center-horizantal relative top-8vw">
-    <button class="eclipse-btn bg-bv text-18-22">
-      Get Started
-    </button>
-  </div>
-  <div class="center-horizantal relative top-21vw">
-    <img src="/img/banner image.png" class="z-1 v-mobile" height="auto" width="50%" />
-  </div>
-  <div>
-    <div class="svg-container">
-      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1918 570" class="svg-bg-bottom">
-        <path id="Path_799" data-name="Path 799"
-          d="M1917.4999589920044,118.50215264892574 s-155.839,7.854 -278.641,-36.674 s-492.307,122.839 -516.107,130.34 s-185.109,48.508 -384.886,38.22 s-693.819,34.628 -739.344,54.3 c1.429,0.528 0,265.865 0,265.865 H1917.4999589920044 z"
-          fill="#fff" opacity="0.24" />
-        <path id="Path_800" data-name="Path 800"
-          d="M1917.4999589920044,18.988152648925734 s-210.766,-62.4 -376.3,64.386 s-328.27,116.792 -455,96.186 s-388.587,-39.546 -688.749,152.489 c-25.28,17.212 -298.075,56.088 -399.647,39.057 c-0.1790000000000001,-0.4270000000000002 0,165.821 0,165.821 H1917.4999589920044 z"
-          fill="#fff" opacity="0.123" />
-        <path id="Path_801" data-name="Path 801"
-          d="M-102.66666674613953,510.82612387084964 s98.592,-17.179 256.937,-118.052 c94.781,-62.434 248.413,-88.993 355.889,-57.478 c136.827,22.51 203.066,49.923 358.452,0 C1023.9933332538604,285.3731238708496 1652.8933332538604,132.85612387084961 1957.8433332538605,165.8361238708496 c0.3100000000000001,1.556 0,961.932 0,961.932 H-102.66666674613953 V510.82612387084964 z"
-          fill="#25272E" />
-      </svg>
+<div class="div-section c-white pt6 z-1">
+  <div class="mw9 center">
+    <div class="flex-m mhn3-m mb4 z-1 items-center">
+      <div class="ph5-m w-50-m">
+        <div class="relative z-1">
+          <h1 class="f2 fw8">
+            {{.title}}
+          </h1>
+          {{ if .subtitle }}
+          <div class="f1 lh-copy ttu pt3 pb4">
+            {{.subtitle | markdownify }}
+          </div>
+          {{ end }}
+          <button class="eclipse-btn bg-bv f5 c-white">
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div class="ph5-m w-50-m v-mobile">
+        <img src="{{ .bannerImg }}" class="relative z-1" />
+      </div>
     </div>
+  </div>
+  <div class="svg-container absolute bottom-0 lh-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 480">
+      <path data-name="Path 799"
+        d="M1917.5 118.502s-155.839 7.854-278.641-36.674-492.307 122.84-516.107 130.34-185.109 48.508-384.886 38.22-693.819 34.628-739.344 54.3c1.429.528 0 265.865 0 265.865H1917.5z"
+        fill="#fff" opacity=".24" />
+      <path data-name="Path 800"
+        d="M1917.5 18.988s-210.766-62.4-376.3 64.386-328.27 116.792-455 96.186-388.587-39.546-688.749 152.49c-25.28 17.211-298.075 56.087-399.647 39.056-.179-.427 0 165.821 0 165.821H1917.5z"
+        fill="#fff" opacity=".123" />
+      <path fill="#25272E"
+        d="M-102.667 510.826s98.592-17.179 256.937-118.052c94.781-62.434 248.413-88.993 355.89-57.478 136.826 22.51 203.065 49.923 358.451 0 155.382-49.923 784.282-202.44 1089.232-169.46.31 1.556 0 961.932 0 961.932h-2060.51V510.826z" />
+    </svg>
   </div>
 </div>

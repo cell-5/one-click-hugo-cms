@@ -1,7 +1,7 @@
 <div class="p-d">
     <img src="/img/process-cover.png" width="100%" />
     <div class="center-horizantal">
-        <div class="grp-process ta-center w-80">
+        <div class="grp-process w-80">
             {{ range .contents }}
             {{if eq .type "header" }}
             <div class="p-d-head">
@@ -9,7 +9,7 @@
                 <img src="/img/SVG/process-circle.svg" width="40" height="40" class="circle-svg" />
             </div>
             {{ else }}
-            <div class="grp-detail">
+            <div class="grp-detail ta-center">
                 {{ .content }}
             </div>
             {{end}}
