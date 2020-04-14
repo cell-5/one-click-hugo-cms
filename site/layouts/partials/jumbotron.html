@@ -1,13 +1,13 @@
-<div class="div-section c-white pt6 z-1">
+<div class="home-top c-white pt6 z-1">
   <div class="mw9 center">
     <div class="flex-m mhn3-m mb4 z-1 items-center">
       <div class="ph5-m w-50-m">
-        <div class="relative z-1">
+        <div class="relative z-1 m-title">
           <h1 class="f2 fw8">
             {{.title}}
           </h1>
           {{ if .subtitle }}
-          <div class="f1 lh-copy ttu pt3 pb4">
+          <div class="f-title lh-copy ttu pt3 pb4">
             {{.subtitle | markdownify }}
           </div>
           {{ end }}
@@ -16,7 +16,7 @@
           </button>
         </div>
       </div>
-      <div class="ph5-m w-50-m v-mobile">
+      <div class="ph5-m w-50-m d-main">
         <img src="{{ .bannerImg }}" class="relative z-1" />
       </div>
     </div>
