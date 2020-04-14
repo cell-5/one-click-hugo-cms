@@ -79,7 +79,6 @@
   left: 55%;
 }
 
-
 @media only screen and (max-width: 799px) {
   .people-r1 {
     bottom: 0;
@@ -98,7 +97,7 @@
     top: 0;
     right: 0;
     transform: none;
-    display:block;
+    display: block;
     margin: 10px auto 0px;
   }
 }
