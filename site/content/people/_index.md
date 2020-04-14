@@ -5,6 +5,13 @@ text: >
   **Open Roles:** We are currently looking for **two web developers**, a **web designer** and a **social media marketing manager** to join our team. [Apply Now](/contact).
 footer: >
   **Issues with us?** If you have any concerns with any of our team, please let us know in confidence, as we would much rather address it. [Report repuational concern](/contact).
+bottomHeader: "Trusted Freelance Partners"
+bottomText: >
+      We have an extended team of trusted partners in our network. 
+
+
+      If we do not have the skills we will say so, but we may recommend a partner or a joint venture.
+
 
 people:
   - heading: "Peter Barry"
@@ -76,14 +83,4 @@ people:
       customers or clients by providing excellent service and on time project delivery.
 
     imageUrl: "/img/people/clynt.jpg"
-
-  - heading: "Trusted Freelance Partners"
-    text: >
-
-
-      We have an extended team of trusted partners in our network. 
-
-
-      If we do not have the skills we will say so, but we may recommend a partner or a joint venture.
-    imageUrl: "/img/people/peeps.jpg"
 ---

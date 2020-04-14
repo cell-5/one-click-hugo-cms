@@ -77,6 +77,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Image, name: image, widget: image}
           - {label: Lead Heading, name: heading, widget: markdown}
           - {label: Lead Text, name: text, widget: markdown}
+          - {label: Bottom Heading, name: bottomHeader, widget: markdown}
+          - {label: Bottom Text, name: bottomText, widget: markdown}
           - label: People
             name: people
             widget: list
