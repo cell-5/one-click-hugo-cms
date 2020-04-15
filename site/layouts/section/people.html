@@ -5,24 +5,37 @@
 <div class="pv5">
   {{ range $index, $element := .Params.people }}
   {{ if modBool $index 2}}
-  <div class="mw8 center">
-    <div class="flex-m mhn3-m mb4 z-1">
-      <div class="ph4-m w-50-m">
-        {{ partial "z-brix" $element }}
+  {{ if modBool $index 4}}
+  <div class="light-gradient-bg">
+    {{ else }}
+    <div>
+      {{ end }}
+      <div class="pv6 mw8 center">
+        <div class="flex-m mhn3-m mb4 z-1">
+          <div class="ph4-m w-50-m">
+            {{ partial "z-brix" $element }}
+          </div>
+          {{ else }}
+          <div class="ph4-m w-50-m">
+            {{ partial "z-brix" $element }}
+          </div>
+        </div>
       </div>
-      {{ else }}
-      <div class="ph4-m w-50-m">
-        {{ partial "z-brix" $element }}
-      </div>
+      {{ if (modBool (sub $index 1) 4) }}
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1920 555" class="svg-bg-bottom">
+        <path
+          d="M2445.12 440.965s-124.26-21.652-323.82-148.787c-119.45-78.689-313.08-112.162-448.53-72.443-172.44 28.371-255.92 62.92-451.75 0C1025.18 156.815 232.581-35.409-151.756 6.156c-.389 1.96 0 551.861 0 551.861H2445.12V440.965z"
+          fill="#fff" id="Path_592" />
+      </svg>
+      {{ end }}
     </div>
+    {{end}}
+    {{ end }}
+
+    {{ partial "light-wide-text" (dict "heading" .Params.bottomHeader "text" .Params.bottomText) }}
+
   </div>
-  {{end}}
+  <div class="lh-1 c-white">
+    {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
+  </div>
   {{ end }}
-
-  {{ partial "light-wide-text" (dict "heading" .Params.bottomHeader "text" .Params.bottomText) }}
-
-</div>
-<div class="lh-1 c-white">
-  {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
-</div>
-{{ end }}
