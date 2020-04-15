@@ -14,7 +14,6 @@
   bottom: 0;
   left: 0;
   right: 0;
-  font-size: 12px;
   font-family: Montserrat !important;
   font-style: normal;
 }
@@ -22,6 +21,7 @@
 .container {
   height: auto !important;
   width: 100% !important;
+  background: #ffffff;
 }
 
 .svg-container {

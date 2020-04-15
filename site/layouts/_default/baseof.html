@@ -2,22 +2,20 @@
 <html lang="{{ $.Site.Language.Lang }}">
 {{ partial "head" . }}
 
-<body>
-  <div id="root">
-    <div class="container bg-white">
-      <div class="absolute top-0 w-100 z-max">
-        {{ block "header" . }}{{ partial "nav" . }}{{end}}
-      </div>
-      <div id="main-block">
-        {{ block "main" . }}{{ end }}
-      </div>
-      {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
-      {{ $script := .Site.Data.webpack.main }}
-      {{ with $script.js }}
-      <script src="{{ relURL . }}"></script>
-      {{ end }}
+<body id="root">
+  <div class="container">
+    <div class="absolute top-0 w-100 z-max">
+      {{ block "header" . }}{{ partial "nav" . }}{{end}}
     </div>
+    <div id="main-block bg-white">
+      {{ block "main" . }}{{ end }}
+    </div>
+    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+    {{ $script := .Site.Data.webpack.main }}
+    {{ with $script.js }}
+    <script src="{{ relURL . }}"></script>
+    {{ end }}
   </div>
 </body>
 
