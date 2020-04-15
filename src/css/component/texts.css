@@ -35,22 +35,22 @@
 /*Headers*/
 .h-black{
     font-weight: 800;
-    font-size: 2rem;
-    line-height: 2.625rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: #000000;
 }
 
 .h-purple{
     font-weight: 800;
-    font-size: 3.125rem;
-    line-height: 3.8125rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: #8E21E9;
 }
 
 .h-white{
     font-weight: 800;
-    font-size: 3.125rem;
-    line-height: 3.8125rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color: #FFFFFF;
 }
 
@@ -58,8 +58,8 @@
 /*body*/
 .body-black{
     font-weight: 400 !important;
-    font-size: 1.125rem !important;
-    line-height: 1.75rem !important;
+    font-size: 0.75rem !important;
+    line-height: 1.5rem !important;
     color: #000000 !important;
 }
 

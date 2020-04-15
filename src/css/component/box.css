@@ -10,7 +10,7 @@
     position: relative;
     height: 90vh;
     width: 100%;
-    background: transparent;
+    line-height: 0;
 }
 
 /*Buttons*/
@@ -64,8 +64,8 @@
     background: #F8F8F8;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
-    padding: 30px 0px 0px;
-    position: absolute;
+    padding: 20px 0px 0px;
+    position: relative;
 }
 
 .p-d-head{
@@ -76,11 +76,11 @@
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
     border-radius: 1.25rem;
     font-weight: bold;
-    font-size: 0.9375rem;
-    line-height: 1.25rem;
-    padding: 30px 120px 30px 35px;
-    position: relative;
-    top: -50px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 20px 110px 20px 25px;
+    position: absolute;
+    top: 120px;
     text-align: left;
 }
 
@@ -88,15 +88,12 @@
     height: auto;
     border-bottom: 1px solid #BBB6B6;
     font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    padding: 10% 0%;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 5% 0%;
     margin: auto;
 }
 
-.grp-process .grp-detail:first-child {
-    padding-top: 0% !important;
-}
 
 .grp-process .grp-detail:last-child {
     border: none;
