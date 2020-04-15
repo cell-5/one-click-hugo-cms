@@ -35,9 +35,8 @@
 /*Headers*/
 .h-black{
     font-weight: 800;
-    font-size: 3.125rem;
-    line-height: 3.8125rem;
-
+    font-size: 2rem;
+    line-height: 2.625rem;
     color: #000000;
 }
 
@@ -59,7 +58,7 @@
 /*body*/
 .body-black{
     font-weight: 400 !important;
-    font-size: 1rem !important;
+    font-size: 1.125rem !important;
     line-height: 1.75rem !important;
     color: #000000 !important;
 }
