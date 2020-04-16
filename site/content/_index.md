@@ -2,7 +2,7 @@
 title: CELL 5
 subtitle: building today's start-up technology
 image: img/cell5/cell-5-logo-black.svg
-bannerImg: img/banner-image.png
+bannerImg: img/banner-2.png
 text: >
     We will help you to blend a high-value technology team, then partner with you to deliver your start-up or scale-up technology product until your goals are met.
 footer: >
@@ -45,83 +45,30 @@ preludes:
   - heading: "Process"
     moreLink: "/process"
     text: >
-      At a high level an engagement with us follows a simple 4 step process:
+      We are always open to discuss better ways of working. We try to keep the balance right between having a light process that empowers people, and having enough process to stay organized. 
+      
+
+      If you have feedback on our process we would really enjoy discussing it. 
 
 
     additionalCss: "c-white"
     details:
       - name: Establish Fit & Agree Mission
         id: process-1
-        contents:
-          - type: "header"
-            content: >
-              Within the first conversation with a client we establish if there is a fit. Our goal is to answer three questions.
-          - type: "text"
-            content: >
-              Are we trying to build a product that delivers lasting value?
-          - type: "text"
-            content: >
-              Can we realistically deliver what is needed?
-          - type: "text"
-            content: >
-              Are we ready to execute?
+        text: >
+          Within the first conversation with a client we establish if there is a fit.
       - name: Blend a Team
         id: process-2
-        contents:
-          - type: "text"
-            content: >
-              The recipe for success always starts with the right team. 
-          - type: "text"
-            content: >
-              The roles a team need vary based on the project, and on what skills our client brings to the table.
-          - type: "text"
-            content: >
-              Our people are mostly skilled adaptable generalists, each having their own specialities and strengths. We can deliver a good job across most aspects of the project.
-          - type: "text"
-            content: >
-              That said, it is important to make sure we have the right mix of business skills, technical skills and specialist skills to succeed. If we need to call in specialist expertise to deliver we will let you know.
+        text: >
+          The recipe for success always starts with the right team.
       - name: Execute
         id: process-3
-        contents:
-          - type: "header"
-            content: > 
-              When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery. 
-
-
-              That said we do stick to these common practises:
-          - type: "text"
-            content: >
-              Get something delivered and released early and often. ( Devops inspired )
-          - type: "text"
-            content: >
-              Have a single project heart-beat meeting, either weekly or fortnighthly. ( XP inspired )
-          - type: "text"
-            content: >
-              Have a single team communication channel for the remote team.
-          - type: "text"
-            content: >
-              Have a single project board to track progress, blockers and priotization.
-          - type: "text"
-            content: >
-              Focus on finishing things, by limiting work in progress. ( kanban inspired )
-          - type: "text"
-            content: >
-              Most important of all, to keep asking the team what is working, listening to their answers and adapting accordingly!
+        text: >
+          When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery.
       - name: Amplify
         id: process-4
-        contents:
-          - type: "header"
-            content: >
-              Within the first conversation with a client we   establish if there is a fit. Our goal is to answer three questions.
-          - type: "text" 
-            content: >
-              Are we trying to build a product that delivers lasting value?
-          - type: "text"
-            content: >
-              Can we realistically deliver what is needed?
-          - type: "text"
-            content: >
-              Are we ready to execute?
+        text: >
+          Delivery is not done when the product is launched. It is done when value is created and maximized.
     imageUrl: "/img/SVG/process.svg"
     
   - heading: "Tools & Techniques"

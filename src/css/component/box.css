@@ -21,26 +21,25 @@
 
 /*Home - Process*/
 .process-main{
-    height: 300px;
+    padding: 20px 0px;
     width: 80%;
-    background: #1E2024;
-    color: white;
     border-radius: 5px;
     padding: 30px;
-    margin: 20px auto;
+    margin: auto;
     
+}
+
+.btn-group div {
+    display: none;
 }
 
 .btn-group .btn-grp-child {
     background-color: transparent;
-    color: white;
-    border-bottom: 1px solid #292B2F;
     display: block;
     cursor: pointer;
     width: 100%;
-    height: 56px;
     box-shadow: none !important;
-    padding: 0px 20px;
+    padding: 15px 20px;
     text-align: left;
 }
 
@@ -49,23 +48,34 @@
     box-sizing: border-box;
     border-radius: 50px;
     box-shadow: none !important;
+    font-weight: 800;
+    color: black;
 }
+
 
 .btn-group .btn-grp-child:focus {
     box-shadow: none !important;
 }
 
-
-.btn-group .btn-grp-child:last-child {
-    border: none;
-}
-
 .p-d{
+    position: relative;
     background: #F8F8F8;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    padding: 20px 0px 0px;
-    position: relative;
+    border-radius: 65px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.p-d-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-size: 0.688rem;
+    line-height: 1rem;
+    padding: 15px;
+    color: #000000;
+    margin-top: 10px;
 }
 
 .p-d-head{

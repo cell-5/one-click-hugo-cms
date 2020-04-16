@@ -1,19 +1,34 @@
 <div class="p-d">
-    <img src="/img/process-cover.png" width="100%" />
-    <div class="center-horizantal">
-        <div class="grp-process w-80">
-            {{ range .contents }}
-            {{if eq .type "header" }}
-            <div class="p-d-head">
-                {{.content | markdownify }}
-                <img src="/img/SVG/process-circle.svg" width="40" height="40" class="circle-svg" />
-            </div>
-            {{ else }}
-            <div class="grp-detail ta-center">
-                {{ .content }}
+    <div class="svg-container">
+        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M600 150.794V60.6547C600 27.1561 570.971 0 535.162 0H64.8381C29.029 0 0 27.1561 0 60.6547V285.474C1.63035 286.287 3.31087 287.059 5.04255 287.792C7.31829 288.74 9.68313 289.623 12.1371 290.445C17.7209 292.288 23.4254 293.702 29.2055 294.678C84.8414 304.299 131.599 299.589 173.739 290.744C176.116 290.253 178.473 289.735 180.824 289.211C198.176 285.345 214.771 280.863 230.916 276.501C269.73 266.013 305.951 256.227 343.877 257.405C346.229 257.474 348.594 257.59 350.961 257.745C374.373 259.328 398.534 265.275 424.424 277.967C455.023 292.964 486.091 287.856 514.104 269.876C529.911 259.745 544.742 245.512 557.96 228.484L558.006 228.431C559.867 226.047 561.698 223.6 563.499 221.091C578.262 200.478 590.759 176.372 600 150.794Z"
+                fill="url(#pattern0)" />
+            <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use href="#image0" transform="matrix(.00307 0 0 .00683 0 -.299)" />
+                </pattern>
+                <image id="image0" href="/img/process-cover.png" width="326" height="234" />
+            </defs>
+        </svg>
+    </div>
+    <div id="process-buttons" class="process-main">
+        <div class="btn-group">
+            {{ range $index, $element := .details }}
+            <button id="{{.id}}-btn" class="btn-grp-child" onclick='handleClickProcess("{{.id}}")'>
+                {{.name}}
+            </button>
+            <div id="{{ .id }}-txt" class="p-d-card">
+                {{ .text }}
             </div>
             {{end}}
-            {{ end }}
         </div>
+        {{ if .moreLink }}
+        <div id="moreLink" class="ta-center pv3">
+            <button class="eclipse-btn bg-bv c-white fw5">
+                Read more
+            </button>
+        </div>
+        {{ end }}
     </div>
 </div>

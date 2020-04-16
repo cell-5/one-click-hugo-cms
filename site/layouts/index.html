@@ -79,24 +79,19 @@
   window.onload = (event) => {
     console.log("initializing");
     document.getElementById("process-1-btn").disabled = true;
+    document.getElementById("process-1-txt").style.display = "block";
   };
 
   function handleClickProcess(id) {
-    let btns = document.getElementById("process-buttons").getElementsByTagName("*");
-    let divs = document.getElementById("details-data").getElementsByTagName("div");
-    let div_mob = document.getElementById("p-d-mobile").getElementsByTagName("div");
+    let btns = document.getElementById("process-buttons").getElementsByTagName("button");
+    console.log(btns);
 
-    for (var i = 1; i < btns.length; i++) {
+    for (var i = 0; i < btns.length; i++) {
       let btnId = btns[i].id;
-      let divId = btnId.slice(0, 9);
+      console.log(btnId);
+      let divId = btnId.slice(0, 9) + "-txt";
       document.getElementById(btnId).disabled = (btnId === (id + "-btn"));
-      if (divs[divId].id !== id) {
-        document.getElementById(divs[divId].id).style.display = "none";
-        document.getElementById(div_mob[divId + "-m"].id).style.display = "none";
-      } else {
-        document.getElementById(divs[divId].id).style.display = "block";
-        document.getElementById(div_mob[divId + "-m"].id).style.display = "block";
-      }
+      document.getElementById(divId).style.display = (divId === (id + "-txt")) ? "block" : "none";
     }
   };
 </script>
