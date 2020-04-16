@@ -1,0 +1,9 @@
+<div class="people-card">
+  <img src="{{.imageUrl}}" alt="{{ .heading }}-img">
+  <div class="info-section">
+    <h3>{{.heading}}</h3>
+    <p>
+      {{.text | markdownify }}
+    </p>
+  </div>
+</div>

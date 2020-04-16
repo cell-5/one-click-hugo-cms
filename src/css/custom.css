@@ -6,7 +6,7 @@
 @import "./component/nav.css";
 @import "./component/scrolls.css";
 @import "./component/texts.css";
-@import "./component/z-brix.css";
+@import "./component/z-custom.css";
 
 body,
 html {

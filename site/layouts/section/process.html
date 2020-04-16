@@ -41,7 +41,7 @@
     {{ range $index, $element := .Params.process }}
     {{if modBool $index 2}}
     <div class="process-mobile-svg-container light-gradient-bg">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom first-svg-{{$index}}">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom svg-{{$index}}">
         <path
           d="M2435.12 440.965C2435.12 440.965 2310.86 419.313 2111.3 292.178C1991.85 213.489 1798.22 180.016 1662.77 219.735C1490.33 248.106 1406.85 282.655 1211.01 219.735C1015.18 156.815 222.58 -35.4093 -161.757 6.15648C-162.146 8.11669 -161.757 558.017 -161.757 558.017H2435.12V440.965Z"
           fill="white" id="Patch_592_0" />
@@ -50,28 +50,12 @@
     <div class="w-100 ta-center lh-0">
       <img src="{{ .mobileSvgUrl }}" width="30" height="auto" />
     </div>
-    <div class="card-process">
-      <img src="{{.imageUrl}}">
-      <div class="info-section">
-        <h3>{{.heading}}</h3>
-        <p>
-          {{.text | markdownify }}
-        </p>
-      </div>
-    </div>
+    {{ partial "process-card-mobile" $element}}
     {{else}}
     <div class="w-100 ta-center lh-0">
       <img src="{{ .mobileSvgUrl }}" width="30" height="auto" />
     </div>
-    <div class="card-process">
-      <img src="{{.imageUrl}}">
-      <div class="info-section">
-        <h3>{{.heading}}</h3>
-        <p>
-          {{.text | markdownify }}
-        </p>
-      </div>
-    </div>
+    {{ partial "process-card-mobile" $element}}
     {{end}}
     {{end}}
     <div class="w-100 ta-center lh-0">
