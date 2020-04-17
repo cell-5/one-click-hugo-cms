@@ -29,9 +29,20 @@
     
 }
 
-.btn-group div {
+.btn-group .p-grp-class{
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid rgba(41, 43, 47, 0.2);
+}
+
+.btn-group .p-grp-class:first-child{
+    border-top: 1px solid rgba(41, 43, 47, 0.2);
+}
+
+.p-grp-class div{
     display: none;
 }
+
 
 .btn-group .btn-grp-child {
     background-color: transparent;
@@ -59,7 +70,7 @@
 
 .p-d{
     position: relative;
-    background: #F8F8F8;
+    background: #FFFFFF;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
     border-radius: 65px;
     width: 80%;

@@ -15,11 +15,13 @@
     <div id="process-buttons" class="process-main">
         <div class="btn-group">
             {{ range $index, $element := .details }}
-            <button id="{{.id}}-btn" class="btn-grp-child" onclick='handleClickProcess("{{.id}}")'>
-                {{.name}}
-            </button>
-            <div id="{{ .id }}-txt" class="p-d-card">
-                {{ .text }}
+            <div class="p-grp-class">
+                <button id="{{.id}}-btn" class="btn-grp-child" onclick='handleClickProcess("{{.id}}")'>
+                    {{.name}}
+                </button>
+                <div id="{{ .id }}-txt" class="p-d-card">
+                    {{ .text }}
+                </div>
             </div>
             {{end}}
         </div>
