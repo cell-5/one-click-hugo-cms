@@ -4,9 +4,9 @@
 
   {{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
 
-  <div class="mw9 center clients">
+  <div class="mw8 center clients">
     {{ range $index, $element := .Params.clients }}
-    <div class="pv5">
+    <div class="main-pv">
       {{ partial "single-media-block" $element }}
     </div>
     {{ end }}
