@@ -19,12 +19,15 @@
     padding: 12px 35px;
 }
 
+.p-btn{
+    border-radius: 30px;
+    padding: 12px 35px;
+ }
+
 /*Home - Process*/
 .process-main{
     padding: 20px 0px;
-    width: 80%;
-    border-radius: 5px;
-    padding: 30px;
+    width: 75%;
     margin: auto;
     
 }
@@ -258,6 +261,14 @@
  .p-d-head{
     padding: 20px;
     text-align: center;
+ }
+
+ .process-main{
+    width: 85%;
+ }
+
+ .p-btn{
+     width: 80%;
  }
 }
 
