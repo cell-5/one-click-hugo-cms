@@ -3,11 +3,11 @@
 {{ partial "custom-header-bg" . }}
 {{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
 
-<div class="tools pv3 f4">
+<div class="tools pv3 f6">
   {{ range $index, $element := .Params.tools }}
   {{ if ne $index 3 }}
   <div class="svg-container light-gradient-bg mv5 h-25">
-    <div class="pv5 mw7 center">
+    <div class="pv5 mw6 center">
       <div class="ta-center">
         <span class="h-purple">{{ .heading }}</span>
         {{ if .text }}
@@ -16,7 +16,7 @@
       </div>
       {{ range $index, $element := .details }}
       <div class="pv3">
-        {{ partial "values-card" $element }}
+        {{ partial "tools-card" $element }}
       </div>
       {{ end }}
     </div>
@@ -27,7 +27,7 @@
     </svg>
   </div>
   {{ else }}
-  <div class="pv5 mw7 center">
+  <div class="pv5 mw6 center">
     <div class="ta-center">
       <span class="h-purple">{{ .heading }}</span>
       {{ if .text }}
@@ -36,7 +36,7 @@
     </div>
     {{ range $index, $element := .details }}
     <div class="pv3">
-      {{ partial "values-card" $element }}
+      {{ partial "tools-card" $element }}
     </div>
     {{ end }}
   </div>

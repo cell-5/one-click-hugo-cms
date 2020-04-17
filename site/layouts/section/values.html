@@ -12,15 +12,15 @@
   <div class="mw8 center pv7 ph3 relative z-2 media-mobile">
     {{ range $index, $element := .Params.values }}
     {{ if modBool $index 2}}
-    <div class="flex-m mhn3-m mb4 z-1">
+    <div class="flex-m mhn3-m mb4 z-1 items-center">
       <div class="ph4-m w-50-m">
-        <div class="relative top-0">
+        <div class="pb4">
           {{ partial "card" $element }}
         </div>
       </div>
       {{ else }}
       <div class="ph4-m w-50-m">
-        <div class="relative top-10vw">
+        <div class="vl-card">
           {{ partial "card" $element }}
         </div>
       </div>

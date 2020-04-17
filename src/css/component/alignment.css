@@ -85,6 +85,25 @@
   bottom: -150%;
 }
 
+.v-header{
+    display: table;
+}
+
+.v-header img {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.v-header span {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.vl-card{
+  position: relative;
+  top: 10vw;
+}
+
 @media only screen and (max-width: 799px) {
   .people-r1 {
     bottom: 0;
@@ -110,5 +129,24 @@
   .client-site{
     position: relative;
     bottom: 0%;
+  }
+
+  .v-header{
+    display: block;
+  }
+
+  .v-header img {
+    display: block;
+    text-align: center;
+  }
+
+  .v-header span {
+    display: block;
+    text-align: center;
+  }
+
+  .vl-card{
+    position: flex;
+    top: 0;
   }
 }

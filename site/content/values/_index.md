@@ -16,7 +16,7 @@ values:
       
       We advise clients to get something live and iterate and we release early and often, in the spirit of [Build-Measure-Learn](https://en.wikipedia.org/wiki/Lean_startup#Build-Measure-Learn).
 
-    symbol: "/img/values/value-1.png"
+    imageUrl: "/img/values/value-1.png"
 
   - heading: "Focus on long term value"
     text: >
@@ -28,7 +28,7 @@ values:
       
       They need to demonstrate a long term vision focused on value creation, for their customers.
 
-    symbol: "/img/values/value-2.png"
+    imageUrl: "/img/values/value-2.png"
 
   - heading: "Champion remote-first teams"
     text: >    
@@ -37,7 +37,7 @@ values:
 
       Running our business this way keeps our costs down while at the same time it offers our remote employees a better work-life balance, and often better full compensation than working in under-valued local markets on legacy incumbent products.
 
-    symbol: "/img/values/value-3.png"
+    imageUrl: "/img/values/value-3.png"
 
   - heading: "Encourage small businesses & profit sharing"
     text: >
@@ -48,7 +48,7 @@ values:
       
 
       For clients, we offer fee discounts in exchange for equity. This is a no-brainer as we only partner with clients that can convince us their business has merit and is focused on long term value. 
-    symbol: "/img/values/value-4.png"
+    imageUrl: "/img/values/value-4.png"
 
   - heading: "Fail fast, but differently"
     text: >
@@ -57,7 +57,7 @@ values:
 
       That said, we expect and demand transparency about failure in order that we can maximize the learning and avoid repeating the same mistakes.
      
-    symbol: "/img/values/value-5.png"
+    imageUrl: "/img/values/value-5.png"
 
   - heading: "Have empathy"
     text: >
@@ -66,6 +66,6 @@ values:
       
       We recognise individual contributions, but we always put the team ahead of the individual during conflict-resolution and decision-making.
        
-    symbol: "/img/values/value-6.png"
+    imageUrl: "/img/values/value-6.png"
  
 ---

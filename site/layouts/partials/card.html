@@ -1,7 +1,6 @@
-<div class="card-container br-a-50 w-80 v-card-mobile">
-    {{if .symbol}}
-    <img src="{{.symbol}}" />
-    {{ end }}
-    <div class="f4 c-db lh-copy fw8 pv3">{{.heading}}</div>
-    <div class="lh-title">{{.text | markdownify}}</div>
+<div class="card-container br-a-50 w-80 m-auto">
+    <div class="v-header pv3">
+        <img src="{{.imageUrl}}" class="tools-img" /> <span class="f6 c-db lh-normal fw8 ph3">{{.heading}}</span>
+    </div>
+    <div class="f7 lh-normal">{{.text | markdownify}}</div>
 </div>
