@@ -3,35 +3,30 @@
 <div>
   {{ partial "custom-header-bg" . }}
   {{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
-  <div class="process pv7">
+  <div class="process pv5">
     {{ range $index, $element := .Params.process }}
     {{ if modBool $index 2 }}
-    <div class="svg-container light-gradient-bg">
-      <div class="hf-600">
+    <div class="light-gradient-bg">
+      <div class="hf-1080 relative">
         <img src="{{.svgUrl}}" class="absolute l-50 z-3" height="100%" />
-        <div class="mw7 center">
+        <div class="mw7 center w-100 h-inherit relative">
           {{ partial "process-card" $element }}
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom">
-        <path
-          d="M2435.12 440.965C2435.12 440.965 2310.86 419.313 2111.3 292.178C1991.85 213.489 1798.22 180.016 1662.77 219.735C1490.33 248.106 1406.85 282.655 1211.01 219.735C1015.18 156.815 222.58 -35.4093 -161.757 6.15648C-162.146 8.11669 -161.757 558.017 -161.757 558.017H2435.12V440.965Z"
-          fill="white" id="Patch_592_0" />
-      </svg>
-    </div>
-    {{ else }}
-    <div class="svg-container">
-      <div class="hf-600">
-        <img src="{{.svgUrl}}" class="absolute l-50 z-3" height="100%" />
-        <div class="mw7 center">
-          {{ partial "process-card-reverse" $element }}
+        <div class="svg-container absolute bottom-0 lh-0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom">
+            <path
+              d="M2161.59 368.934s-104.13-18.129-271.39-124.576c-100.11-65.884-262.39-93.911-375.91-60.654-144.53 23.754-214.49 52.681-378.62 0C971.539 131.022 307.256-29.923-14.855 4.88c-.326 1.641 0 462.06 0 462.06H2161.59v-98.006z"
+              fill="#fff" />
+          </svg>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="z-0">
-        <path
-          d="M2435.12 440.965C2435.12 440.965 2310.86 419.313 2111.3 292.178C1991.85 213.489 1798.22 180.016 1662.77 219.735C1490.33 248.106 1406.85 282.655 1211.01 219.735C1015.18 156.815 222.58 -35.4093 -161.757 6.15648C-162.146 8.11669 -161.757 558.017 -161.757 558.017H2435.12V440.965Z"
-          fill="white" id="Patch_592_1" />
-      </svg>
+    </div>
+    {{ else }}
+    <div class="hf-1080 relative">
+      <img src="{{.svgUrl}}" class="absolute l-50 z-3" height="100%" />
+      <div class="mw7 center w-100 h-inherit relative">
+        {{ partial "process-card-reverse" $element }}
+      </div>
     </div>
     {{ end }}
     {{ end }}

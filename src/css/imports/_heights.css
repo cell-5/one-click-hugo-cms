@@ -30,7 +30,7 @@
 
 /*custom heights*/
 .hvw-300{ height: 300vw !important; }
-.hf-600{ height: 600px !important; }
+.hf-1080{ height: 1080px !important; }
 
 @media (--breakpoint-not-small) {
   .h1-ns {  height: var(--spacing-medium); }

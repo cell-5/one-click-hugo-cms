@@ -14,57 +14,25 @@
 }
 
 /*top positions*/
-.top-50 {
-  top: 50px;
+.top-25{
+  top: 25%;
 }
-
-.top-255 {
-  top: 255px;
-}
-
-.top-230 {
-  top: 230px;
-}
-
-.top-3vw {
-  top: 3vw;
-}
-
-.top-5vw {
-  top: 5vw;
-}
-
-.top-8vw {
-  top: 8vw;
-}
-
-.top-10vw {
-  top: 10vw;
-}
-
-.top-21vw {
-  top: 21vw;
-}
-
-.top-30vw {
-  top: 30vw;
-}
-
-/*bottom vw*/
-.people-r1 {
-  bottom: 15vw;
-}
-
-.people-r2 {
-  bottom: 25vw;
-}
-
 
 /*left position*/
+.l-60{
+  left: 60%;
+}
+
 .l-50 {
   left: 50%;
   transform: translate(-50%);
 }
+
+/*right position*/
+.r-60{
+  right: 60%;
+}
+
 
 /*cards*/
 .p-card-l {
@@ -113,10 +81,6 @@
 
   .people-r2 {
     bottom: 0;
-  }
-
-  .top-10vw {
-    top: 0;
   }
 
   .circle-svg {

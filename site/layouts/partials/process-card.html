@@ -1,15 +1,9 @@
-<div class="flex-m mhn3-m mb4 z-1">
-    <div class="w-50-m">
+<div class="card-container br-tl-100 w-470-f absolute z-1 top-25 l-60">
+    {{if .imageUrl}}
+    <div class="center-horizantal">
+        <img src="{{.imageUrl}}" />
     </div>
-    <div class="w-50-m">
-        <div class="card-container br-tl-100 w-470-f absolute z-1 {{.cardCss}}">
-            {{if .imageUrl}}
-            <div class="center-horizantal">
-                <img src="{{.imageUrl}}" />
-            </div>
-            {{ end }}
-            <div class="f4 b color-black lh-2 ta-center">{{ .heading }}</div>
-            <div class="lh-title ta-left">{{ .text | markdownify }}</div>
-        </div>
-    </div>
+    {{ end }}
+    <div class="f6 lh-normal ta-center fw8">{{ .heading }}</div>
+    <div class="f7 lh-normal ta-left">{{ .text | markdownify }}</div>
 </div>

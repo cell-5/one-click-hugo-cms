@@ -5,6 +5,13 @@
     width: 100%;
 }
 
+.div-full{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+
 /* HomePage */
 .home-top{
     position: relative;
@@ -291,6 +298,12 @@
         width: 100%;
     }
 
+    .div-full{
+        position: relative;
+        height: 80vh;
+        width: 100%;
+    }
+
     .home-top{
         position: relative;
         height: 70vh;
@@ -303,6 +316,12 @@
     .div-section{
         position: relative;
         height: 50vh;
+        width: 100%;
+    }
+
+    .div-full{
+        position: relative;
+        height: 60vh;
         width: 100%;
     }
 
