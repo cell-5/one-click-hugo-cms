@@ -18,7 +18,7 @@ preludes:
       
       
       We blend teams with our clients, providing anywhere between one developer or an entire start-up technology team, including acting CTO.
-    imageUrl: "/img/SVG/people.svg"
+    imageUrl: "/img/SVG/people-media.svg"
 
   - heading: "Clients"
     moreLink: "/clients"
@@ -28,7 +28,7 @@ preludes:
 
       They want to get to market rapidly and iteratively and are looking for an experienced, affordable start-up technology partner who can build or extend their product quickly and sustainably.
       
-    imageUrl: "/img/SVG/clients.svg"
+    imageUrl: "/img/SVG/client-media.svg"
 
   - heading: "Values"
     moreLink: "/values"
@@ -39,8 +39,7 @@ preludes:
       They are most useful to help remind us when we go off track, and to help filter [the people](/people) and [the clients](/clients) we choose to work with.
        
 
-    imageUrl: "/img/SVG/values.svg"
-    backgroundImg: "/img/SVG/process-bg.svg"
+    imageUrl: "/img/SVG/values-media.svg"
 
   - heading: "Process"
     moreLink: "/process"
@@ -75,5 +74,5 @@ preludes:
     moreLink: "/tools"
     text: >
       Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
-    imageUrl: "/img/SVG/tools.svg"
+    imageUrl: "/img/SVG/tools-media.svg"
 ---
