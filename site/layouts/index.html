@@ -14,7 +14,21 @@
 </div>
 <div class="w-100 lh-0">
   {{ range $index, $element := .Params.preludes }}
-  {{ if eq $index 3}}
+  {{ if modBool $index 2 }}
+  <div class="div-section mw9 center media-mobile">
+    <div class="flex h-100 items-center">
+      {{ partial "media-block" $element }}
+    </div>
+  </div>
+  {{ else }}
+  {{ if (modBool (add $index 1) 4) }}
+  <div class="svg-container lh-0">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 350" class="svg-bg-bottom">
+      <path
+        d="M-111 349.614s98.592-17.179 256.937-118.052c94.781-62.434 248.413-88.993 355.889-57.478 136.827 22.51 203.066 49.923 358.452 0C1015.66 124.161 1644.56-28.356 1949.51 4.624c.31 1.556 0 961.932 0 961.932H-111V349.614z"
+        fill="#25272E" />
+    </svg>
+  </div>
   <div class="dark-bg">
     <div class="mw9 center h-100">
       {{ partial "media-block-reverse" $element }}
@@ -34,20 +48,7 @@
       </svg>
     </div>
   </div>
-  {{ else if eq $index 2}}
-  <div class="div-section mw9 center media-mobile">
-    <div class="flex h-100 items-center">
-      {{ partial "media-block" $element }}
-    </div>
-  </div>
-  <div class="svg-container lh-0">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 350" class="svg-bg-bottom">
-      <path
-        d="M-111 349.614s98.592-17.179 256.937-118.052c94.781-62.434 248.413-88.993 355.889-57.478 136.827 22.51 203.066 49.923 358.452 0C1015.66 124.161 1644.56-28.356 1949.51 4.624c.31 1.556 0 961.932 0 961.932H-111V349.614z"
-        fill="#25272E" />
-    </svg>
-  </div>
-  {{ else if eq $index 1}}
+  {{ else }}
   <div class="div-section light-gradient-bg">
     <div class="mw9 center h-100">
       <div class="flex h-100 items-center">
@@ -62,12 +63,7 @@
       </svg>
     </div>
   </div>
-  {{ else }}
-  <div class="div-section mw9 center media-mobile">
-    <div class="flex h-100 items-center">
-      {{ partial "media-block" $element }}
-    </div>
-  </div>
+  {{ end }}
   {{ end }}
   {{ end }}
 </div>
