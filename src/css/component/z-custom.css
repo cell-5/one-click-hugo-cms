@@ -17,7 +17,9 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 250px;
-  width: 30%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 
 .people-card h3 {
@@ -105,14 +107,15 @@
 
 /* END OF MOBILE 'PROCESS' PAGE CSS */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 799px) {
   .people-card {
     width: 90%;
-    margin-bottom: 15%;
+    margin: 10% auto;
   }
 
   .people-card img {
     width: 50%;
+    height: auto;
   }
 
   .people-card h3 {

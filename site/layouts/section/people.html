@@ -10,7 +10,7 @@
     {{ else }}
     <div class="div-full">
       {{ end }}
-      <div class="pv5 mw8 center">
+      <div class="main-pv mw8 center">
         <div class="flex-m mhn3-m mb4 z-1">
           <div class="ph4-m w-50-m">
             {{ partial "people-card" $element }}
@@ -47,9 +47,9 @@
 {{ end }}
 </div>
 {{ end }}
+</div>
 <div class="pv3">
   {{ partial "light-wide-text" (dict "heading" .Params.bottomHeader "text" .Params.bottomText) }}
-</div>
 </div>
 <div class="lh-1 c-white">
   {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}

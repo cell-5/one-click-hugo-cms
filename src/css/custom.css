@@ -80,4 +80,8 @@
   .v-card-mobile {
     text-align: center;
   }
+
+  .svg-bg-bottom {
+    position: static;
+  }
 }
