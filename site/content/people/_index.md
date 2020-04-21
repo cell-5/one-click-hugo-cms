@@ -83,4 +83,5 @@ people:
       customers or clients by providing excellent service and on time project delivery.
 
     imageUrl: "/img/people/clynt.jpg"
+  
 ---

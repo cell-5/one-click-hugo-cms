@@ -27,11 +27,15 @@
     </div>
     {{end}}
     {{ end }}
+    {{ if not (modBool (len .Params.values) 2)}}
   </div>
+</div>
+{{ end }}
+</div>
 
-  <div class="lh-1 c-white">
-    {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
-  </div>
+<div class="lh-1 c-white">
+  {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
+</div>
 </div>
 
 {{ end }}

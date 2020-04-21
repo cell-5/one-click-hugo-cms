@@ -75,14 +75,6 @@
 }
 
 @media only screen and (max-width: 799px) {
-  .people-r1 {
-    bottom: 0;
-  }
-
-  .people-r2 {
-    bottom: 0;
-  }
-
   .circle-svg {
     position: static;
     top: 0;
