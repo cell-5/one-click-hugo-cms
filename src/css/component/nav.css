@@ -17,7 +17,6 @@
   max-width: 85px;
   padding: 0 10px;
   overflow: hidden;
-  display: inline-block;
 }
 
 .nav-container .logo-footer {
@@ -292,5 +291,9 @@
     overflow: auto;
     top: 0%;
     z-index: 999;
+  }
+
+  .nav-container span{
+    display: none;
   }
 }

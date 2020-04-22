@@ -6,8 +6,8 @@
 <div class="tools pv3 f6">
   {{ range $index, $element := .Params.tools }}
   {{ if ne $index 3 }}
-  <div class="svg-container light-gradient-bg mv5 h-25">
-    <div class="pv5 mw6 center">
+  <div class="div-full light-gradient-bg h-25 ">
+    <div class="pv5 mw6 center relative z-1">
       <div class="ta-center">
         <span class="h-purple">{{ .heading }}</span>
         {{ if .text }}
@@ -20,14 +20,16 @@
       </div>
       {{ end }}
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom">
-      <path
-        d="M2435.12 440.965C2435.12 440.965 2310.86 419.313 2111.3 292.178C1991.85 213.489 1798.22 180.016 1662.77 219.735C1490.33 248.106 1406.85 282.655 1211.01 219.735C1015.18 156.815 222.58 -35.4093 -161.757 6.15648C-162.146 8.11669 -161.757 558.017 -161.757 558.017H2435.12V440.965Z"
-        fill="white" id="Patch_592" />
-    </svg>
+    <div class="svg-container absolute bottom-0 lh-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom">
+        <path
+          d="M2435.12 440.965C2435.12 440.965 2310.86 419.313 2111.3 292.178C1991.85 213.489 1798.22 180.016 1662.77 219.735C1490.33 248.106 1406.85 282.655 1211.01 219.735C1015.18 156.815 222.58 -35.4093 -161.757 6.15648C-162.146 8.11669 -161.757 558.017 -161.757 558.017H2435.12V440.965Z"
+          fill="white" id="Patch_592" />
+      </svg>
+    </div>
   </div>
   {{ else }}
-  <div class="pv5 mw6 center">
+  <div class="div-full pv5 mw6 center">
     <div class="ta-center">
       <span class="h-purple">{{ .heading }}</span>
       {{ if .text }}
@@ -47,5 +49,4 @@
 <div class="lh-1 c-white">
   {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
 </div>
-
 {{ end }}
