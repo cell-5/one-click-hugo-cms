@@ -1,4 +1,5 @@
 ---
+page: clients
 title: "Clients"
 image: /img/clients.jpg
 text: >

@@ -4,6 +4,11 @@
 			<img src="/img/cell5/cell-5-logo-black.svg" alt="Cell 5 logo" />
 		</a>
 	</div>
+	{{ if ne .page "home" }}
+	<span class="f5 fw8 c-white lh-normal ph2 pv3">
+		CELL 5
+	</span>
+	{{ end }}
 	<div class="navbar">
 		<div class="icon-bar" onclick="Show()">
 			<i></i>

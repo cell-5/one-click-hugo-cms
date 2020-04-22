@@ -1,4 +1,5 @@
 ---
+page: tools
 title: "Tools & Techniques"
 text: >
     Being a remote-first, small I.T. consultancy means we have tried a lot of tools and are always trying to improve our techniques. If you are willing to suggest better ones, or want us to add a missing section, please [let us know](/contact) in exchange for some goodies!

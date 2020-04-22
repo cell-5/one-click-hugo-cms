@@ -1,4 +1,5 @@
 ---
+page: home
 title: CELL 5
 subtitle: building today's start-up technology
 image: img/cell5/cell-5-logo-black.svg
@@ -50,7 +51,6 @@ preludes:
       If you have feedback on our process we would really enjoy discussing it. 
 
 
-    additionalCss: "c-white"
     details:
       - name: Establish Fit & Agree Mission
         id: process-1
@@ -75,4 +75,5 @@ preludes:
     text: >
       Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
     imageUrl: "/img/SVG/tools-media.svg"
+
 ---

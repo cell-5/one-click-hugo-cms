@@ -1,4 +1,5 @@
 ---
+page: values
 title: "Values"
 image: /img/values.jpg
 text: >

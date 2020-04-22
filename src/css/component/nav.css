@@ -17,6 +17,7 @@
   max-width: 85px;
   padding: 0 10px;
   overflow: hidden;
+  display: inline-block;
 }
 
 .nav-container .logo-footer {

@@ -1,8 +1,8 @@
 {{ if .details }}
 <div class="flex-m mhn3-m mb4 items-center w-100">
   <div class="ph5-m w-50-m order-last-m relative z-1">
-    <h3 class="h-black {{.additionalCss}}">{{.heading}}</h3>
-    <div class="body-black pt4 pb3 {{.additionalCss}}">{{.text | markdownify }}</div>
+    <h3 class="head-title">{{.heading}}</h3>
+    <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
   </div>
   <div class="ph5-m w-50-m relative z-1">
     {{ partial "process-details" (dict "details" .details "moreLink" .moreLink) }}

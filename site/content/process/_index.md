@@ -1,4 +1,5 @@
 ---
+page: process
 title: "Process"
 image: /img/values.jpg
 text: >

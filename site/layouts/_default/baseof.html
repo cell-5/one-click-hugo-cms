@@ -5,7 +5,7 @@
 <body id="root">
   <div class="container">
     <div class="absolute top-0 w-100 z-max">
-      {{ block "header" . }}{{ partial "nav" . }}{{end}}
+      {{ block "header" . }}{{ partial "nav" .Params }}{{end}}
     </div>
     <div id="main-block bg-white">
       {{ block "main" . }}{{ end }}

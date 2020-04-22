@@ -1,4 +1,5 @@
 ---
+page: people
 title: "People"
 image: /img/figures.jpeg
 text: >
