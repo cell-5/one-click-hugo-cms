@@ -1,11 +1,9 @@
 {{ define "main" }}
 {{ partial "jumbotron" .Params }}
-<div class="dark-bg c-white">
-  <div class="lh-1 pt4 ta-center">
-    {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
-  </div>
-  <div class="svg-container lh-0">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom">
+<div class="bg-black c-white ta-center">
+  {{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
+  <div class="svg-container">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300">
       <path
         d="M2161.59 368.934s-104.13-18.129-271.39-124.576c-100.11-65.884-262.39-93.911-375.91-60.654-144.53 23.754-214.49 52.681-378.62 0C971.539 131.022 307.256-29.923-14.855 4.88c-.326 1.641 0 462.06 0 462.06H2161.59v-98.006z"
         fill="#fff" />
@@ -15,24 +13,26 @@
 <div class="w-100 lh-0">
   {{ range $index, $element := .Params.preludes }}
   {{ if modBool $index 2 }}
-  <div class="div-section mw9 center">
-    {{ partial "media-block" $element }}
+  <div class="div-section">
+    <div class="mw9 center">
+      {{ partial "media-block" $element }}
+    </div>
   </div>
   {{ else }}
   {{ if (modBool (add $index 1) 4) }}
-  <div class="svg-container lh-0">
-    <svg viewBox="0 0 1920 340" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-bg-bottom">
+  <div class="svg-container">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 350">
       <path
-        d="M0 304.398C0 304.398 58.3205 296.093 213.5 242.5C407.5 175.5 623.343 219.376 735 242.5C904 277.5 1009 252.658 1174.5 198.158C1340 143.658 1613.5 0.000316143 1920 0.000488281C1920 17.6663 1920 341 1920 341H0V304.398Z"
+        d="M-111 349.614s98.592-17.179 256.937-118.052c94.781-62.434 248.413-88.993 355.889-57.478 136.827 22.51 203.066 49.923 358.452 0C1015.66 124.161 1644.56-28.356 1949.51 4.624c.31 1.556 0 961.932 0 961.932H-111V349.614z"
         fill="#25272E" />
     </svg>
   </div>
-  <div class="div-section dark-bg c-white">
-    <div class="mw9 center">
+  <div class="bg-black div-section c-white">
+    <div class="mw9 center h-100">
       {{ partial "media-block-reverse" $element }}
     </div>
-    <div class="svg-container absolute bottom-0 lh-0">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 600" class="svg-bg-bottom">
+    <div class="svg-container lh-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 600">
         <g class="currentLayer">
           <path fill="#A66BF0"
             d="M2153.276 136.079s-182.86 9.26-326.95-43.28c-144.1-52.55-577.67 144.96-605.6 153.81-27.93 8.85-217.208 57.24-451.625 45.1-234.418-12.14-814.127 40.86-867.545 64.08 1.677.62 0 313.73 0 313.73h2251.72v-533.44z"
@@ -51,8 +51,8 @@
     <div class="mw9 center h-100">
       {{ partial "media-block-reverse" $element }}
     </div>
-    <div class="svg-container absolute bottom-0 lh-0">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom">
+    <div class="svg-container">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300">
         <path
           d="M2161.59 368.934s-104.13-18.129-271.39-124.576c-100.11-65.884-262.39-93.911-375.91-60.654-144.53 23.754-214.49 52.681-378.62 0C971.539 131.022 307.256-29.923-14.855 4.88c-.326 1.641 0 462.06 0 462.06H2161.59v-98.006z"
           fill="#fff" />

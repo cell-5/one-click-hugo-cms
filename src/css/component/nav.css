@@ -10,7 +10,7 @@
   -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .nav-container .logo {
@@ -158,8 +158,6 @@
   -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
-  width: 100%;
-  padding: 0px 30px;
   position: relative;
   bottom: 2vw;
 }
