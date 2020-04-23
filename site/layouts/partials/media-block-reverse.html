@@ -1,5 +1,5 @@
 {{ if .details }}
-<div class="flex-m mhn3-m mb4 w-100">
+<div class="flex-m mhn3-m w-100">
   <div class="ph5-m w-50-m order-last-m relative z-1">
     <h3 class="head-title">{{.heading}}</h3>
     <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
@@ -9,7 +9,7 @@
   </div>
 </div>
 {{ else }}
-<div class="flex-m mhn3-m mb4 items-center w-100">
+<div class="flex-m mhn3-m items-center w-100">
   <div class="ph5-m w-50-m relative z-1">
     <img src="{{.imageUrl}}" alt="" class="db mb2 media-img z-1" />
   </div>

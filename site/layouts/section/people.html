@@ -6,9 +6,9 @@
   {{ range $index, $element := .Params.people }}
   {{ if modBool $index 2}}
   {{ if modBool $index 4}}
-  <div class="light-gradient-bg div-full">
+  <div class="light-gradient-bg div-section">
     {{ else }}
-    <div class="div-full">
+    <div class="div-section">
       {{ end }}
       <div class="main-pv mw8 center">
         <div class="flex-m mhn3-m mb4 z-1">

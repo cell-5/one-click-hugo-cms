@@ -1,41 +1,37 @@
-<div class="nav-container ph3">
-	<div class="logo">
-		<a href="/">
-			<img src="/img/cell5/cell-5-logo-black.svg" alt="Cell 5 logo" />
-		</a>
-	</div>
-	{{ if ne .page "home" }}
-	<span class="f5 fw8 c-white lh-normal ph2 pv3">
-		CELL 5
-	</span>
-	{{ end }}
-	<div class="navbar">
-		<div class="icon-bar" onclick="Show()">
-			<i></i>
-			<i></i>
-			<i></i>
+<div class="absolute top-0 w-100 z-max">
+	<div class="nav-container">
+		<div class="logo">
+			<a href="/">
+				<img src="/img/cell5/cell-5-logo-black.svg" alt="Cell 5 logo" />
+			</a>
 		</div>
-		<div id="drawer-nav" onclick="Hide()">
-			<ul id="nav-lists">
-				<li class="close">
-					<span onclick="Hide()">
-						<img src="/img/icons-close.svg" width="30" height="30" />
-					</span>
-				</li>
-				<li><a href="/people">People</a></li>
-				<li><a href="/clients">Clients</a></li>
-				<li><a href="/values">Values</a></li>
-				<li><a href="/process">Process</a></li>
-				<li><a href="/tools">Tools</a></li>
-				<div class="mobile-only">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</div>
-			</ul>
+		<div class="navbar">
+			<div class="icon-bar" onclick="Show()">
+				<i></i>
+				<i></i>
+				<i></i>
+			</div>
+			<div id="drawer-nav" onclick="Hide()">
+				<ul id="nav-lists">
+					<li class="close">
+						<span onclick="Hide()">
+							<img src="/img/icons-close.svg" width="30" height="30" />
+						</span>
+					</li>
+					<li><a href="/people">People</a></li>
+					<li><a href="/clients">Clients</a></li>
+					<li><a href="/values">Values</a></li>
+					<li><a href="/process">Process</a></li>
+					<li><a href="/tools">Tools</a></li>
+					<div class="mobile-only">
+						{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
+						{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
+						{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
+						{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+					</div>
+				</ul>
+			</div>
 		</div>
-
 	</div>
 </div>
 

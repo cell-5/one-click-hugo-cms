@@ -1,3 +1,27 @@
+/*Modules*/
+@import "./imports/_coordinates";
+@import "./imports/_flexbox";
+@import "./imports/_font-weight";
+@import "./imports/_heights";
+@import "./imports/_line-height";
+@import "./imports/_max-widths";
+@import "./imports/_position";
+@import "./imports/_widths";
+@import "./imports/_spacing";
+@import "./imports/_text-transform";
+@import "./imports/_type-scale";
+@import "./imports/_typography";
+@import "./imports/_utilities";
+@import "./imports/_z-index";
+@import "./imports/_colors";
+@import "./imports/_vertical-align";
+@import "./imports/_media-queries";
+@import "./imports/_svg";
+@import "./imports/_cms";
+
+/*variables*/
+@import "./imports/_variables";
+
 @import "./component/alignment.css";
 @import "./component/background.css";
 @import "./component/box.css";
@@ -7,6 +31,30 @@
 @import "./component/scrolls.css";
 @import "./component/texts.css";
 @import "./component/z-custom.css";
+
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  line-height: 0 !important;
+}
+
+div {
+  margin: 0 !important;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
 
 #root {
   position: absolute;
@@ -18,23 +66,21 @@
   font-style: normal;
 }
 
-.container {
-  height: auto !important;
-  width: 100% !important;
-  background: #ffffff;
+.container{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
 }
 
-.svg-container {
-  margin: 0;
-  padding: 0;
+.svg-container{
   width: 100%;
   line-height: 0;
-  display: block;
 }
 
 .svg-bg-bottom {
   position: relative;
-  top: 2vh;
+  top: 1vh;
 }
 
 .svg-bg-top {
@@ -43,7 +89,6 @@
   width: 100%;
 }
 
-/*display and visibility*/
 .d-main {
   display: block;
 }
@@ -59,6 +104,12 @@
 .mobile-only {
   display: none;
 }
+
+ol {
+  list-style-type: decimal !important;
+  margin-left: 2rem;
+}
+
 
 @media only screen and (max-width: 799px) {
   .mobile-only {
@@ -79,9 +130,5 @@
 
   .v-card-mobile {
     text-align: center;
-  }
-
-  .svg-bg-bottom {
-    position: static;
   }
 }
