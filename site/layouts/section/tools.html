@@ -6,8 +6,8 @@
 <div>
   {{ range $index, $element := .Params.tools }}
   {{ if ne $index 3 }}
-  <div class="div-section light-gradient-bg h-25 ">
-    <div class="pv5 mw6 center relative z-1">
+  <div class="div-section light-gradient-bg">
+    <div class="relative z-1">
       <div class="ta-center">
         <span class="h-purple">{{ .heading }}</span>
         {{ if .text }}
@@ -15,7 +15,7 @@
         {{ end }}
       </div>
       {{ range $index, $element := .details }}
-      <div class="pv3">
+      <div class="pv5 mw6 center">
         {{ partial "tools-card" $element }}
       </div>
       {{ end }}
@@ -29,15 +29,15 @@
     </div>
   </div>
   {{ else }}
-  <div class="div-section pv5 mw6 center">
+  <div class="div-section">
     <div class="ta-center">
-      <span class="h-purple">{{ .heading }}</span>
+      <span class="h-purple lh-normal">{{ .heading }}</span>
       {{ if .text }}
       <p class="pv3">{{ .text }}</p>
       {{ end }}
     </div>
     {{ range $index, $element := .details }}
-    <div class="pv3">
+    <div class="pv5 mw6 center">
       {{ partial "tools-card" $element }}
     </div>
     {{ end }}
