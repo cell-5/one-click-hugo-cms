@@ -113,13 +113,9 @@
 }
 
 .test {
-  /* padding-bottom: 600px; */
   height: 800px;
 }
 
-.test2 {
-  /* padding-top: 200px; */
-}
 
 @media only screen and (max-width: 799px) {
   .people-card {
