@@ -3,7 +3,7 @@
 {{ partial "custom-header-bg" . }}
 {{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
 
-<div class="tools pv3 f6">
+<div>
   {{ range $index, $element := .Params.tools }}
   {{ if ne $index 3 }}
   <div class="div-section light-gradient-bg h-25 ">
@@ -11,7 +11,7 @@
       <div class="ta-center">
         <span class="h-purple">{{ .heading }}</span>
         {{ if .text }}
-        <p class="pv3 m-txt-m">{{ .text }}</p>
+        <p class="pv3 m-txt-m lh-normal">{{ .text }}</p>
         {{ end }}
       </div>
       {{ range $index, $element := .details }}
