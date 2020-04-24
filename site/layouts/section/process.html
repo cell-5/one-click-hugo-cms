@@ -3,10 +3,10 @@
 <div>
   {{ partial "custom-header-bg" . }}
   {{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
-  <div class="process pv5">
+  <div class="process">
     {{ range $index, $element := .Params.process }}
     {{ if modBool $index 2 }}
-    <div class="light-gradient-bg">
+    <!-- <div class="light-gradient-bg">
       <div class="div-full lh-0">
         <img src="{{.svgUrl}}" class="absolute l-50 z-3" height="100%" />
         <div class="mw8 center w-100 h-inherit relative">
@@ -20,9 +20,25 @@
           </svg>
         </div>
       </div>
+    </div> -->
+    <div class="light-gradient-bg">
+      <div class="div-full lh-0 test">
+        <img src="{{.svgUrl}}" class="absolute l-50 z-3" height="100%" />
+        <div class="mw7 center w-100 h-inherit relative">
+          {{ partial "process-card" $element }}
+        </div>
+      </div>
+      <div class="svg-container relative bottom-0 lh-0 test3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 300" class="svg-bg-bottom check-{{$index}}">
+          <path
+            d="M2161.59 368.934s-104.13-18.129-271.39-124.576c-100.11-65.884-262.39-93.911-375.91-60.654-144.53 23.754-214.49 52.681-378.62 0C971.539 131.022 307.256-29.923-14.855 4.88c-.326 1.641 0 462.06 0 462.06H2161.59v-98.006z"
+            fill="#fff" />
+        </svg>
+      </div>
     </div>
+
     {{ else }}
-    <div class="div-full lh-0">
+    <div class="div-full lh-0 test">
       <img src="{{.svgUrl}}" class="absolute l-50 z-3" height="100%" />
       <div class="mw7 center w-100 h-inherit relative">
         {{ partial "process-card-reverse" $element }}
@@ -57,7 +73,7 @@
       <img src="/img/SVG/process/step-5-mobile.svg" width="30" height="auto" />
     </div>
   </div>
-  <div class="lh-1 c-white">
+  <div class="lh-1 c-white test2">
     {{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
   </div>
 </div>
