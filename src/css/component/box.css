@@ -208,6 +208,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10% 0%;
  }
 
  .media-img{
@@ -219,7 +220,6 @@
  .eclipse-btn{
     width: 50%;
     border-radius: 30px;
-    margin: 10% auto 0%;
  }
  
  .media-mobile{
@@ -227,7 +227,7 @@
  }
 
  .card-container{
-    margin: 15% auto;
+    margin: 15% auto 0%;
     padding: 10% !important;
  }
 
