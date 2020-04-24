@@ -187,15 +187,19 @@
      display: none;
  }
 
- .main-pv{
+.home-pv{
+    padding: 0% !important;
+}
+
+.main-pv{
     padding-top: var(--spacing-extra-extra-large);
     padding-bottom: var(--spacing-extra-extra-large);
- }
+}
 
- .people-pv{
+.people-pv{
     padding-top: var(--spacing-large);
     padding-bottom: var(--spacing-large);
- }
+}
 
 
 @media only screen and (max-width: 799px) {
@@ -255,12 +259,17 @@
      width: 80%;
  }
 
-  .main-pv{
+ .home-pv{
     padding-top: var(--spacing-large);
     padding-bottom: var(--spacing-large);
  }
 
-  .people-pv{
+ .main-pv{
+    padding-top: var(--spacing-large);
+    padding-bottom: var(--spacing-large);
+ }
+
+.people-pv{
     padding-top: 0;
     padding-bottom: var(--spacing-medium);
  }
