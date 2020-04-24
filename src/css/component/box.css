@@ -219,8 +219,7 @@
  .eclipse-btn{
     width: 50%;
     border-radius: 30px;
-    margin: 10% auto;
-    padding: 10px 0px;
+    margin: 10% auto 0%;
  }
  
  .media-mobile{
