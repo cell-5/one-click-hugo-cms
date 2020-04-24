@@ -10,7 +10,7 @@
     </svg>
   </div>
 </div>
-<div class="home-pv">
+<div>
   {{ range $index, $element := .Params.preludes }}
   {{ if modBool $index 2 }}
   <div class="div-section ">
@@ -28,7 +28,7 @@
     </svg>
   </div>
   <div class="bg-black div-section c-white">
-    <div class="mw9 pv6 center h-100">
+    <div class="mw9 center h-100">
       {{ partial "media-block-reverse" $element }}
     </div>
     <div class="svg-container">
@@ -48,7 +48,7 @@
   </div>
   {{ else }}
   <div class="div-section light-gradient-bg">
-    <div class="mw9 center pv6 h-100">
+    <div class="mw9 center h-100">
       {{ partial "media-block-reverse" $element }}
     </div>
     <div class="svg-container">
