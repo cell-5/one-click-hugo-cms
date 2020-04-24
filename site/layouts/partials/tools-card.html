@@ -1,9 +1,11 @@
-<div class="card-container br-a-50 w-80 m-auto">
-    <div class="pv3">
-        <img src="{{.imageUrl}}" class="v-mid tools-img" />
-        <span class="f6 c-db lh-normal fw8 ph2 pv3">
-            {{.heading}}
-        </span>
+<div class="card-container br-a-50 w-70">
+    <div>
+        <div class="pv3">
+            <img src="{{.imageUrl}}" class="v-mid tools-img" />
+            <span class="f6 c-db lh-normal fw8 ph2 pv3">
+                {{.heading}}
+            </span>
+        </div>
+        <div class="f7 lh-normal">{{.text | markdownify}}</div>
     </div>
-    <div class="f7 lh-normal">{{.text | markdownify}}</div>
 </div>

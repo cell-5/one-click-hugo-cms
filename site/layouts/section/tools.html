@@ -6,7 +6,7 @@
 <div class="tools pv3 f6">
   {{ range $index, $element := .Params.tools }}
   {{ if ne $index 3 }}
-  <div class="div-full light-gradient-bg h-25 ">
+  <div class="div-section light-gradient-bg h-25 ">
     <div class="pv5 mw6 center relative z-1">
       <div class="ta-center">
         <span class="h-purple">{{ .heading }}</span>
@@ -29,7 +29,7 @@
     </div>
   </div>
   {{ else }}
-  <div class="div-full pv5 mw6 center">
+  <div class="div-section pv5 mw6 center">
     <div class="ta-center">
       <span class="h-purple">{{ .heading }}</span>
       {{ if .text }}

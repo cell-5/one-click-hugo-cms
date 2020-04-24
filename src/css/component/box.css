@@ -192,6 +192,11 @@
     padding-bottom: var(--spacing-extra-extra-large);
  }
 
+ .people-pv{
+    padding-top: var(--spacing-large);
+    padding-bottom: var(--spacing-large);
+ }
+
 
 @media only screen and (max-width: 799px) {
  .btn-group .btn-grp-child{
@@ -223,7 +228,7 @@
 
  .card-container{
     margin: 15% auto;
-    padding: 30px;
+    padding: 10% !important;
  }
 
  .media-box-1{
@@ -255,6 +260,12 @@
     padding-top: var(--spacing-large);
     padding-bottom: var(--spacing-large);
  }
+
+  .people-pv{
+    padding-top: 0;
+    padding-bottom: var(--spacing-medium);
+ }
+
 }
 
 /*based on height*/

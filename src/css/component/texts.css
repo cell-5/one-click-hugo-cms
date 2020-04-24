@@ -131,6 +131,7 @@
     line-height: 2.25rem;
     color: #000000;
     text-align: center;
+    margin: 0;
     margin-bottom: 10%;
  }
 
@@ -138,11 +139,13 @@
     font-weight: 800;
     font-size: 1.875rem;
     line-height: 2.25rem;
+    margin: 0;
     color: #FFFFFF;
  }
 
  .head-title{
     text-align: center;
+    margin: 0;
  }
 
  .body-black {
@@ -158,6 +161,7 @@
  .h-purple{
     font-size: 1.25rem;
     line-height: 1.5rem;
+    margin-bottom: 0;
  }
 
  .btn-text{

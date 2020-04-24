@@ -1,5 +1,6 @@
 /*Modules*/
 @import "./imports/_coordinates";
+@import "./imports/_display";
 @import "./imports/_flexbox";
 @import "./imports/_font-weight";
 @import "./imports/_heights";
@@ -56,6 +57,11 @@ img {
   max-width: 100%;
 }
 
+ol {
+  list-style-type: decimal !important;
+}
+
+
 #root {
   position: absolute;
   top: 0;
@@ -105,10 +111,7 @@ img {
   display: none;
 }
 
-ol {
-  list-style-type: decimal !important;
-  margin-left: 2rem;
-}
+
 
 
 @media only screen and (max-width: 799px) {

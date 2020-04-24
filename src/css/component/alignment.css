@@ -50,7 +50,7 @@
 
 .client-site{
   position: absolute;
-  bottom: -100%;
+  bottom: 0%;
 }
 
 .v-header{
@@ -85,8 +85,10 @@
   }
 
   .client-site{
-    position: relative;
+    width: 90%;
+    position: static;
     bottom: 0%;
+    margin: 5% auto !important;
   }
 
   .v-header{
@@ -98,6 +100,7 @@
     text-align: center;
     width: 50px;
     height: auto;
+    margin: 0% auto 5% !important;
   }
 
   .v-header span {
