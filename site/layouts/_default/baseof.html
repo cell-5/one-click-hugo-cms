@@ -6,7 +6,7 @@
   <div class="container bg-white">
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
     {{ block "main" . }}{{ end }}
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+    {{ block "footer" . }}{{ partial "nav" . }}{{end}}
   </div>
   {{ $script := .Site.Data.webpack.main }}
   {{ with $script.js }}
