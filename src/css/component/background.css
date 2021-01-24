@@ -1,0 +1,26 @@
+.bg-home{
+    background: var(--main-background);
+}
+
+.bg-bv{
+    background: #4B4AA1;
+}
+
+.dark-bg{
+  background: #25272E;
+}
+
+.light-gradient-bg{
+  background: linear-gradient(2.25deg, #EDE3FC 16.87%, rgba(246, 240, 253, 0.078) 66.59%);
+}
+
+.footer-bg{
+    background: linear-gradient(115.09deg, #D623E9 -64.47%, #7021E9 98.59%);
+}
+
+
+@media only screen and (max-width: 799px) {
+  .people-mobile {
+    background: transparent !important;
+  }
+}

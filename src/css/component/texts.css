@@ -1,0 +1,177 @@
+.text-18-22{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.wide-text-bold{
+    font-weight: bold;
+    line-height: 2.1875rem;
+    color: #FFFFFF;
+}
+
+.wide-text-normal{
+    line-height: 2.1875rem;
+    color: #FFFFFF;
+}
+
+.btn-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/*text-alignment*/
+.ta-center{
+    text-align: center !important;
+}
+
+.ta-left{
+    text-align: left !important;
+}
+
+/*Headers*/
+.h-black{
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #000000;
+}
+
+.h-purple{
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #8E21E9;
+}
+
+.h-white{
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+}
+
+.head-title{
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+
+/*body*/
+.body-black{
+    font-weight: 400 !important;
+    font-size: 0.75rem !important;
+    line-height: 1.5rem !important;
+}
+
+
+/*color*/
+.c-black{
+    color: #000000 !important;
+}
+
+.c-white{
+    color: #FFFFFF !important;
+}
+
+.c-db{
+    color: #4B4AA1;
+}
+
+/*font-size*/
+.cfs-1{
+    font-size: 1.875rem;
+}
+
+/*line-height*/
+.lh-normal{
+    line-height: 1.5rem;
+}
+
+.lh-0{
+    line-height: 0;
+}
+
+.lh-1{
+    line-height: 2.1875rem;
+}
+
+.lh-2{
+    line-height: 2.3125rem;
+}
+
+.lh-3{
+    line-height: 3.8125rem;
+}
+
+.m-title{
+     text-align: left;
+ }
+
+
+@media only screen and (max-width: 799px) {
+  .m-txt-s{
+    font-size: 0.625rem !important;
+    line-height: 0.9375rem !important;
+  }
+
+  .m-txt-m{
+    font-size: 1rem !important;
+    line-height: 1.5625rem !important;
+  }
+
+  .h-black{
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+ }
+
+ .h-white{
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin: 0;
+    color: #FFFFFF;
+ }
+
+ .head-title{
+    text-align: center;
+    margin: 0;
+ }
+
+ .body-black {
+    text-align: center; 
+    padding: 20px 15px 10px;
+    margin: 0 !important;
+ }
+
+ .body-black p:nth-of-type(1n+2){
+    display: none;
+ }
+
+ .h-purple{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+ }
+
+ .btn-text{
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+ }
+
+ .m-title{
+     text-align: center;
+     padding: 0px 10px;
+ }
+}
+
+

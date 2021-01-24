@@ -1,0 +1,137 @@
+/*Modules*/
+@import "./imports/_coordinates";
+@import "./imports/_display";
+@import "./imports/_flexbox";
+@import "./imports/_font-weight";
+@import "./imports/_heights";
+@import "./imports/_line-height";
+@import "./imports/_max-widths";
+@import "./imports/_position";
+@import "./imports/_widths";
+@import "./imports/_spacing";
+@import "./imports/_text-transform";
+@import "./imports/_type-scale";
+@import "./imports/_typography";
+@import "./imports/_utilities";
+@import "./imports/_z-index";
+@import "./imports/_colors";
+@import "./imports/_vertical-align";
+@import "./imports/_media-queries";
+@import "./imports/_svg";
+@import "./imports/_cms";
+
+/*variables*/
+@import "./imports/_variables";
+
+@import "./component/alignment.css";
+@import "./component/background.css";
+@import "./component/box.css";
+@import "./component/images.css";
+@import "./component/margins.css";
+@import "./component/nav.css";
+@import "./component/scrolls.css";
+@import "./component/texts.css";
+@import "./component/z-custom.css";
+
+body{
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  line-height: 0 !important;
+}
+
+div {
+  margin: 0 !important;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+ol {
+  list-style-type: decimal !important;
+}
+
+
+#root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Montserrat !important;
+  font-style: normal;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.svg-container{
+  width: 100%;
+  line-height: 0;
+}
+
+.svg-bg-bottom {
+  position: relative;
+  top: 1vh;
+}
+
+.svg-bg-top {
+  position: relative;
+  bottom: 1vw;
+  width: 100%;
+}
+
+.d-main {
+  display: block;
+}
+
+.v-mobile {
+  visibility: visible;
+}
+
+.ch-mobile {
+  padding-top: 0px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+
+
+
+@media only screen and (max-width: 799px) {
+  .mobile-only {
+    display: grid;
+  }
+
+  .d-main {
+    display: none !important;
+  }
+
+  .v-mobile {
+    visibility: hidden;
+  }
+
+  .ch-mobile {
+    padding-top: 60px;
+  }
+
+  .v-card-mobile {
+    text-align: center;
+  }
+}

@@ -1,19 +1,55 @@
 {{ define "main" }}
 
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.text) }}
-
-<div class="mw7 center ph3 pt4 people">
-
+{{ partial "custom-header-bg" . }}
+{{ partial "custom-wide-text" (dict "title" .Params.title "text" .Params.text) }}
+<div>
   {{ range $index, $element := .Params.people }}
-    {{ if modBool $index 2 }}
-      {{ partial "media-block" $element }}
+  {{ if modBool $index 2}}
+  {{ if modBool $index 4}}
+  <div class="light-gradient-bg div-section">
     {{ else }}
-      {{ partial "media-block-reverse" $element }}
+    <div class="div-section">
+      {{ end }}
+      <div class="people-pv mw8 center">
+        <div class="flex-m mhn3-m mb4 z-1">
+          <div class="ph4-m w-50-m">
+            {{ partial "people-card" $element }}
+          </div>
+          {{ else }}
+          <div class="ph4-m w-50-m">
+            {{ partial "people-card" $element }}
+          </div>
+        </div>
+      </div>
+      {{ if (modBool (sub $index 1) 4) }}
+      <div class="svg-container absolute bottom-0 lh-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 280">
+          <path
+            d="M2159.59 368.934s-104.13-18.129-271.39-124.576c-100.11-65.884-262.39-93.911-375.91-60.654-144.53 23.754-214.49 52.681-378.62 0C969.539 131.022 305.256-29.923-16.855 4.88c-.326 1.641 0 462.06 0 462.06H2159.59v-98.006z"
+            fill="#fff" />
+        </svg>
+      </div>
+      {{ end }}
+    </div>
     {{ end }}
-  {{ end }}
-
+    {{ end }}
+    {{ if not (modBool (len .Params.people) 2)}}
+  </div>
 </div>
-{{ partial "wide-text" (dict "heading" .Params.heading "text" .Params.footer) }}
-
-
+{{ if (modBool (sub (len .Params.people) 1) 4) }}
+<div class="svg-container absolute bottom-0 lh-0">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1920 280">
+    <path
+      d="M2159.59 368.934s-104.13-18.129-271.39-124.576c-100.11-65.884-262.39-93.911-375.91-60.654-144.53 23.754-214.49 52.681-378.62 0C969.539 131.022 305.256-29.923-16.855 4.88c-.326 1.641 0 462.06 0 462.06H2159.59v-98.006z"
+      fill="#fff" />
+  </svg>
+</div>
+{{ end }}
+</div>
+{{ end }}
+</div>
+<div class="pt5 pb3">
+  {{ partial "light-wide-text" (dict "heading" .Params.bottomHeader "text" .Params.bottomText) }}
+</div>
+{{ partial "custom-footer" (dict "heading" .Params.heading "text" .Params.footer) }}
 {{ end }}

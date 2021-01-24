@@ -1,11 +1,13 @@
 ---
-title: cell 5
+page: home
+title: CELL 5
 subtitle: building today's start-up technology
-image: img/GettyImages-1017380290.jpgAPI-DISRUPTION-696x435.jpg
+image: img/cell5/cell-5-logo-black.svg
+bannerImg: img/banner-2.png
 text: >
     We will help you to blend a high-value technology team, then partner with you to deliver your start-up or scale-up technology product until your goals are met.
 footer: >
-    **If you are not ready to engage with us yet and have questions or need more convincing, invite us to pitch to you. [Let us Pitch?](/contact)**
+    If you are not ready to engage with us yet and have questions or need more convincing, invite us to pitch to you. **[Let us Pitch?](/contact)**
 preludes:
   - heading: "People"
     moreLink: "/people"
@@ -17,7 +19,7 @@ preludes:
       
       
       We blend teams with our clients, providing anywhere between one developer or an entire start-up technology team, including acting CTO.
-    imageUrl: "/img/skate.jpg"
+    imageUrl: "/img/SVG/people-media.svg"
 
   - heading: "Clients"
     moreLink: "/clients"
@@ -27,7 +29,7 @@ preludes:
 
       They want to get to market rapidly and iteratively and are looking for an experienced, affordable start-up technology partner who can build or extend their product quickly and sustainably.
       
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/SVG/client-media.svg"
 
   - heading: "Values"
     moreLink: "/values"
@@ -38,25 +40,40 @@ preludes:
       They are most useful to help remind us when we go off track, and to help filter [the people](/people) and [the clients](/clients) we choose to work with.
        
 
-    imageUrl: "/img/long-term-value-2.jpg"
+    imageUrl: "/img/SVG/values-media.svg"
 
   - heading: "Process"
     moreLink: "/process"
     text: >
-      At a high level an engagement with us follows a simple 4 step process:
-
-      1. Establish Fit & Agree Mission
-
-      2. Blend a Team
-
-      3. Execute
-
-      4. Amplify
+      We are always open to discuss better ways of working. We try to keep the balance right between having a light process that empowers people, and having enough process to stay organized. 
       
-    imageUrl: "/img/long-term-value-2.jpg"
+
+      If you have feedback on our process we would really enjoy discussing it. 
+
+
+    details:
+      - name: Establish Fit & Agree Mission
+        id: process-1
+        text: >
+          Within the first conversation with a client we establish if there is a fit.
+      - name: Blend a Team
+        id: process-2
+        text: >
+          The recipe for success always starts with the right team.
+      - name: Execute
+        id: process-3
+        text: >
+          When we start to execute we like to empower and trust the team to mostly self-organize to maximize delivery.
+      - name: Amplify
+        id: process-4
+        text: >
+          Delivery is not done when the product is launched. It is done when value is created and maximized.
+    imageUrl: "/img/SVG/process.svg"
+    
   - heading: "Tools & Techniques"
     moreLink: "/tools"
     text: >
       Being a remote-first, small I.T. consultancy means we have tried a lot of [tools](/tools) and are always trying to improve our [techniques](/tools).  
-    imageUrl: "/img/long-term-value-2.jpg"  
+    imageUrl: "/img/SVG/tools-media.svg"
+
 ---

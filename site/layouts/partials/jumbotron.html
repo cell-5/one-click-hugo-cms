@@ -1,18 +1,33 @@
-<div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw7 center ph3">
-    <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb3">
-        <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-          {{.title}}
-        </h1>
+<div class="bg-home div-section c-white">
+  <div class="mw9 center pt6 pb4">
+    <div class="flex-m mhn3-m z-1 items-start">
+      <div class="ph5-m w-50-m">
+        <div class="relative z-1 m-title">
+          <h1 class="f3 fw8">
+            {{.title}}
+          </h1>
+          {{ if .subtitle }}
+          <div class="f2 lh-copy ttu pt3 pb4">
+            {{.subtitle | markdownify }}
+          </div>
+          {{ end }}
+          <button class="eclipse-btn bg-bv f6 fw5 c-white">
+            Get Started
+          </button>
+        </div>
       </div>
-      <div class="mw7 relative bg-fix-primary">
-        {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-          {{.subtitle | markdownify }}
-        </p>
-        {{ end }}
+      <div class="ph5-m w-50-m d-main">
+        <img src="{{ .bannerImg }}" class="relative z-1" />
       </div>
     </div>
+  </div>
+  <div class="svg-container absolute bottom-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 480">
+      <path data-name="Path 800"
+        d="M1897.5 17.321s-210.766-62.4-376.3 64.386-328.27 116.792-455 96.186-388.587-39.546-688.749 152.49c-25.28 17.211-298.075 56.087-399.647 39.056-.179-.427 0 165.821 0 165.821H1897.5z"
+        fill="#fff" opacity=".123" />
+      <path fill="#25272E"
+        d="M-101 447.493s98.592-17.18 256.937-118.052c94.78-62.434 248.413-88.993 355.89-57.478 136.826 22.51 203.065 49.923 358.45 0 155.383-49.923 784.283-202.44 1089.233-169.46.31 1.556 0 961.932 0 961.932H-101V447.493z" />
+    </svg>
   </div>
 </div>

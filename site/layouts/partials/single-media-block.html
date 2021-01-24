@@ -1,0 +1,18 @@
+<div class="media-box-1">
+    <div class="flex-m mhn3-m">
+        <div class="pr5-m w-50-m order-last-m relative z-1">
+            <div class="client-site">
+                <img src="{{.imageUrl}}" alt="" class="db img-shadow" />
+            </div>
+        </div>
+        <div class="pl3-m w-50-m relative z-1">
+            <h3 class="h-purple">{{.heading}}</h3>
+        </div>
+    </div>
+    <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
+    {{ if .moreLink }}
+    <button class="eclipse-btn bg-bv c-white fw5">
+        Visit Site
+    </button>
+    {{ end }}
+</div>

@@ -1,0 +1,9 @@
+<div id="process-buttons" class="process-main">
+    <div class="btn-group">
+        {{ range $index, $element := .details }}
+        <button id="{{.id}}-btn" class="btn-grp-child" onclick='handleClickProcess("{{.id}}")'>
+            {{.name}}
+        </button>
+        {{end}}
+    </div>
+</div>

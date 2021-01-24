@@ -196,3 +196,8 @@
   .order-8-l { order: 8; }
   .order-last-l { order: 99999; }
 }
+
+/*custom*/
+/* @media only screen and (max-width: 799px) {
+  .order-last { order: 0; }
+} */

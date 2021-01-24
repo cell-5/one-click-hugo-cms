@@ -1,19 +1,28 @@
-<div class="flex-m mhn3-m mb4">
-
-  <div class="ph3-m w-50-m order-last-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
+{{ if .details }}
+<div class="flex-m mhn3-m w-100">
+  <div class="ph5-m w-50-m order-last-m relative z-1">
+    <h3 class="head-title">{{.heading}}</h3>
+    <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
   </div>
-
-  <div class="ph3-m w-50-m">
-    <h3 class="f3 b lh-title mb1">{{.heading}}</h3>
-    <p>{{.text | markdownify }}</p>
+  <div class="ph5-m w-50-m relative z-1">
+    {{ partial "process-details" (dict "details" .details "moreLink" .moreLink) }}
+  </div>
+</div>
+{{ else }}
+<div class="flex-m mhn3-m items-center w-100">
+  <div class="ph5-m w-50-m relative z-1">
+    <img src="{{.imageUrl}}" alt="" class="db mb2 media-img z-1" />
+  </div>
+  <div class="ph5-m w-50-m order-last-m relative z-1">
+    <h3 class="head-title">{{.heading}}</h3>
+    <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
     {{ if .moreLink }}
-    <div class="tc">
-      <a href="{{ .moreLink }}" class="btn raise">Read more</a>
+    <div id="moreLink">
+      <button class="eclipse-btn bg-bv c-white fw5">
+        Read more
+      </button>
     </div>
     {{ end }}
-  
   </div>
-
- 
 </div>
+{{ end }}

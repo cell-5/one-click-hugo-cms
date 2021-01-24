@@ -1,15 +1,15 @@
-<div class="flex-m mhn3-m mb4">
-
-  <div class="ph3-m w-50-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
+<div class="flex-m mhn3-m z-1 items-center w-100">
+  <div class="ph5-m w-50-m order-1">
+    <img src="{{.imageUrl}}" alt="" class="db media-img">
   </div>
-
-  <div class="ph3-m w-50-m">
-    <h3 class="f3 b lh-title mb1">{{.heading}}</h3>
-    <p>{{.text | markdownify }}</p>
+  <div class="ph5-m w-50-m">
+    <h3 class="h-black">{{.heading}}</h3>
+    <div class="body-black pt4 pb3">{{.text | markdownify }}</div>
     {{ if .moreLink }}
-    <div class="tc">
-      <a href="{{ .moreLink }}" class="btn raise">Read more</a>
+    <div id="moreLink">
+      <button class="eclipse-btn bg-bv c-white fw5">
+        Read more
+      </button>
     </div>
     {{ end }}
   </div>
